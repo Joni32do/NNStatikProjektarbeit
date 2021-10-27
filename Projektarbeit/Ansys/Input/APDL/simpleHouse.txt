@@ -1,0 +1,304 @@
+/NOPR   ! Suppress printing of UNDO process 
+/PMACRO ! Echo following commands to log    
+FINISH  ! Make sure we are at BEGIN level   
+/CLEAR,NOSTART  ! Clear model since no SAVE found   
+! WE SUGGEST YOU REMOVE THIS LINE AND THE FOLLOWING STARTUP LINES   
+/input,menust,tmp,''
+/GRA,POWER  
+/GST,ON 
+/PLO,INFO,3 
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/PREP7  
+!*  
+/NOPR   
+KEYW,PR_SET,1   
+KEYW,PR_STRUC,1 
+KEYW,PR_THERM,0 
+KEYW,PR_FLUID,0 
+KEYW,PR_ELMAG,0 
+KEYW,MAGNOD,0   
+KEYW,MAGEDG,0   
+KEYW,MAGHFE,0   
+KEYW,MAGELC,0   
+KEYW,PR_MULTI,0 
+/GO 
+!*  
+!*  
+!*  
+ET,1,PLANE182   
+!*  
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+!*  
+!*  
+R,1,0.5,
+!*  
+!*  
+MPTEMP,,,,,,,,  
+MPTEMP,1,0  
+MPDATA,EX,1,,3E7
+MPDATA,PRXY,1,,0.2  
+FLST,2,5,8  
+FITEM,2,0,0,0   
+FITEM,2,0,8,0   
+FITEM,2,4,12,0  
+FITEM,2,8,8,0   
+FITEM,2,8,0,0   
+PRI2,P51X,0.0,0.0   
+BLC4,2,4,1.5,1.5
+BLC4,4,2,1.5,1.5
+BLC4,1,0,1,2
+/PNUM,KP,0  
+/PNUM,LINE,1
+/PNUM,AREA,1
+/PNUM,VOLU,0
+/PNUM,NODE,0
+/PNUM,TABN,0
+/PNUM,SVAL,0
+/NUMBER,0   
+!*  
+/PNUM,ELEM,0
+/REPLOT 
+!*  
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+ESIZE,0,100,
+MSHAPE,0,2D 
+MSHKEY,0
+!*  
+FLST,2,1,5,ORDE,1   
+FITEM,2,5   
+AESIZE,P51X,100,
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+CM,_Y,AREA  
+ASEL, , , ,       5 
+CM,_Y1,AREA 
+CHKMSH,'AREA'   
+CMSEL,S,_Y  
+!*  
+AMESH,_Y1   
+!*  
+CMDELE,_Y   
+CMDELE,_Y1  
+CMDELE,_Y2  
+!*  
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/UI,MESH,OFF
+)/GOP    ! Resume printing after UNDO process   
+)! We suggest a save at this point  
+
+
+_______________________________________________________________________________________________________________________________________
+
+/NOPR   ! Suppress printing of UNDO process 
+/PMACRO ! Echo following commands to log    
+RESUME, simpleHouse,db, 
+FINISH  
+/POST1  
+FINISH  
+/PREP7  
+FINISH  
+/SOL
+FLST,2,2,4,ORDE,2   
+FITEM,2,18  
+FITEM,2,-19 
+!*  
+/GO 
+DL,P51X, ,ALL,0 
+FLST,2,2,4,ORDE,2   
+FITEM,2,2   
+FITEM,2,-3  
+/GO 
+!*  
+SFL,P51X,PRES,50,   
+/STATUS,SOLU
+/STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+PLDISP,1
+!*  
+/EFACET,1   
+PLNSOL, U,SUM, 0,1.0
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+!*  
+/EFACET,1   
+PLNSOL, S,EQV, 0,1.0
+!*  
+/EFACET,1   
+PLNSOL, EPEL,EQV, 0,1.0 
+!*  
+PLESOL, EPTO,X, 0,1.0   
+!*  
+PLESOL, S,X, 0,1.0  
+!*  
+/EFACET,1   
+PLNSOL, S,X, 0,1.0  
+!*  
+/EFACET,1   
+PLNSOL, U,X, 0,1.0  
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/REPLOT,RESIZE  
+!*  
+/EFACET,1   
+PLNSOL, U,Y, 0,1.0  
+)/GOP    ! Resume printing after UNDO process   

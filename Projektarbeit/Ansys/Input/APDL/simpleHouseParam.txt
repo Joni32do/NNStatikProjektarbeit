@@ -1,0 +1,14 @@
+Thickness:0.5
+Linear Elastic Isotrop
+E:6E7 
+nu:0.2
+
+0,0
+0,8
+4,12
+8,8
+8,0
+
+Window 1.5,1.5
+Door 1,2
+Maybe change Dimension

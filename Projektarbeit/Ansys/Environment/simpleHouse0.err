@@ -1,0 +1,64 @@
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       18:02:45
+
+ *** WARNING ***                         CP =      10.281   TIME= 18:10:12
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      10.641   TIME= 18:10:12
+ Shape testing revealed that 391 of the 3673 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =      12.797   TIME= 18:13:18
+ The /PMACRO command is only valid inside a macro or an input file.      
+  Command ignored.                                                       
+
+ *** WARNING ***                         CP =      13.062   TIME= 18:13:20
+ User Interface mode is already on.  Command ignored.                    
+
+ *** WARNING ***                         CP =      19.812   TIME= 18:13:27
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      20.172   TIME= 18:13:27
+ Shape testing revealed that 391 of the 3673 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =      23.531   TIME= 18:14:15
+ The /PMACRO command is only valid inside a macro or an input file.      
+  Command ignored.                                                       
+
+ *** WARNING ***                         CP =      23.828   TIME= 18:14:16
+ User Interface mode is already on.  Command ignored.                    
+
+ *** WARNING ***                         CP =      31.875   TIME= 18:14:24
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      32.234   TIME= 18:14:24
+ Shape testing revealed that 391 of the 3673 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =      38.125   TIME= 18:18:28
+ Previous testing revealed that 391 of the 3673 selected elements        
+ violate shape warning limits.  To review warning messages, please see   
+ the output or error file, or issue the CHECK command.                   
+
+ *** WARNING ***                         CP =      41.219   TIME= 18:23:08
+ The requested S data is not available.  The PLNSOL command is ignored.  
+
+ *** WARNING ***                         CP =      41.797   TIME= 18:23:29
+ The requested EPEL data is not available.  The PLNSOL command is        
+ ignored.                                                                
+
+ *** WARNING ***                         CP =      42.234   TIME= 18:23:42
+ The requested EPTO data is not available.  The PLESOL command is        
+ ignored.                                                                
+
+ *** WARNING ***                         CP =      42.500   TIME= 18:23:49
+ The requested S data is not available.  The PLESOL command is ignored.  
+
+ *** WARNING ***                         CP =      42.828   TIME= 18:23:57
+ The requested S data is not available.  The PLNSOL command is ignored.  
