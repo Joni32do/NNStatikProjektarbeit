@@ -1,0 +1,119 @@
+!**************************************************
+!         ANSYS Introduction                
+!      Simon Bieber: 24.10.2020
+!**************************************************
+ 
+! Note: All (!) units are in [ kN, m, s ]
+
+! clear data base
+finish
+/clear 
+ 
+!=========================================================
+! 1) Preprocessing
+!=========================================================
+
+! open preprocessors
+/PREP7
+
+! INPUT
+! beam geometry
+Lx=10.0
+h=1.0
+t=1.0
+! element divisions
+nele_x = 20
+nele_y = 2 
+! material
+E=10000   ! E-Modulus (Young's)
+nu=0.3    ! Poisso-ratio
+rho=0.250   ! density (kNs^2/m)
+
+
+! define keypoints ("corners" of rectangle)
+K,1,0,0         !=> command, #keypoint, X-Y-coordinates 
+K,2,Lx,0
+K,3,Lx,h
+K,4,0,h
+
+! create surface with a set of keypoints
+A,1,2,3,4       !=> command, set of keypoints
+
+! element type (4-noded plane element with 2 dofs for X and Y disp)
+ET,1,plane182      !=>  command, #element, element name
+KEYOPT,1,1,2         !1=#element, 1=#keyopt, 2= enhanced assumed strain 
+KEYOPT,1,3,2         !1=#element, 3=#keyopt, 2= plane strain
+! ALTERNATIV: ET, ITYPE, Ename, KOP1, KOP2, KOP3, KOP4, KOP5, KOP6
+! E.g.: ET,1,plane182,2,,2
+ 
+ 
+! material
+MP,EX,1,E        ! E modulus
+MP,PRXY,1,nu     ! Poisson-ratio 
+ 
+! meshing size / ele dvisions
+LESIZE,1,,,nele_x                         ! line ,,, element divisions
+LESIZE,3,,,nele_x
+LESIZE,2,,,nele_y
+LESIZE,4,,,nele_y
+
+! mesh
+AMAP,1,1,2,3,4                      ! mesh based on area corners (def. by keypoints)
+
+! end preprocesser
+FINI
+
+
+
+!=========================================================
+! 2) Solution: linear analysis
+!=========================================================
+
+! Enter the solution processor
+/SOLU
+
+! Analysis type 
+ANTYPE,0  !0=performs a static analysis (0=default)
+
+! disp boundary conditions (Dirichtlet)
+DL,4,,all,0     ! fix als displacements on Line 4 		
+
+! force boundary conditions (Neumann)
+F,2,FY,-5		! force at node 2 in y-direction, value=-5*h^3
+
+SOLVE		
+
+
+
+
+!=========================================================
+! 3) Postprocessing 
+!=========================================================
+
+! open postrocessors
+/POST1  
+
+! plot deformed shape
+/DSCALE,1,1        ! scale the deformation plot
+PLDISP,2           ! plot deformed configuration
+
+! plot stress
+!PLESOL, S,X 
+
+! path
+! vertical (from point x1/y1=0/0 to x2/y2=0/h)
+path,Path_vertical,2,,1000
+ppath,1,,0,0
+ppath,2,,0,h
+
+
+! interpolate and plot stress onto path 
+! (NOAV=do not average element results)
+
+! normal stress
+!pdef,SigmaX,S,X,NOAV
+!plpagm,SigmaX,15,node  
+
+! shear stress
+!pdef,SigmaXY,S,XY,NOAV
+!plpagm,SigmaXY,15,node

@@ -1,0 +1,5 @@
+adiv = '  |  '
+*cfopen, test.txt
+*VWRITE,'UX: ', UX, adiv, 'UY: ', UY
+(5A)
+*cfclose
