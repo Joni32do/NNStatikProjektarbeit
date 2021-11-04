@@ -2807,3 +2807,16 @@ PARSAV,ALL,'test','txt',' '
 /REPLO  
 FINISH  
 ! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       12:12:46
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/POST1  
+FINISH  
+! /EXIT,NOSAV   

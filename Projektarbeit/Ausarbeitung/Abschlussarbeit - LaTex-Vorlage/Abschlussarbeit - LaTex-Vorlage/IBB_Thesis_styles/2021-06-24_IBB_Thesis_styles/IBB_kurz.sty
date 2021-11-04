@@ -1,0 +1,575 @@
+\typeout{IBB_kurz.sty: Document Style mit Abkuerzungen fuer Mathe-Befehle am IBB}
+\typeout{\space\space\space\space\space\space\space\space\space\space
+         Version 1.2 <09 October 2018>}
+\typeout{\space\space\space\space\space\space\space\space\space\space
+         (C) Institut fuer Baustatik und Baudynamik, Universitaet Stuttgart}
+\typeout{\space\space\space\space\space\space\space\space\space\space\space\space\space\space
+         Dr.-Ing. Malte von Scheven}
+\typeout{}
+
+
+
+
+\RequirePackage{amsfonts}
+\RequirePackage{amssymb}
+\RequirePackage{amsmath}
+\RequirePackage{bm}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Schriftgrößen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \D  {\displaystyle}
+\def \T  {\textstyle}
+\def \S  {\scriptstyle}
+\def \SS {\scriptscriptstyle}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Schriftarten
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \B        #1{{\mbox{$\mathbf #1$}}}      % bold
+\def \BIT      #1{{\mbox{\boldmath$#1$}}}     % bold italic
+\def \BITS     #1{{\mbox{\boldmath$\S #1$}}}  % bold italic scriptstyle
+\def \BITSS    #1{{\mbox{\boldmath$\SS #1$}}} % bold italic scriptscriptstyle
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% fette Buchstaben mit fettem Dachzeiger
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \Bhat       #1{\mathbf{\hat #1}}
+\def \Bdot       #1{\mathbf{\dot #1}}
+\def \Bddot      #1{\mathbf{\ddot #1}}
+\def \Bbar       #1{\mathbf{\bar #1}}
+\def \Btilde     #1{\mathbf{\tilde #1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% fette Dachzeiger
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\DeclareSymbolFont{boldoperators}{OT1}{cmr}{bx}{n}
+\SetSymbolFont{boldoperators}{bold}{OT1}{cmr}{bx}{n}
+\edef\BBbar{\unexpanded{\protect\mathaccentV{bar}}\number\symboldoperators16}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Operatoren
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\let\div\undefined
+\DeclareMathOperator{\DIV}{DIV}
+\DeclareMathOperator{\div}{div}
+\DeclareMathOperator{\Div}{Div}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\rk}{rk}
+\DeclareMathOperator{\im}{im}
+\DeclareMathOperator{\grad}{grad}
+\DeclareMathOperator{\Grad}{Grad}
+\DeclareMathOperator{\dev}{dev}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\sph}{sph}
+\DeclareMathOperator{\mspan}{span}
+\DeclareMathOperator{\lin}{lin}
+\DeclareMathOperator{\sym}{sym}
+
+\def \Bnabla   {\boldsymbol \nabla}
+\def \BInabla  {\BIT \nabla}
+
+\def \dx    {\,\Rd x}
+\def \dy    {\,\Rd y}
+\def \dz    {\,\Rd z}
+\def \dxi   {\,\Rd\xi}
+\def \deta  {\,\Rd\et}
+\def \dzeta {\,\Rd\ze}
+\def \dO    {\,\Rd\OM}
+\def \dg    {\,\Rd\ga}
+\def \dG    {\,\Rd\GA}
+\def \dA    {\,\Rd A}
+\def \da    {\,\Rd a}
+\def \dV    {\,\Rd V}
+\def \dv    {\,\Rd v}
+\def \ds    {\,\Rd s}
+\def \dvph  {\,\Rd\vph}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Differentiale, Ableitungsbrüche
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \pt  {{\partial}}
+\def \dif {{\,\mathrm{d}}}
+\def \Dif {{\,\mathrm{D}}}
+\newcommand{\fracpt}[2]{\frac{\pt #1}{\pt #2}}
+\newcommand{\fracdif}[2]{\frac{\mathrm{d} #1}{\mathrm{d} #2}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Zahlenräume
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \SR  {\mathbb{R}}
+\def \SZ  {\mathbb{Z}}
+\def \SC  {\mathbb{C}}
+\def \SN  {\mathbb{N}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Einheiten
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \U         {\,}
+
+% Länge / Winkel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \Um        {\U\mathrm{m}}
+\def \Umq       {\U\mathrm{m^2}}
+\def \Umc       {\U\mathrm{m^3}}
+\def \Umbq      {\U\mathrm{m^4}}
+\def \Ucm       {\U\mathrm{cm}}
+\def \Ucmq      {\U\mathrm{cm^2}}
+\def \Ucmc      {\U\mathrm{cm^3}}
+\def \Umm       {\U\mathrm{mm}}
+\def \Ummq      {\U\mathrm{mm^2}}
+\def \Ummc      {\U\mathrm{mm^3}}
+
+\def \Upm       {\U\mathrm{1/m}}
+\def \Upmq      {\U\mathrm{1/m^2}}
+
+\def \Urad      {\U\mathrm{rad}}
+
+
+% Newton
+\def \UN        {\U\mathrm{N}}
+
+% Newton - Meter
+\def \UNm       {\U\mathrm{Nm}}
+\def \UNmq      {\U\mathrm{Nm^2}}
+\def \UNpm      {\U\mathrm{N/m}}
+\def \UNmpm     {\U\mathrm{Nm/m}}
+\def \UNpmq     {\U\mathrm{N/m^2}}
+\def \UNpmc     {\U\mathrm{N/m^3}}
+
+% Newton - Millimeter
+\def \UNpmm     {\U\mathrm{N/mm}}
+\def \UNpmmq    {\U\mathrm{N/mm^2}}
+\def \UNpmmc    {\U\mathrm{N/mm^3}}
+
+% Newton - Centimeter
+\def \UNcm      {\U\mathrm{Ncm}}
+\def \UNcmq     {\U\mathrm{Ncm^2}}
+\def \UNpcm     {\U\mathrm{N/cm}}
+\def \UNpcmq    {\U\mathrm{N/cm^2}}
+\def \UNpcmc    {\U\mathrm{N/cm^3}}
+
+% Kilonewton - Meter
+\def \UkN       {\U\mathrm{kN}}
+\def \UkNm      {\U\mathrm{kNm}}
+\def \UkNmq     {\U\mathrm{kNm^2}}
+\def \UkNpm     {\U\mathrm{kN/m}}
+\def \UkNpmq    {\U\mathrm{kN/m^2}}
+\def \UkNpmc    {\U\mathrm{kN/m^3}}
+\def \UkNmpm    {\U\mathrm{kNm/m}}
+\def \UkNmqpm    {\U\mathrm{kNm^2/m}}
+
+% Kilonewton - Millimeter
+\def \UkNpmmc   {\U\mathrm{kN/mm^3}}
+\def \UkNpmmq   {\U\mathrm{kN/mm^2}}
+\def \UmmpkN    {\U\mathrm{mm/kN}}
+
+% Kilonewton - Centimeter
+\def \UkNcm     {\U\mathrm{kNcm}}
+\def \UkNpcmq   {\U\mathrm{kN/cm^2}}
+
+% Meganewton - Meter
+\def \UMN       {\U\mathrm{MN}}
+\def \UMNm      {\U\mathrm{MNm}}
+\def \UMNmq     {\U\mathrm{MNm^2}}
+\def \UMNpm     {\U\mathrm{MN/m}}
+\def \UMNpmq    {\U\mathrm{MN/m^2}}
+\def \UMNpmc    {\U\mathrm{MN/m^3}}
+
+% Giganewton - Meter
+\def \UGNpmq    {\U\mathrm{GN/m^2}}
+
+
+% Kilogramm
+\def \Ukg       {\U\mathrm{kg}}
+\def \Ukgpm     {\U\mathrm{kg/m}}
+\def \Ukgpmq    {\U\mathrm{kg/m^2}}
+\def \Ukgpmc    {\U\mathrm{kg/m^3}}
+\def \Ukgpmmc   {\U\mathrm{kg/mm^3}}
+\def \Ukgmpsq   {\U\mathrm{kgm/s^2}}
+
+\def \Ugpmmc    {\U\mathrm{g/mm^3}}
+\def \UkNsqpm   {\U\mathrm{kNs^2/m}}
+
+
+% Temperatur
+\def \UK        {\U\mathrm{K}}
+\def \UpK       {\U\mathrm{1/K}}
+\def \UGC       {\U\mathrm{^\circ C}}
+
+
+
+% Zeit / Geschwindigkeit etc.
+\def \Us        {\U\mathrm{s}}
+\def \Ums       {\U\mathrm{ms}}
+\def \Uradps    {\U\mathrm{rad/s}}
+\def \Umps      {\U\mathrm{m/s}}
+\def \Ummps     {\U\mathrm{mm/s}}
+\def \Umpsq     {\U\mathrm{m/s^2}}
+\def \UHz       {\U\mathrm{Hz}}
+\def \UkNs      {\U\mathrm{kNs}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Gerade Lateiner, für Indizes, Einheiten,...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \Ra  {{\mathrm{a}}}
+\def \Rb  {{\mathrm{b}}}
+\def \Rc  {{\mathrm{c}}}
+\def \Rd  {{\mathrm{d}}}
+\def \Re  {{\mathrm{e}}}
+\def \Rf  {{\mathrm{f}}}
+\def \Rg  {{\mathrm{g}}}
+\def \Rh  {{\mathrm{h}}}
+\def \Ri  {{\mathrm{i}}}
+\def \Rj  {{\mathrm{j}}}
+\def \Rk  {{\mathrm{k}}}
+\def \Rl  {{\mathrm{l}}}
+\def \Rm  {{\mathrm{m}}}
+\def \Rn  {{\mathrm{n}}}
+\def \Ro  {{\mathrm{o}}}
+\def \Rp  {{\mathrm{p}}}
+\def \Rq  {{\mathrm{q}}}
+\def \Rr  {{\mathrm{r}}}
+\def \Rs  {{\mathrm{s}}}
+\def \Rt  {{\mathrm{t}}}
+\def \Ru  {{\mathrm{u}}}
+\def \Rv  {{\mathrm{v}}}
+\def \Rw  {{\mathrm{w}}}
+\def \Rx  {{\mathrm{x}}}
+\def \Ry  {{\mathrm{y}}}
+\def \Rz  {{\mathrm{z}}}
+
+\def \RA  {{\mathrm{A}}}
+\def \RB  {{\mathrm{B}}}
+\def \RC  {{\mathrm{C}}}
+\def \RD  {{\mathrm{D}}}
+\def \RE  {{\mathrm{E}}}
+\def \RF  {{\mathrm{F}}}
+\def \RG  {{\mathrm{G}}}
+\def \RH  {{\mathrm{H}}}
+\def \RI  {{\mathrm{I}}}
+\def \RJ  {{\mathrm{J}}}
+\def \RK  {{\mathrm{K}}}
+\def \RL  {{\mathrm{L}}}
+\def \RM  {{\mathrm{M}}}
+\def \RN  {{\mathrm{N}}}
+\def \RO  {{\mathrm{O}}}
+\def \RP  {{\mathrm{P}}}
+\def \RQ  {{\mathrm{Q}}}
+\def \RR  {{\mathrm{R}}}
+\def \RS  {{\mathrm{S}}}
+\def \RT  {{\mathrm{T}}}
+\def \RU  {{\mathrm{U}}}
+\def \RV  {{\mathrm{V}}}
+\def \RW  {{\mathrm{W}}}
+\def \RX  {{\mathrm{X}}}
+\def \RY  {{\mathrm{Y}}}
+\def \RZ  {{\mathrm{Z}}}
+
+\def \Rint    {{\mathrm{int}}}
+\def \Rext    {{\mathrm{ext}}}
+\def \Rkin    {{\mathrm{kin}}}
+\def \Rdyn    {{\mathrm{dyn}}}
+\def \Rdamp   {{\mathrm{damp}}}
+\def \Rges    {{\mathrm{ges}}}
+\def \Rred    {{\mathrm{red}}}
+\def \Rele    {{\mathrm{ele}}}
+\def \Ropt    {{\mathrm{opt}}}
+\def \Rmin    {{\mathrm{min}}}
+\def \Rmax    {{\mathrm{max}}}
+\def \Rabs    {{\mathrm{abs}}}
+\def \Rkr     {{\mathrm{kr}}}
+\def \Rtop    {{\mathrm{top}}}
+\def \Rbot    {{\mathrm{bot}}}
+\def \Rth     {{\mathrm{th}}}
+\def \Rst     {{\mathrm{st}}}
+\def \Rnd     {{\mathrm{nd}}}
+\def \Rconst  {{\mathrm{const.}}}
+\def \Rkonst  {{\mathrm{konst.}}}
+\def \Rcrit   {{\mathrm{crit}}}
+\def \Rkrit   {{\mathrm{krit}}}
+\def \Rpl     {{\mathrm{pl}}}
+\def \Rel     {{\mathrm{el}}}
+\def \Rend    {{\mathrm{end}}}
+\def \Rlin    {{\mathrm{lin}}}
+\def \Rstat   {{\mathrm{stat.}}}
+\def \Rsub    {{\mathrm{sub}}}
+\def \RGP     {{\mathrm{GP}}}
+\def \Reff    {{\mathrm{eff}}}
+\def \Rcon    {{\mathrm{con}}}
+\def \Rrel    {{\mathrm{rel}}}
+\def \Rdim    {{\mathrm{dim}}}
+\def \RPvV    {{\mathrm{PvV}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fette Lateiner
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \BA      {{\mathbf A}}
+\def \BB      {{\mathbf B}}
+\def \BC      {{\mathbf C}}
+\def \BD      {{\mathbf D}}
+\def \BE      {{\mathbf E}}
+\def \BF      {{\mathbf F}}
+\def \BG      {{\mathbf G}}
+\def \BH      {{\mathbf H}}
+\def \BI      {{\mathbf I}}
+\def \BJ      {{\mathbf J}}
+\def \BK      {{\mathbf K}}
+\def \BL      {{\mathbf L}}
+\def \BM      {{\mathbf M}}
+\def \BN      {{\mathbf N}}
+\def \BO      {{\mathbf O}}
+\def \BP      {{\mathbf P}}
+\def \BQ      {{\mathbf Q}}
+\def \BR      {{\mathbf R}}
+\def \BS      {{\mathbf S}}
+\def \BT      {{\mathbf T}}
+\def \BU      {{\mathbf U}}
+\def \BV      {{\mathbf V}}
+\def \BW      {{\mathbf W}}
+\def \BX      {{\mathbf X}}
+\def \BY      {{\mathbf Y}}
+\def \BZ      {{\mathbf Z}}
+
+\def \Ba      {{\mathbf a}}
+\def \Bb      {{\mathbf b}}
+\def \Bc      {{\mathbf c}}
+\def \Bd      {{\mathbf d}}
+\def \Be      {{\mathbf e}}
+\def \Bf      {{\mathbf f}}
+\def \Bg      {{\mathbf g}}
+\def \Bh      {{\mathbf h}}
+\def \Bi      {{\mathbf i}}
+\def \Bj      {{\mathbf j}}
+\def \Bk      {{\mathbf k}}
+\def \Bl      {{\mathbf l}}
+\def \Bm      {{\mathbf m}}
+\def \Bn      {{\mathbf n}}
+\def \Bo      {{\mathbf o}}
+\def \Bp      {{\mathbf p}}
+\def \Bq      {{\mathbf q}}
+\def \Br      {{\mathbf r}}
+\def \Bs      {{\mathbf s}}
+\def \Bt      {{\mathbf t}}
+\def \Bu      {{\mathbf u}}
+\def \Bv      {{\mathbf v}}
+\def \Bw      {{\mathbf w}}
+\def \Bx      {{\mathbf x}}
+\def \By      {{\mathbf y}}
+\def \Bz      {{\mathbf z}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Blackboard Bold Lateiner
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \BBA      {{\mathbb A}}
+\def \BBB      {{\mathbb B}}
+\def \BBC      {{\mathbb C}}
+\def \BBD      {{\mathbb D}}
+\def \BBE      {{\mathbb E}}
+\def \BBF      {{\mathbb F}}
+\def \BBG      {{\mathbb G}}
+\def \BBH      {{\mathbb H}}
+\def \BBI      {{\mathbb I}}
+\def \BBJ      {{\mathbb J}}
+\def \BBK      {{\mathbb K}}
+\def \BBL      {{\mathbb L}}
+\def \BBM      {{\mathbb M}}
+\def \BBN      {{\mathbb N}}
+\def \BBO      {{\mathbb O}}
+\def \BBP      {{\mathbb P}}
+\def \BBQ      {{\mathbb Q}}
+\def \BBR      {{\mathbb R}}
+\def \BBS      {{\mathbb S}}
+\def \BBT      {{\mathbb T}}
+\def \BBU      {{\mathbb U}}
+\def \BBV      {{\mathbb V}}
+\def \BBW      {{\mathbb W}}
+\def \BBX      {{\mathbb X}}
+\def \BBY      {{\mathbb Y}}
+\def \BBZ      {{\mathbb Z}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% kalligraphische Lateiner
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \CA      {{\mathcal A}}
+\def \CB      {{\mathcal B}}
+\def \CC      {{\mathcal C}}
+\def \CD      {{\mathcal D}}
+\def \CE      {{\mathcal E}}
+\def \CF      {{\mathcal F}}
+\def \CG      {{\mathcal G}}
+\def \CH      {{\mathcal H}}
+\def \CI      {{\mathcal I}}
+\def \CJ      {{\mathcal J}}
+\def \CK      {{\mathcal K}}
+\def \CL      {{\mathcal L}}
+\def \CM      {{\mathcal M}}
+\def \CN      {{\mathcal N}}
+\def \CO      {{\mathcal O}}
+\def \CP      {{\mathcal P}}
+\def \CQ      {{\mathcal Q}}
+\def \CR      {{\mathcal R}}
+\def \CS      {{\mathcal S}}
+\def \CT      {{\mathcal T}}
+\def \CU      {{\mathcal U}}
+\def \CV      {{\mathcal V}}
+\def \CW      {{\mathcal W}}
+\def \CX      {{\mathcal X}}
+\def \CY      {{\mathcal Y}}
+\def \CZ      {{\mathcal Z}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% griechische Kleinbuchstaben
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \al      {{\alpha}}
+\def \be      {{\beta}}
+\def \ga      {{\gamma}}
+\def \de      {{\delta}}
+\def \ep      {{\epsilon}}
+\def \vep     {{\varepsilon}}
+\def \ze      {{\zeta}}
+\def \et      {{\eta}}
+\def \th      {{\theta}}
+\def \vth     {{\vartheta}}
+\def \io      {{\iota}}
+\def \ka      {{\kappa}}
+\def \la      {{\lambda}}
+%\def \nu      {{\nu}}
+%\def \mu      {{\mu}}
+%\def \xi      {{\xi}}
+%\def \pi      {{\pi}}
+\def \vpi     {{\varpi}}
+\def \rh      {{\rho}}
+\def \vrh     {{\varrho}}
+\def \si      {{\sigma}}
+\def \vsi     {{\varsigma}}
+\def \ta      {{\tau}}
+\def \up      {{\upsilon}}
+\def \ph      {{\phi}}
+\def \vph     {{\varphi}}
+\def \ch      {{\chi}}
+\def \ps      {{\psi}}
+\def \om      {{\omega}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% griechische Großbuchstaben
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \GA      {{\Gamma}}
+\def \DE      {{\Delta}}
+\def \TH      {{\Theta}}
+\def \LA      {{\Lambda}}
+\def \XI      {{\Xi}}
+\def \PI      {{\Pi}}
+\def \SI      {{\Sigma}}
+\def \UP      {{\Upsilon}}
+\def \PH      {{\Phi}}
+\def \PS      {{\Psi}}
+\def \OM      {{\Omega}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% fette griechische Kleinbuchstaben
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \Bal   {{\boldsymbol \alpha}}
+\def \Bbe   {{\boldsymbol \beta}}
+\def \Bga   {{\boldsymbol \gamma}}
+\def \Bde   {{\boldsymbol \delta}}
+\def \Bep   {{\boldsymbol \epsilon}}
+\def \Bvep  {{\boldsymbol \varepsilon}}
+\def \Bze   {{\boldsymbol \zeta}}
+\def \Bet   {{\boldsymbol \eta}}
+\def \Bth   {{\boldsymbol \theta}}
+\def \Bvth  {{\boldsymbol \vartheta}}
+\def \Bio   {{\boldsymbol \iota}}
+\def \Bka   {{\boldsymbol \kappa}}
+\def \Bla   {{\boldsymbol \lambda}}
+\def \Bmu   {{\boldsymbol \mu}}
+\def \Bnu   {{\boldsymbol \nu}}
+\def \Bxi   {{\boldsymbol \xi}}
+\def \Bpi   {{\boldsymbol \pi}}
+\def \Bvpi  {{\boldsymbol \varpi}}
+\def \Brh   {{\boldsymbol \rho}}
+\def \Bvrh  {{\boldsymbol \varrho}}
+\def \Bsi   {{\boldsymbol \sigma}}
+\def \Bvsi  {{\boldsymbol \varsigma}}
+\def \Bta   {{\boldsymbol \tau}}
+\def \Bup   {{\boldsymbol \upsilon}}
+\def \Bph   {{\boldsymbol \phi}}
+\def \Bvph  {{\boldsymbol \varphi}}
+\def \Bch   {{\boldsymbol \chi}}
+\def \Bps   {{\boldsymbol \psi}}
+\def \Bom   {{\boldsymbol \omega}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% fette gerade griechische Großbuchstaben
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \BGA   {{\boldsymbol \Gamma}}
+\def \BDE   {{\boldsymbol \Delta}}
+\def \BTH   {{\boldsymbol \Theta}}
+\def \BLA   {{\boldsymbol \Lambda}}
+\def \BXI   {{\boldsymbol \Xi}}
+\def \BPI   {{\boldsymbol \Pi}}
+\def \BSI   {{\boldsymbol \Sigma}}
+\def \BUP   {{\boldsymbol \Upsilon}}
+\def \BPH   {{\boldsymbol \Phi}}
+\def \BCH   {{\boldsymbol X}}
+\def \BPS   {{\boldsymbol \Psi}}
+\def \BOM   {{\boldsymbol \Omega}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% fette Zahlen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \Bzero    {{\boldsymbol 0}}
+\def \Bone     {{\boldsymbol 1}}
+\def \Btwo     {{\boldsymbol 2}}
+\def \Bthree   {{\boldsymbol 3}}
+\def \Bfour    {{\boldsymbol 4}}
+\def \Bfive    {{\boldsymbol 5}}
+\def \Bsix     {{\boldsymbol 6}}
+\def \Bseven   {{\boldsymbol 7}}
+\def \Beight   {{\boldsymbol 8}}
+\def \Bnine    {{\boldsymbol 9}}
+
+
+
+\endinput
