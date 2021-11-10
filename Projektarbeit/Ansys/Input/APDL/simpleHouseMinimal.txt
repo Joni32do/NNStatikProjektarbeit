@@ -24,10 +24,10 @@ MPDATA,EX,1,,6E7
 MPDATA,PRXY,1,,0.2  
 
 !Create House
-BLC4,0,0,8,8
-BLC4,1,0,1,2
-BLC4,5,5,1.5,1.5
-BLC4,2.5,5,1.5,1.5  
+BLC4,0,0,8,8 !House
+BLC4,1,0,1,2 !Door
+BLC4,5,5,1.5,1.5 !Window
+BLC4,2.5,5,1.5,1.5 !2nd Window
 FLST,3,3,5,ORDE,2   
 FITEM,3,2   
 FITEM,3,-4  

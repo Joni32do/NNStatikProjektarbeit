@@ -2,7 +2,7 @@ Thickness:0.5
 Linear Elastic Isotrop
 E:6E7 
 nu:0.2
-Force: 10
+Force: 250
 
 0,0
 0,8
