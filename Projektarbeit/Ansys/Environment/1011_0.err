@@ -1,0 +1,1165 @@
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       14:03:05
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       3.953   TIME= 14:06:55
+ Subscript 1 is out of range for parameter C                             
+  Specified value is 4 Maximum value is 3.                               
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.234   TIME= 14:07:04
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.234   TIME= 14:07:04
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       6.578   TIME= 14:07:07
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       6.578   TIME= 14:07:07
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.266   TIME= 14:07:09
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.266   TIME= 14:07:09
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      12.266   TIME= 14:13:30
+ CLEAR is not a recognized POST1 command, abbreviation, or macro.        
+  This command will be ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      12.297   TIME= 14:13:34
+ \CLEAR is not a recognized POST1 command, abbreviation, or macro.       
+  This command will be ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      12.344   TIME= 14:13:40
+ LCLE is not a recognized POST1 command, abbreviation, or macro.         
+  This command will be ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      12.453   TIME= 14:14:29
+ \CLEAR is not a recognized POST1 command, abbreviation, or macro.       
+  This command will be ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      12.516   TIME= 14:14:39
+ \CLEAR is not a recognized BEGIN command, abbreviation, or macro.       
+ This command will be ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      12.594   TIME= 14:14:52
+ The /PMACRO command is only valid inside a macro or an input file.      
+  Command ignored.                                                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      12.875   TIME= 14:15:10
+ BLC4 is not a recognized BEGIN command, abbreviation, or macro.  This   
+ command will be ignored.                                                
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      12.891   TIME= 14:15:10
+ BLC4 is not a recognized BEGIN command, abbreviation, or macro.  This   
+ command will be ignored.                                                
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      12.891   TIME= 14:15:10
+ BLC4 is not a recognized BEGIN command, abbreviation, or macro.  This   
+ command will be ignored.                                                
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      12.906   TIME= 14:15:10
+ BLC4 is not a recognized BEGIN command, abbreviation, or macro.  This   
+ command will be ignored.                                                
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      12.969   TIME= 14:15:31
+ The /PMACRO command is only valid inside a macro or an input file.      
+  Command ignored.                                                       
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      14.406   TIME= 14:17:12
+ Subscript 1 is out of range for parameter C                             
+  Specified value is 4 Maximum value is 3.                               
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.047   TIME= 14:17:16
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.047   TIME= 14:17:16
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      17.406   TIME= 14:17:18
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      17.406   TIME= 14:17:18
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      20.094   TIME= 14:17:20
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      20.094   TIME= 14:17:20
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      21.281   TIME= 14:19:46
+ Subscript 1 is out of range for parameter C                             
+  Specified value is 4 Maximum value is 3.                               
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      22.859   TIME= 14:19:49
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      22.891   TIME= 14:19:49
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      24.156   TIME= 14:19:50
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      24.156   TIME= 14:19:50
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      26.859   TIME= 14:19:52
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      26.859   TIME= 14:19:52
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      28.828   TIME= 14:36:52
+ Subscript 1 is out of range for parameter C                             
+  Specified value is 4 Maximum value is 3.                               
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.516   TIME= 14:36:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.547   TIME= 14:36:56
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.578   TIME= 14:36:56
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.734   TIME= 14:36:56
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.750   TIME= 14:36:56
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      32.109   TIME= 14:36:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      32.109   TIME= 14:36:57
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      32.109   TIME= 14:36:57
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      32.109   TIME= 14:36:57
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      32.109   TIME= 14:36:57
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      34.766   TIME= 14:36:59
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      34.766   TIME= 14:36:59
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      34.766   TIME= 14:36:59
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      34.766   TIME= 14:36:59
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      34.766   TIME= 14:36:59
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      38.031   TIME= 14:38:19
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      38.062   TIME= 14:38:19
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      38.125   TIME= 14:38:19
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      38.250   TIME= 14:38:19
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      38.266   TIME= 14:38:19
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      39.297   TIME= 14:38:20
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      39.297   TIME= 14:38:20
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      39.297   TIME= 14:38:20
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      39.297   TIME= 14:38:20
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      39.297   TIME= 14:38:20
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      40.172   TIME= 14:38:21
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      40.172   TIME= 14:38:21
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      40.172   TIME= 14:38:21
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      40.172   TIME= 14:38:21
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      40.172   TIME= 14:38:21
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      41.109   TIME= 14:38:22
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      41.109   TIME= 14:38:22
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      41.109   TIME= 14:38:22
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      41.109   TIME= 14:38:22
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      41.109   TIME= 14:38:22
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      41.984   TIME= 14:38:22
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      41.984   TIME= 14:38:22
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      41.984   TIME= 14:38:22
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      41.984   TIME= 14:38:22
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      41.984   TIME= 14:38:22
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      42.875   TIME= 14:38:23
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      42.875   TIME= 14:38:23
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      42.875   TIME= 14:38:23
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      42.875   TIME= 14:38:23
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      42.875   TIME= 14:38:23
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      43.781   TIME= 14:38:23
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      43.781   TIME= 14:38:23
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      43.781   TIME= 14:38:23
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      43.781   TIME= 14:38:23
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      43.781   TIME= 14:38:23
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      44.609   TIME= 14:38:24
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      44.609   TIME= 14:38:24
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      44.609   TIME= 14:38:24
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      44.609   TIME= 14:38:24
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      44.609   TIME= 14:38:24
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      45.578   TIME= 14:38:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      45.578   TIME= 14:38:25
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      45.578   TIME= 14:38:25
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      45.578   TIME= 14:38:25
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      45.578   TIME= 14:38:25
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      46.453   TIME= 14:38:26
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      46.453   TIME= 14:38:26
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      46.453   TIME= 14:38:26
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      46.453   TIME= 14:38:26
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      46.453   TIME= 14:38:26
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      47.438   TIME= 14:38:27
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      47.438   TIME= 14:38:27
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      47.438   TIME= 14:38:27
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      47.438   TIME= 14:38:27
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      47.438   TIME= 14:38:27
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      48.266   TIME= 14:38:27
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      48.266   TIME= 14:38:27
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      48.266   TIME= 14:38:27
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      48.266   TIME= 14:38:27
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      48.266   TIME= 14:38:27
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      49.203   TIME= 14:38:28
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      49.203   TIME= 14:38:28
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      49.203   TIME= 14:38:28
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      49.203   TIME= 14:38:28
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      49.203   TIME= 14:38:28
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      50.141   TIME= 14:38:29
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      50.141   TIME= 14:38:29
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      50.141   TIME= 14:38:29
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      50.141   TIME= 14:38:29
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      50.141   TIME= 14:38:29
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.031   TIME= 14:38:29
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.031   TIME= 14:38:29
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.031   TIME= 14:38:29
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.031   TIME= 14:38:29
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.031   TIME= 14:38:29
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.859   TIME= 14:38:30
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.859   TIME= 14:38:30
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.859   TIME= 14:38:30
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.859   TIME= 14:38:30
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.859   TIME= 14:38:30
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      52.688   TIME= 14:38:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      52.688   TIME= 14:38:31
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      52.688   TIME= 14:38:31
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      52.688   TIME= 14:38:31
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      52.688   TIME= 14:38:31
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      53.578   TIME= 14:38:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      53.578   TIME= 14:38:31
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      53.578   TIME= 14:38:31
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      53.578   TIME= 14:38:31
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      53.578   TIME= 14:38:31
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      54.469   TIME= 14:38:32
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      54.469   TIME= 14:38:32
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      54.469   TIME= 14:38:32
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      54.469   TIME= 14:38:32
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      54.469   TIME= 14:38:32
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      55.359   TIME= 14:38:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      55.359   TIME= 14:38:33
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      55.359   TIME= 14:38:33
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      55.359   TIME= 14:38:33
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      55.359   TIME= 14:38:33
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      56.188   TIME= 14:38:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      56.188   TIME= 14:38:33
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      56.188   TIME= 14:38:33
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      56.188   TIME= 14:38:33
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      56.188   TIME= 14:38:33
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      57.125   TIME= 14:38:34
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      57.125   TIME= 14:38:34
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      57.125   TIME= 14:38:34
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      57.125   TIME= 14:38:34
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      57.125   TIME= 14:38:34
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      58.062   TIME= 14:38:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      58.062   TIME= 14:38:35
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      58.062   TIME= 14:38:35
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      58.062   TIME= 14:38:35
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      58.062   TIME= 14:38:35
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      58.969   TIME= 14:38:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      58.969   TIME= 14:38:35
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      58.969   TIME= 14:38:35
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      58.969   TIME= 14:38:35
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      58.969   TIME= 14:38:35
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      59.812   TIME= 14:38:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      59.812   TIME= 14:38:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      59.812   TIME= 14:38:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      59.812   TIME= 14:38:36
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      59.812   TIME= 14:38:36
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      60.641   TIME= 14:38:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      60.641   TIME= 14:38:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      60.641   TIME= 14:38:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      60.641   TIME= 14:38:36
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      60.641   TIME= 14:38:36
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      61.578   TIME= 14:38:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      61.578   TIME= 14:38:37
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      61.578   TIME= 14:38:37
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      61.578   TIME= 14:38:37
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      61.578   TIME= 14:38:37
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      62.484   TIME= 14:38:38
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      62.484   TIME= 14:38:38
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      62.484   TIME= 14:38:38
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      62.484   TIME= 14:38:38
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      62.484   TIME= 14:38:38
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      63.344   TIME= 14:38:38
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      63.344   TIME= 14:38:38
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      63.344   TIME= 14:38:38
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      63.344   TIME= 14:38:38
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      63.344   TIME= 14:38:38
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      64.250   TIME= 14:38:39
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      64.250   TIME= 14:38:39
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      64.250   TIME= 14:38:39
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      64.250   TIME= 14:38:39
+ The requested S data is not available.  The PDEF command is ignored.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      64.250   TIME= 14:38:39
+ Invalid PCALC INTG path label SY.                                       
+  The PCALC command is ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      67.531   TIME= 14:42:27
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      68.094   TIME= 14:42:28
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      68.125   TIME= 14:42:28
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      68.188   TIME= 14:42:28
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      68.422   TIME= 14:42:28
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      68.797   TIME= 14:42:28
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      68.797   TIME= 14:42:28
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      68.797   TIME= 14:42:28
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      69.109   TIME= 14:42:29
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      69.359   TIME= 14:42:29
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      69.359   TIME= 14:42:29
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      69.359   TIME= 14:42:29
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      69.656   TIME= 14:42:29
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      69.984   TIME= 14:42:30
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      69.984   TIME= 14:42:30
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      69.984   TIME= 14:42:30
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      70.266   TIME= 14:42:30
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      70.641   TIME= 14:42:30
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      70.641   TIME= 14:42:30
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      70.641   TIME= 14:42:30
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      70.891   TIME= 14:42:30
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      71.234   TIME= 14:42:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      71.234   TIME= 14:42:31
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      71.234   TIME= 14:42:31
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      71.500   TIME= 14:42:31
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      71.828   TIME= 14:42:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      71.828   TIME= 14:42:31
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      71.828   TIME= 14:42:31
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      72.078   TIME= 14:42:31
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      72.406   TIME= 14:42:32
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      72.406   TIME= 14:42:32
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      72.406   TIME= 14:42:32
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      72.672   TIME= 14:42:32
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.016   TIME= 14:42:32
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.016   TIME= 14:42:32
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.016   TIME= 14:42:32
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.328   TIME= 14:42:32
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.688   TIME= 14:42:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.688   TIME= 14:42:33
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.688   TIME= 14:42:33
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.984   TIME= 14:42:33
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      74.328   TIME= 14:42:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      74.328   TIME= 14:42:33
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      74.328   TIME= 14:42:33
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      74.672   TIME= 14:42:33
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      75.047   TIME= 14:42:34
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      75.047   TIME= 14:42:34
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      75.047   TIME= 14:42:34
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      75.312   TIME= 14:42:34
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      75.672   TIME= 14:42:34
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      75.672   TIME= 14:42:34
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      75.672   TIME= 14:42:34
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      75.969   TIME= 14:42:35
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      76.328   TIME= 14:42:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      76.328   TIME= 14:42:35
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      76.328   TIME= 14:42:35
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      76.609   TIME= 14:42:35
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      76.891   TIME= 14:42:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      76.891   TIME= 14:42:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      76.891   TIME= 14:42:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      77.172   TIME= 14:42:36
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      77.500   TIME= 14:42:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      77.500   TIME= 14:42:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      77.500   TIME= 14:42:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      77.703   TIME= 14:42:36
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      78.000   TIME= 14:42:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      78.000   TIME= 14:42:37
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      78.000   TIME= 14:42:37
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      78.266   TIME= 14:42:37
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      78.625   TIME= 14:42:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      78.625   TIME= 14:42:37
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      78.625   TIME= 14:42:37
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      78.922   TIME= 14:42:37
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      79.250   TIME= 14:42:38
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      79.250   TIME= 14:42:38
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      79.250   TIME= 14:42:38
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      79.531   TIME= 14:42:38
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      79.859   TIME= 14:42:38
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      79.859   TIME= 14:42:38
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      79.859   TIME= 14:42:38
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      80.109   TIME= 14:42:38
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      80.469   TIME= 14:42:39
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      80.469   TIME= 14:42:39
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      80.469   TIME= 14:42:39
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      80.766   TIME= 14:42:39
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      81.141   TIME= 14:42:39
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      81.172   TIME= 14:42:39
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      81.172   TIME= 14:42:39
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      81.438   TIME= 14:42:39
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      81.812   TIME= 14:42:40
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      81.812   TIME= 14:42:40
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      81.812   TIME= 14:42:40
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      82.109   TIME= 14:42:40
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      82.500   TIME= 14:42:40
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      82.500   TIME= 14:42:40
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      82.500   TIME= 14:42:40
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      82.781   TIME= 14:42:41
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      83.094   TIME= 14:42:41
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      83.094   TIME= 14:42:41
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      83.094   TIME= 14:42:41
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      83.344   TIME= 14:42:41
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      83.672   TIME= 14:42:41
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      83.672   TIME= 14:42:41
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      83.672   TIME= 14:42:41
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      83.938   TIME= 14:42:42
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      84.266   TIME= 14:42:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      84.266   TIME= 14:42:42
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      84.266   TIME= 14:42:42
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      84.578   TIME= 14:42:42
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      84.844   TIME= 14:42:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      84.844   TIME= 14:42:42
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      84.844   TIME= 14:42:42
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      85.125   TIME= 14:42:43
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      85.438   TIME= 14:42:43
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      85.438   TIME= 14:42:43
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      85.438   TIME= 14:42:43
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      85.719   TIME= 14:42:43
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      85.984   TIME= 14:42:44
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      85.984   TIME= 14:42:44
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
