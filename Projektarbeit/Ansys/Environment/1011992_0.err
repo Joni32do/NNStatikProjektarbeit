@@ -1,0 +1,10 @@
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       17:49:09
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       1.734   TIME= 17:50:14
+ *DO loop invalid parameter name: 1.  Command terminated.                
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       2.031   TIME= 17:50:15
+ Unknown parameter name= W1.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       2.031   TIME= 17:50:15
+ Unknown parameter name= W1.  A value of 7.888609052E-31 will be used.   

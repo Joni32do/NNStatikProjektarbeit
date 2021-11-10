@@ -1,0 +1,1505 @@
+
+ ANSYS Mechanical Enterprise                       
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS 2020 R1          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2020 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2020 R1 
+     
+ Point Releases and Patches installed:   
+     
+ ANSYS, Inc. Products 2020 R1
+ SpaceClaim 2020 R1  
+ Customization Files for User Programmable Features 2020 R1  
+ Mechanical Products 2020 R1 
+ Additive 2020 R1
+ Remote Solve Manager Standalone Services 2020 R1
+ Viewer 2020 R1  
+ ACIS Geometry Interface 2020 R1 
+ AutoCAD Geometry Interface 2020 R1  
+ Catia, Version 4 Geometry Interface 2020 R1 
+ Catia, Version 5 Geometry Interface 2020 R1 
+ Catia, Version 6 Geometry Interface 2020 R1 
+ Creo Elements/Direct Modeling Geometry Interface 2020 R1
+ Creo Parametric Geometry Interface 2020 R1  
+ Inventor Geometry Interface 2020 R1 
+ JTOpen Geometry Interface 2020 R1   
+ NX Geometry Interface 2020 R1   
+ Parasolid Geometry Interface  2020 R1   
+ Solid Edge Geometry Interface 2020 R1   
+ SOLIDWORKS Geometry Interface 2020 R1   
+ ANSYS, Inc. License Manager 2020 R1 
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  INITIAL JOBNAME              = 101199                                                                                                                                                                                                                                                  
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       2 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     2 CORES REQUESTED
+  MPI OPTION                   = INTELMPI
+  START-UP FILE MODE           = READ  
+  STOP FILE MODE               = READ  
+  GRAPHICS DEVICE REQUESTED    = win32   
+  GRAPHICAL ENTRY              = YES   
+  LANGUAGE                     = en-us               
+  INITIAL DIRECTORY = \\stud.uni-stuttgart.de\users\st\st166934\Eigene Dateien\GitHub\NNStatikProjektarbeit\Projektarbeit\Ansys\Environment
+
+ RELEASE= 2020 R1              BUILD= 20.1      UP20191203   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=101199_1  16:48:08  NOV 10, 2021 CP=      0.031
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =         3.375
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      3.896 MB
+  Local memory required for in-core solution     =      3.463 MB
+  Local memory required for out-of-core solution =      2.046 MB
+
+ *** NOTE ***                            CP =       3.484   TIME= 17:01:47
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3389  PLANE182      0.094   0.000028
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3389  PLANE182      0.047   0.000014
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =         3.844
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =         7.812
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.113 MB
+  Local memory required for in-core solution     =      3.652 MB
+  Local memory required for out-of-core solution =      2.097 MB
+
+ *** NOTE ***                            CP =       7.953   TIME= 17:21:09
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3430  PLANE182      0.094   0.000027
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3430  PLANE182      0.047   0.000014
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =         8.297
+
+
+
+ PRINTOUT RESUMED BY /GOP
+
+ PRINTOUT RESUMED BY /GOP
+
+
+ NUMBER OF DISPLAYED ERRORS ALLOWED PER COMMAND=                  0
+ NUMBER OF ERRORS ALLOWED PER COMMAND BEFORE ANSYS ABORT=     10000
+ ALL ERRORS WRITTEN TO \\stud.uni-stuttgart.de\users\st\st166934\Eigene Dateien\GitHub\NNStatikProjektarbeit\Projektarbeit\Ansys\Environment\101199_1.err                                                                                                                                  
+ DO NOT TERMINATE /INPUT UPON FIRST ERROR
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        11.094
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.342 MB
+  Local memory required for in-core solution     =      3.854 MB
+  Local memory required for out-of-core solution =      2.172 MB
+
+ *** NOTE ***                            CP =      11.219   TIME= 17:28:09
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3557  PLANE182      0.109   0.000031
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3557  PLANE182      0.016   0.000004
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.688 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        11.578
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        14.406
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.342 MB
+  Local memory required for in-core solution     =      3.854 MB
+  Local memory required for out-of-core solution =      2.172 MB
+
+ *** NOTE ***                            CP =      14.625   TIME= 17:29:46
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3557  PLANE182      0.078   0.000022
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3557  PLANE182      0.062   0.000018
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.688 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        14.953
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        18.328
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.342 MB
+  Local memory required for in-core solution     =      3.854 MB
+  Local memory required for out-of-core solution =      2.172 MB
+
+ *** NOTE ***                            CP =      18.531   TIME= 17:30:08
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3557  PLANE182      0.094   0.000026
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3557  PLANE182      0.016   0.000004
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.688 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        18.844
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        22.312
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.189 MB
+  Local memory required for in-core solution     =      3.719 MB
+  Local memory required for out-of-core solution =      2.129 MB
+
+ *** NOTE ***                            CP =      22.406   TIME= 17:34:24
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3454  PLANE182      0.078   0.000023
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3454  PLANE182      0.062   0.000018
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        22.719
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        22.750
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        22.750
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.265 MB
+  Local memory required for in-core solution     =      3.788 MB
+  Local memory required for out-of-core solution =      2.171 MB
+
+ *** NOTE ***                            CP =      22.828   TIME= 17:34:27
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3523  PLANE182      0.062   0.000018
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3523  PLANE182      0.031   0.000009
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.688 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        23.094
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        23.125
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        23.125
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.245 MB
+  Local memory required for in-core solution     =      3.771 MB
+  Local memory required for out-of-core solution =      2.180 MB
+
+ *** NOTE ***                            CP =      23.188   TIME= 17:34:29
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3474  PLANE182      0.109   0.000031
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3474  PLANE182      0.078   0.000022
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        23.547
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        23.594
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        23.594
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      3.979 MB
+  Local memory required for in-core solution     =      3.537 MB
+  Local memory required for out-of-core solution =      2.087 MB
+
+ *** NOTE ***                            CP =      23.703   TIME= 17:34:31
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3407  PLANE182      0.109   0.000032
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3407  PLANE182      0.016   0.000005
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        24.125
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        24.172
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        24.172
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.166 MB
+  Local memory required for in-core solution     =      3.704 MB
+  Local memory required for out-of-core solution =      2.184 MB
+
+ *** NOTE ***                            CP =      24.266   TIME= 17:34:33
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3623  PLANE182      0.109   0.000030
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3623  PLANE182      0.016   0.000004
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.688 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.312 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        24.562
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        24.594
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        24.594
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.002 MB
+  Local memory required for in-core solution     =      3.558 MB
+  Local memory required for out-of-core solution =      2.094 MB
+
+ *** NOTE ***                            CP =      24.703   TIME= 17:34:35
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3509  PLANE182      0.094   0.000027
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3509  PLANE182      0.047   0.000013
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.688 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        25.000
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        30.031
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.189 MB
+  Local memory required for in-core solution     =      3.719 MB
+  Local memory required for out-of-core solution =      2.129 MB
+
+ *** NOTE ***                            CP =      30.125   TIME= 17:35:25
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3454  PLANE182      0.094   0.000027
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3454  PLANE182      0.016   0.000005
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        30.422
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        30.453
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        30.469
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.265 MB
+  Local memory required for in-core solution     =      3.788 MB
+  Local memory required for out-of-core solution =      2.171 MB
+
+ *** NOTE ***                            CP =      30.547   TIME= 17:35:28
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3523  PLANE182      0.094   0.000027
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3523  PLANE182      0.016   0.000004
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.688 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        30.875
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        30.922
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        30.922
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.245 MB
+  Local memory required for in-core solution     =      3.771 MB
+  Local memory required for out-of-core solution =      2.180 MB
+
+ *** NOTE ***                            CP =      31.312   TIME= 17:35:30
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3474  PLANE182      0.109   0.000031
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3474  PLANE182      0.016   0.000004
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        31.656
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        31.688
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        31.688
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      3.979 MB
+  Local memory required for in-core solution     =      3.537 MB
+  Local memory required for out-of-core solution =      2.087 MB
+
+ *** NOTE ***                            CP =      31.828   TIME= 17:35:32
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3407  PLANE182      0.094   0.000028
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3407  PLANE182      0.031   0.000009
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        32.156
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        32.219
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        32.219
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.166 MB
+  Local memory required for in-core solution     =      3.704 MB
+  Local memory required for out-of-core solution =      2.184 MB
+
+ *** NOTE ***                            CP =      32.344   TIME= 17:35:34
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3623  PLANE182      0.125   0.000035
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3623  PLANE182      0.031   0.000009
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.688 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.312 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        32.734
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        32.734
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        32.734
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.002 MB
+  Local memory required for in-core solution     =      3.558 MB
+  Local memory required for out-of-core solution =      2.094 MB
+
+ *** NOTE ***                            CP =      32.828   TIME= 17:35:36
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3509  PLANE182      0.109   0.000031
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3509  PLANE182      0.047   0.000013
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.688 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        33.172
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        35.656
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      3.672 MB
+  Local memory required for in-core solution     =      3.266 MB
+  Local memory required for out-of-core solution =      1.969 MB
+
+ *** NOTE ***                            CP =      35.891   TIME= 17:36:45
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3263  PLANE182      0.125   0.000038
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3263  PLANE182      0.016   0.000005
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.188 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        36.422
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        36.469
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        36.469
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.039 MB
+  Local memory required for in-core solution     =      3.588 MB
+  Local memory required for out-of-core solution =      2.105 MB
+
+ *** NOTE ***                            CP =      36.562   TIME= 17:36:49
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3393  PLANE182      0.047   0.000014
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3393  PLANE182      0.047   0.000014
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        36.875
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        36.922
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        36.922
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.145 MB
+  Local memory required for in-core solution     =      3.683 MB
+  Local memory required for out-of-core solution =      2.166 MB
+
+ *** NOTE ***                            CP =      37.016   TIME= 17:36:51
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3456  PLANE182      0.094   0.000027
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3456  PLANE182      0.047   0.000014
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.688 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        37.328
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        37.375
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        37.375
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      4.035 MB
+  Local memory required for in-core solution     =      3.586 MB
+  Local memory required for out-of-core solution =      2.099 MB
+
+ *** NOTE ***                            CP =      37.469   TIME= 17:36:53
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3414  PLANE182      0.109   0.000032
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3414  PLANE182      0.016   0.000005
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        37.719
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        37.766
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        37.766
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      3.993 MB
+  Local memory required for in-core solution     =      3.550 MB
+  Local memory required for out-of-core solution =      2.089 MB
+
+ *** NOTE ***                            CP =      37.875   TIME= 17:36:55
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3436  PLANE182      0.094   0.000027
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3436  PLANE182      0.016   0.000005
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.688 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        38.266
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        38.297
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        38.297
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+  Local memory allocated for solver              =      3.958 MB
+  Local memory required for in-core solution     =      3.520 MB
+  Local memory required for out-of-core solution =      2.087 MB
+
+ *** NOTE ***                            CP =      38.406   TIME= 17:36:56
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3383  PLANE182      0.078   0.000023
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3383  PLANE182      0.031   0.000009
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.625 MB WRITTEN ON ASSEMBLED MATRIX FILE: 101199_1.full
+        1.250 MB WRITTEN ON RESULTS FILE: 101199_1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        38.688
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****

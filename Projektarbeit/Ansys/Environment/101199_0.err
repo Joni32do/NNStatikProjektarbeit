@@ -1,0 +1,488 @@
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       16:48:07
+
+ *** WARNING ***                         CP =       1.453   TIME= 16:48:24
+ *DO loop FVAL value is undefined: (STEPS).  Using default (0).          
+
+ *** WARNING ***                         CP =       1.484   TIME= 16:48:24
+ No *DO trips needed, enter *ENDDO .                                     
+
+ *** ERROR ***                           CP =       1.844   TIME= 16:49:05
+ Missing separator between two fields.                                   
+
+ *** ERROR ***                           CP =       1.859   TIME= 16:49:07
+ The above error occurred processing field= CT2%5                        
+  Line= *SET,c(ct,ct2), (ct2%5).                                         
+
+ *** ERROR ***                           CP =       1.875   TIME= 16:49:08
+ Two consecutive operations.  Add parentheses as needed.                 
+
+ *** ERROR ***                           CP =       1.906   TIME= 16:49:10
+ The above error occurred processing field= CT//STARTVAL                 
+  Line= *SET,c(ct,9), (ct//startVal).                                    
+
+ *** ERROR ***                           CP =       1.938   TIME= 16:49:18
+ Missing separator between two fields.                                   
+
+ *** ERROR ***                           CP =       2.000   TIME= 16:49:24
+ The above error occurred processing field= CT2%5                        
+  Line= *SET,c(ct,ct2), (ct2%5).                                         
+
+ *** WARNING ***                         CP =       2.016   TIME= 16:49:32
+ No *DO active, *ENDDO ignored.                                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       3.234   TIME= 17:01:43
+ *DO loop invalid parameter name: 1.  Command terminated.                
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       3.234   TIME= 17:01:43
+ *DOWHILE parameter: W1 is not defined.                                  
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       3.250   TIME= 17:01:43
+ Unknown parameter name= W1.  A value of 7.888609052E-31 will be used.   
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       3.250   TIME= 17:01:43
+ Missing separator between two fields.                                   
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       3.250   TIME= 17:01:43
+ The above error occurred processing field= W1%4                         
+  Line= *SET,colW1, (w1%4).                                              
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       3.250   TIME= 17:01:43
+ Unknown parameter name= W1.  A value of 7.888609052E-31 will be used.   
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       3.250   TIME= 17:01:43
+ Two consecutive operations.  Add parentheses as needed.                 
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       3.250   TIME= 17:01:43
+ The above error occurred processing field= W1//4                        
+  Line= *SET,rowW1, (w1//4).                                             
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       3.250   TIME= 17:01:43
+ Unknown parameter name= W2.  A value of 7.888609052E-31 will be used.   
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       3.250   TIME= 17:01:43
+ Missing separator between two fields.                                   
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       3.250   TIME= 17:01:43
+ The above error occurred processing field= W2%4                         
+  Line= *SET,colW2, (w2%4).                                              
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       3.250   TIME= 17:01:43
+ Unknown parameter name= W2.  A value of 7.888609052E-31 will be used.   
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       3.250   TIME= 17:01:43
+ Two consecutive operations.  Add parentheses as needed.                 
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       3.250   TIME= 17:01:43
+ The above error occurred processing field= W2//4                        
+  Line= *SET,rowW2, (w2//4).                                             
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       6.281   TIME= 17:01:48
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       6.312   TIME= 17:01:48
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       6.344   TIME= 17:01:48
+ *DO loop invalid parameter name: 1.  Command terminated.                
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       6.516   TIME= 17:01:52
+ No *DO active, *ENDDO ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       6.531   TIME= 17:01:52
+ No *DO active, *ENDDO ignored.                                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       8.000   TIME= 17:21:05
+ *DO loop invalid parameter name: 1.  Command terminated.                
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       8.016   TIME= 17:21:05
+ *DOWHILE parameter: W1 is not defined.                                  
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       8.047   TIME= 17:21:05
+ Unknown parameter name= W1.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       8.047   TIME= 17:21:05
+ Unknown parameter name= W1.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       8.062   TIME= 17:21:05
+ Unknown parameter name= W2.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       8.078   TIME= 17:21:05
+ Unknown parameter name= W2.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       8.172   TIME= 17:21:05
+ Parameters with a "undefined" value of 7.888609052E-31 were             
+  not written to file 101199.parm.                                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      10.062   TIME= 17:21:09
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.391   TIME= 17:21:10
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.422   TIME= 17:21:10
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      11.484   TIME= 17:21:10
+ *DO loop invalid parameter name: 1.  Command terminated.                
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.656   TIME= 17:21:13
+ No *DO active, *ENDDO ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.656   TIME= 17:21:13
+ No *DO active, *ENDDO ignored.                                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      19.141   TIME= 17:28:05
+ *DO loop invalid parameter name: 1.  Command terminated.                
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      19.172   TIME= 17:28:05
+ *DOWHILE parameter: W1 is not defined.                                  
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.203   TIME= 17:28:05
+ Unknown parameter name= W1.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.234   TIME= 17:28:05
+ Unknown parameter name= W1.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.250   TIME= 17:28:05
+ Unknown parameter name= W2.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.266   TIME= 17:28:05
+ Unknown parameter name= W2.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      21.641   TIME= 17:28:08
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      23.172   TIME= 17:28:10
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      23.234   TIME= 17:28:10
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      23.328   TIME= 17:28:10
+ *DO loop invalid parameter name: 1.  Command terminated.                
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      23.484   TIME= 17:28:26
+ No *DO active, *ENDDO ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      23.500   TIME= 17:28:26
+ No *DO active, *ENDDO ignored.                                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      25.141   TIME= 17:29:41
+ *DO loop invalid parameter name: 1.  Command terminated.                
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      25.156   TIME= 17:29:41
+ *DOWHILE parameter: W1 is not defined.                                  
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      25.578   TIME= 17:29:43
+ Unknown parameter name= W1.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      25.609   TIME= 17:29:43
+ Unknown parameter name= W1.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      25.625   TIME= 17:29:43
+ Unknown parameter name= W2.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      25.656   TIME= 17:29:43
+ Unknown parameter name= W2.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      27.953   TIME= 17:29:45
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      29.500   TIME= 17:29:47
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      29.547   TIME= 17:29:47
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      29.625   TIME= 17:29:47
+ *DO loop invalid parameter name: 1.  Command terminated.                
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      29.781   TIME= 17:29:48
+ No *DO active, *ENDDO ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      29.812   TIME= 17:29:48
+ No *DO active, *ENDDO ignored.                                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      31.656   TIME= 17:30:02
+ *DO loop invalid parameter name: 1.  Command terminated.                
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      31.688   TIME= 17:30:02
+ *DOWHILE parameter: W1 is not defined.                                  
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      32.156   TIME= 17:30:05
+ Unknown parameter name= W1.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      32.188   TIME= 17:30:05
+ Unknown parameter name= W1.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      32.203   TIME= 17:30:05
+ Unknown parameter name= W2.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      32.234   TIME= 17:30:05
+ Unknown parameter name= W2.  A value of 7.888609052E-31 will be used.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      34.781   TIME= 17:30:07
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      36.578   TIME= 17:30:09
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      36.641   TIME= 17:30:09
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      36.766   TIME= 17:30:09
+ *DO loop invalid parameter name: 1.  Command terminated.                
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      36.891   TIME= 17:30:10
+ No *DO active, *ENDDO ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      36.922   TIME= 17:30:11
+ No *DO active, *ENDDO ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      43.125   TIME= 17:34:24
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      44.969   TIME= 17:34:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      45.031   TIME= 17:34:25
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      46.547   TIME= 17:34:27
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      47.453   TIME= 17:34:28
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      47.453   TIME= 17:34:28
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      48.828   TIME= 17:34:29
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      49.875   TIME= 17:34:30
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      49.875   TIME= 17:34:30
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      52.094   TIME= 17:34:32
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      52.094   TIME= 17:34:32
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      53.312   TIME= 17:34:33
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      53.672   TIME= 17:34:33
+ Shape testing revealed that 1 of the 3623 new or modified elements      
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      53.875   TIME= 17:34:33
+ Previous testing revealed that 1 of the 3623 selected elements violate  
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      54.391   TIME= 17:34:34
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      54.391   TIME= 17:34:34
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      55.609   TIME= 17:34:35
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      56.656   TIME= 17:34:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      56.656   TIME= 17:34:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      63.094   TIME= 17:35:24
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      64.953   TIME= 17:35:26
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      65.016   TIME= 17:35:26
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      66.547   TIME= 17:35:27
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      67.625   TIME= 17:35:28
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      67.625   TIME= 17:35:28
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      68.969   TIME= 17:35:29
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      70.047   TIME= 17:35:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      70.047   TIME= 17:35:31
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      72.062   TIME= 17:35:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      72.078   TIME= 17:35:33
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.297   TIME= 17:35:34
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.672   TIME= 17:35:34
+ Shape testing revealed that 1 of the 3623 new or modified elements      
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.828   TIME= 17:35:34
+ Previous testing revealed that 1 of the 3623 selected elements violate  
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      74.344   TIME= 17:35:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      74.344   TIME= 17:35:35
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      75.641   TIME= 17:35:36
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      76.750   TIME= 17:35:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      76.750   TIME= 17:35:37
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      83.953   TIME= 17:36:45
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      85.984   TIME= 17:36:47
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      86.094   TIME= 17:36:47
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      87.609   TIME= 17:36:48
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      88.594   TIME= 17:36:49
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      88.594   TIME= 17:36:49
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      89.844   TIME= 17:36:50
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      90.844   TIME= 17:36:51
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      90.844   TIME= 17:36:51
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      91.953   TIME= 17:36:52
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      92.969   TIME= 17:36:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      92.969   TIME= 17:36:53
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      94.141   TIME= 17:36:54
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      94.484   TIME= 17:36:54
+ Shape testing revealed that 1 of the 3436 new or modified elements      
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      94.703   TIME= 17:36:54
+ Previous testing revealed that 1 of the 3436 selected elements violate  
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      95.125   TIME= 17:36:55
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      95.125   TIME= 17:36:55
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      97.406   TIME= 17:36:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      97.406   TIME= 17:36:57
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    

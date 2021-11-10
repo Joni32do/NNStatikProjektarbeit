@@ -3167,3 +3167,30 @@ finish
 !!! Writes out Matrix to matlab 
 *dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
 *export, exportmatrix, mmf, mytemp.mtx  
+/CLEAR,NOSTART  
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       16:45:59
+*dim, c,, steps,9, 1 ! Example Matrix   
+*SET,enow , 0   
+*do, ct, 1, steps   
+*do, ct2, 1, 8  
+*SET,c(ct,ct2) , ct2%5  
+*SET,c(ct,9) , ct//startVal 
+*enddo  
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
+*SET,startVal , 3   
+*dim, c,, steps,9, 1 ! Example Matrix   
+*SET,enow , 0   
+*do, ct, 1, steps   
+*do, ct2, 1, 8  
+*SET,c(ct,ct2) , ct2%5  
+*SET,c(ct,9) , ct//startVal 
+*enddo  
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
+FINISH  
+! /EXIT,MODEL   

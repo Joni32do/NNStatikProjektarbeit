@@ -4588,3 +4588,32 @@
  ***** ROUTINE COMPLETED *****  CP =        36.828
 
 
+
+ CLEAR ANSYS DATABASE AND RESTART
+
+ ANSYS Mechanical Enterprise                       
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          0
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=         54
+
+
+ *---------------------------------------------------------------------------*
+ |                                                                           |
+ |                       DISTRIBUTED ANSYS RUN COMPLETED                     |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Ansys 2020 R1               Build 20.1         UP20191203     WINDOWS x64 |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Database Requested(-db)     1 MB    Scratch Memory Requested      1024 MB |
+ | Maximum Database Used       1 MB    Maximum Scratch Memory Used    130 MB |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ |        CP Time      (sec) =         37.922       Time  =  16:47:46        |
+ |        Elapsed Time (sec) =       5908.000       Date  =  11/10/2021      |
+ |                                                                           |
+ *---------------------------------------------------------------------------*
