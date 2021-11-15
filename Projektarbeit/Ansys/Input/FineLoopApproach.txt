@@ -33,16 +33,21 @@ doorStep = 6
 data = 0
 
 meshsize = 0.5
-verfein = 1
 steps = (width-2*margin)/doorStep
-maxWStep = 13
+maxWStep = 13 !(width-2*margin)/(windW + 2*windMargin) * (height- margin - doorY)/(windH + 2*windMargin)
 n = 0
 
+
+
+
 !*ask,startVal,Anfangswert,0
-startVal = 0
+startVal = maxWStep
+
+
+
 
 ! S
-size = steps * (maxWStep+1)*maxWStep /2
+size = steps * (maxWStep+1)*maxWStep/2
 nParam = 9
 
 *dim, c,, 1000,nParam, 1 ! Example Matrix
