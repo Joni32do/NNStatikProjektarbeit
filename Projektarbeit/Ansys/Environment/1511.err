@@ -1,0 +1,2996 @@
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       11:59:49
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       2.500   TIME= 12:39:29
+ * no longer valid as comment character - please use !                   
+  *SET,size, steps * (maxWStep+1)*maxWStep /2                            
+  This warning only issued once.                                         
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       3.469   TIME= 12:39:31
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       4.672   TIME= 12:39:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       4.672   TIME= 12:39:33
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.672   TIME= 12:39:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.672   TIME= 12:39:35
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       6.578   TIME= 12:39:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       6.578   TIME= 12:39:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.469   TIME= 12:39:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.469   TIME= 12:39:37
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       8.438   TIME= 12:39:39
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       8.438   TIME= 12:39:39
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.688   TIME= 12:39:40
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.688   TIME= 12:39:40
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       9.766   TIME= 12:39:40
+ Subscript 1 is out of range for parameter C                             
+  Specified value is 7 Maximum value is 6.                               
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      10.125   TIME= 12:39:48
+ Subscript 1 is out of range for parameter C                             
+  Specified value is 8 Maximum value is 6.                               
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      10.406   TIME= 12:40:49
+ No *DO active, *ENDDO ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.844   TIME= 12:40:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.875   TIME= 12:40:58
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.828   TIME= 12:40:59
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.828   TIME= 12:40:59
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      15.812   TIME= 12:41:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      15.812   TIME= 12:41:00
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.844   TIME= 12:41:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.844   TIME= 12:41:02
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      17.875   TIME= 12:41:03
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      17.875   TIME= 12:41:03
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      17.969   TIME= 12:41:03
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      18.688   TIME= 12:41:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      18.688   TIME= 12:41:05
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      18.734   TIME= 12:41:05
+ Subscript 1 is out of range for parameter C                             
+  Specified value is 7 Maximum value is 6.                               
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      19.172   TIME= 12:42:42
+ Subscript 1 is out of range for parameter C                             
+  Specified value is 8 Maximum value is 6.                               
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.344   TIME= 12:42:44
+ No *DO active, *ENDDO ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      24.062   TIME= 12:42:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      24.094   TIME= 12:42:53
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      25.141   TIME= 12:42:55
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      25.141   TIME= 12:42:55
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      26.078   TIME= 12:42:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      26.078   TIME= 12:42:57
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      26.922   TIME= 12:42:59
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      26.922   TIME= 12:42:59
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      28.078   TIME= 12:43:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      28.078   TIME= 12:43:00
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      28.250   TIME= 12:43:01
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      28.969   TIME= 12:43:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      28.969   TIME= 12:43:02
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      29.953   TIME= 12:43:03
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      29.953   TIME= 12:43:03
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.672   TIME= 12:43:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.672   TIME= 12:43:05
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      31.516   TIME= 12:43:07
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      31.516   TIME= 12:43:07
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      32.438   TIME= 12:43:09
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      32.438   TIME= 12:43:09
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      33.297   TIME= 12:43:11
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      33.297   TIME= 12:43:11
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      34.141   TIME= 12:43:12
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      34.141   TIME= 12:43:12
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      35.094   TIME= 12:43:14
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      35.094   TIME= 12:43:14
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      36.047   TIME= 12:43:16
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      36.047   TIME= 12:43:16
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      36.984   TIME= 12:43:18
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      36.984   TIME= 12:43:18
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      38.078   TIME= 12:43:20
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      38.078   TIME= 12:43:20
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      39.078   TIME= 12:43:22
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      39.078   TIME= 12:43:22
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      40.172   TIME= 12:43:24
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      40.172   TIME= 12:43:24
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      41.141   TIME= 12:43:26
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      41.141   TIME= 12:43:26
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      42.562   TIME= 12:43:28
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      42.562   TIME= 12:43:28
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      42.688   TIME= 12:43:29
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      43.672   TIME= 12:43:30
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      43.672   TIME= 12:43:30
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      44.562   TIME= 12:43:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      44.562   TIME= 12:43:31
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      45.531   TIME= 12:43:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      45.531   TIME= 12:43:33
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      46.469   TIME= 12:43:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      46.469   TIME= 12:43:35
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      47.469   TIME= 12:43:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      47.469   TIME= 12:43:37
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      48.516   TIME= 12:43:39
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      48.516   TIME= 12:43:39
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      49.719   TIME= 12:43:40
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      49.719   TIME= 12:43:40
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      50.594   TIME= 12:43:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      50.594   TIME= 12:43:42
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.844   TIME= 12:43:44
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.844   TIME= 12:43:44
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      52.766   TIME= 12:43:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      52.766   TIME= 12:43:46
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      53.844   TIME= 12:43:48
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      53.844   TIME= 12:43:48
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      54.797   TIME= 12:43:50
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      54.797   TIME= 12:43:50
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      54.922   TIME= 12:43:50
+ Shape testing revealed that 1 of the 249 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      54.953   TIME= 12:43:50
+ Previous testing revealed that 1 of the 249 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      55.625   TIME= 12:43:51
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      55.625   TIME= 12:43:51
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      56.906   TIME= 12:43:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      56.906   TIME= 12:43:53
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      57.906   TIME= 12:43:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      57.906   TIME= 12:43:56
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      58.906   TIME= 12:43:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      58.906   TIME= 12:43:57
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      60.031   TIME= 12:43:59
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      60.031   TIME= 12:43:59
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      60.875   TIME= 12:44:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      60.875   TIME= 12:44:01
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      61.828   TIME= 12:44:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      61.828   TIME= 12:44:02
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      61.938   TIME= 12:44:03
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      62.766   TIME= 12:44:04
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      62.766   TIME= 12:44:04
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      63.719   TIME= 12:44:07
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      63.719   TIME= 12:44:07
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      64.797   TIME= 12:44:08
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      64.797   TIME= 12:44:08
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      64.969   TIME= 12:44:08
+ Shape testing revealed that 2 of the 244 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      64.984   TIME= 12:44:08
+ Previous testing revealed that 2 of the 244 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      65.984   TIME= 12:44:10
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      65.984   TIME= 12:44:10
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      67.078   TIME= 12:44:11
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      67.078   TIME= 12:44:11
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      68.094   TIME= 12:44:14
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      68.094   TIME= 12:44:14
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      68.234   TIME= 12:44:14
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      69.250   TIME= 12:44:15
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      69.250   TIME= 12:44:15
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      70.016   TIME= 12:44:16
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      70.016   TIME= 12:44:16
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      71.156   TIME= 12:44:18
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      71.156   TIME= 12:44:18
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      72.062   TIME= 12:44:20
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      72.062   TIME= 12:44:20
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      72.203   TIME= 12:44:21
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.156   TIME= 12:44:22
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      73.156   TIME= 12:44:22
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      74.078   TIME= 12:44:24
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      74.078   TIME= 12:44:24
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      75.203   TIME= 12:44:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      75.203   TIME= 12:44:25
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      76.234   TIME= 12:44:27
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      76.234   TIME= 12:44:27
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      77.391   TIME= 12:44:29
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      77.391   TIME= 12:44:29
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      78.438   TIME= 12:44:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      78.438   TIME= 12:44:31
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      79.594   TIME= 12:44:32
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      79.594   TIME= 12:44:32
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      80.578   TIME= 12:44:34
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      80.578   TIME= 12:44:34
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      81.672   TIME= 12:44:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      81.672   TIME= 12:44:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      82.703   TIME= 12:44:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      82.703   TIME= 12:44:37
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      83.641   TIME= 12:44:39
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      83.641   TIME= 12:44:39
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      84.609   TIME= 12:44:41
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      84.609   TIME= 12:44:41
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      85.859   TIME= 12:44:43
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      85.859   TIME= 12:44:43
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      86.828   TIME= 12:44:45
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      86.828   TIME= 12:44:45
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      87.594   TIME= 12:44:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      87.594   TIME= 12:44:46
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      88.562   TIME= 12:44:48
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      88.562   TIME= 12:44:48
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      89.609   TIME= 12:44:50
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      89.609   TIME= 12:44:50
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      90.484   TIME= 12:44:51
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      90.484   TIME= 12:44:51
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      91.500   TIME= 12:44:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      91.500   TIME= 12:44:53
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      92.578   TIME= 12:44:54
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      92.578   TIME= 12:44:54
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      94.078   TIME= 12:44:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      94.078   TIME= 12:44:56
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      95.266   TIME= 12:44:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      95.266   TIME= 12:44:58
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      96.188   TIME= 12:44:59
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      96.188   TIME= 12:44:59
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      97.062   TIME= 12:45:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      97.062   TIME= 12:45:01
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      98.969   TIME= 12:45:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      99.844   TIME= 12:45:07
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     100.797   TIME= 12:45:09
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     101.672   TIME= 12:45:11
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     102.625   TIME= 12:45:14
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     103.641   TIME= 12:45:15
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     104.422   TIME= 12:45:17
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     105.562   TIME= 12:45:19
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     106.609   TIME= 12:45:21
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     107.719   TIME= 12:45:23
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     108.609   TIME= 12:45:24
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     109.438   TIME= 12:45:26
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     110.547   TIME= 12:45:28
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     111.500   TIME= 12:45:30
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     112.547   TIME= 12:45:32
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     113.641   TIME= 12:45:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     114.578   TIME= 12:45:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     115.578   TIME= 12:45:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     116.578   TIME= 12:45:39
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     117.469   TIME= 12:45:41
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     118.641   TIME= 12:45:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     119.500   TIME= 12:45:44
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     120.547   TIME= 12:45:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     121.406   TIME= 12:45:47
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     121.547   TIME= 12:45:48
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     121.562   TIME= 12:45:48
+ Shape testing revealed that 1 of the 252 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     121.609   TIME= 12:45:48
+ Previous testing revealed that 1 of the 252 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     122.625   TIME= 12:45:49
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     122.734   TIME= 12:45:49
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     123.547   TIME= 12:45:51
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     124.531   TIME= 12:45:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     125.547   TIME= 12:45:54
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     126.438   TIME= 12:45:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     127.578   TIME= 12:45:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     128.438   TIME= 12:46:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     129.375   TIME= 12:46:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     130.109   TIME= 12:46:03
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     130.891   TIME= 12:46:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     131.031   TIME= 12:46:05
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     131.047   TIME= 12:46:05
+ Shape testing revealed that 1 of the 244 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     131.062   TIME= 12:46:05
+ Previous testing revealed that 1 of the 244 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     132.062   TIME= 12:46:07
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     133.359   TIME= 12:46:08
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     134.469   TIME= 12:46:10
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     135.781   TIME= 12:46:12
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     136.891   TIME= 12:46:14
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     137.938   TIME= 12:46:16
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     138.969   TIME= 12:46:18
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     139.938   TIME= 12:46:19
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     141.328   TIME= 12:46:21
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     142.531   TIME= 12:46:23
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     142.688   TIME= 12:46:23
+ Shape testing revealed that 1 of the 250 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     142.719   TIME= 12:46:23
+ Previous testing revealed that 1 of the 250 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     143.812   TIME= 12:46:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     145.234   TIME= 12:46:27
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     146.453   TIME= 12:46:28
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     147.578   TIME= 12:46:30
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     148.438   TIME= 12:46:32
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     149.625   TIME= 12:46:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     150.531   TIME= 12:46:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     151.750   TIME= 12:46:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     152.906   TIME= 12:46:38
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     154.062   TIME= 12:46:40
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     154.984   TIME= 12:46:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     156.078   TIME= 12:46:43
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     156.891   TIME= 12:46:45
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     157.875   TIME= 12:46:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     158.828   TIME= 12:46:48
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     159.828   TIME= 12:46:49
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     160.828   TIME= 12:46:51
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     161.953   TIME= 12:46:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     163.141   TIME= 12:46:54
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     164.422   TIME= 12:46:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     165.297   TIME= 12:46:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     166.266   TIME= 12:46:59
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     167.359   TIME= 12:47:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     168.203   TIME= 12:47:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     169.297   TIME= 12:47:04
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     170.266   TIME= 12:47:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     171.250   TIME= 12:47:07
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     171.359   TIME= 12:47:07
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     172.484   TIME= 12:47:09
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     173.297   TIME= 12:47:11
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     173.422   TIME= 12:47:11
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     174.266   TIME= 12:47:13
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     175.500   TIME= 12:47:15
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     176.500   TIME= 12:47:17
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     177.375   TIME= 12:47:19
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     178.203   TIME= 12:47:20
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     179.125   TIME= 12:47:22
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     179.953   TIME= 12:47:24
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     180.828   TIME= 12:47:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     181.906   TIME= 12:47:27
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     183.312   TIME= 12:47:29
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     184.344   TIME= 12:47:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     185.219   TIME= 12:47:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     186.219   TIME= 12:47:34
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     187.203   TIME= 12:47:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     188.141   TIME= 12:47:38
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     188.281   TIME= 12:47:38
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     189.203   TIME= 12:47:39
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     190.125   TIME= 12:47:41
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     191.250   TIME= 12:47:43
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     192.328   TIME= 12:47:45
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     192.500   TIME= 12:47:45
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     193.281   TIME= 12:47:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     194.531   TIME= 12:47:48
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     195.656   TIME= 12:47:50
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     196.781   TIME= 12:47:52
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     197.719   TIME= 12:47:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     198.688   TIME= 12:47:55
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     199.594   TIME= 12:47:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     199.719   TIME= 12:47:57
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     200.922   TIME= 12:47:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     201.875   TIME= 12:48:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     203.062   TIME= 12:48:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     204.000   TIME= 12:48:04
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     204.953   TIME= 12:48:06
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     206.094   TIME= 12:48:08
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     206.969   TIME= 12:48:10
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     208.172   TIME= 12:48:11
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     209.250   TIME= 12:48:13
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     210.016   TIME= 12:48:15
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     211.109   TIME= 12:48:16
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     212.281   TIME= 12:48:18
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     212.406   TIME= 12:48:18
+ Shape testing revealed that 1 of the 253 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     212.469   TIME= 12:48:18
+ Previous testing revealed that 1 of the 253 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     213.578   TIME= 12:48:20
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     214.891   TIME= 12:48:21
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     215.875   TIME= 12:48:23
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     217.172   TIME= 12:48:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     218.125   TIME= 12:48:26
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     219.391   TIME= 12:48:28
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     220.422   TIME= 12:48:30
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     221.594   TIME= 12:48:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     221.734   TIME= 12:48:31
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     222.844   TIME= 12:48:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     223.719   TIME= 12:48:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     223.844   TIME= 12:48:35
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     224.672   TIME= 12:48:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     225.766   TIME= 12:48:38
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     225.875   TIME= 12:48:38
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     226.797   TIME= 12:48:40
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     227.750   TIME= 12:48:41
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     228.703   TIME= 12:48:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     229.672   TIME= 12:48:44
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     230.781   TIME= 12:48:45
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     231.969   TIME= 12:48:47
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     233.203   TIME= 12:48:48
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     234.328   TIME= 12:48:50
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     235.234   TIME= 12:48:52
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     236.062   TIME= 12:48:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     236.922   TIME= 12:48:55
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     237.891   TIME= 12:48:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     238.812   TIME= 12:48:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     239.719   TIME= 12:48:59
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     240.719   TIME= 12:49:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     241.656   TIME= 12:49:03
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     242.875   TIME= 12:49:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     243.891   TIME= 12:49:06
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     245.094   TIME= 12:49:08
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     246.359   TIME= 12:49:10
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     247.453   TIME= 12:49:12
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     248.547   TIME= 12:49:14
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     249.578   TIME= 12:49:16
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     250.547   TIME= 12:49:17
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     251.781   TIME= 12:49:19
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     252.750   TIME= 12:49:21
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     253.875   TIME= 12:49:22
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     254.562   TIME= 12:49:24
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     255.594   TIME= 12:49:26
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     256.656   TIME= 12:49:27
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     257.672   TIME= 12:49:29
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     258.594   TIME= 12:49:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     259.500   TIME= 12:49:32
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     260.469   TIME= 12:49:34
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     261.422   TIME= 12:49:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     262.438   TIME= 12:49:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     263.453   TIME= 12:49:39
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     264.297   TIME= 12:49:41
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     265.359   TIME= 12:49:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     266.469   TIME= 12:49:44
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     267.516   TIME= 12:49:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     268.484   TIME= 12:49:47
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     268.641   TIME= 12:49:48
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     269.547   TIME= 12:49:49
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     269.641   TIME= 12:49:49
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     270.672   TIME= 12:49:51
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     272.000   TIME= 12:49:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     273.016   TIME= 12:49:55
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     274.047   TIME= 12:49:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     274.953   TIME= 12:49:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     275.953   TIME= 12:50:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     276.938   TIME= 12:50:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     278.266   TIME= 12:50:03
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     279.422   TIME= 12:50:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     280.641   TIME= 12:50:06
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     280.750   TIME= 12:50:06
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     281.562   TIME= 12:50:08
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     283.047   TIME= 12:50:10
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     284.250   TIME= 12:50:11
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     284.391   TIME= 12:50:12
+ Shape testing revealed that 1 of the 262 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     284.438   TIME= 12:50:12
+ Previous testing revealed that 1 of the 262 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     285.375   TIME= 12:50:13
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     286.281   TIME= 12:50:15
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     287.297   TIME= 12:50:16
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     288.219   TIME= 12:50:18
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     289.031   TIME= 12:50:20
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     289.844   TIME= 12:50:21
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     290.812   TIME= 12:50:23
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     291.703   TIME= 12:50:24
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     292.797   TIME= 12:50:26
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     293.984   TIME= 12:50:28
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     295.266   TIME= 12:50:29
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     296.109   TIME= 12:50:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     296.922   TIME= 12:50:32
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     297.906   TIME= 12:50:34
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     298.766   TIME= 12:50:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     299.828   TIME= 12:50:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     300.719   TIME= 12:50:38
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     300.812   TIME= 12:50:38
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     301.609   TIME= 12:50:40
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     302.594   TIME= 12:50:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     303.641   TIME= 12:50:43
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     304.547   TIME= 12:50:44
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     305.578   TIME= 12:50:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     306.781   TIME= 12:50:48
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     307.844   TIME= 12:50:49
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     308.844   TIME= 12:50:51
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     310.188   TIME= 12:50:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     311.172   TIME= 12:50:55
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     312.312   TIME= 12:50:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     313.312   TIME= 12:50:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     314.156   TIME= 12:51:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     315.438   TIME= 12:51:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     316.406   TIME= 12:51:03
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     317.297   TIME= 12:51:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     318.188   TIME= 12:51:07
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     319.547   TIME= 12:51:09
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     320.766   TIME= 12:51:11
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     322.016   TIME= 12:51:12
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     323.078   TIME= 12:51:14
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     324.047   TIME= 12:51:16
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     324.891   TIME= 12:51:17
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     325.859   TIME= 12:51:19
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     326.766   TIME= 12:51:20
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     328.078   TIME= 12:51:22
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     329.000   TIME= 12:51:24
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     330.031   TIME= 12:51:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     331.000   TIME= 12:51:27
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     331.984   TIME= 12:51:29
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     333.109   TIME= 12:51:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     334.250   TIME= 12:51:32
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     335.375   TIME= 12:51:34
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     336.250   TIME= 12:51:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     337.281   TIME= 12:51:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     338.516   TIME= 12:51:38
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     338.656   TIME= 12:51:39
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     339.906   TIME= 12:51:40
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     340.938   TIME= 12:51:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     341.828   TIME= 12:51:43
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     342.844   TIME= 12:51:45
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     342.984   TIME= 12:51:45
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     343.812   TIME= 12:51:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     344.953   TIME= 12:51:48
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     346.469   TIME= 12:51:50
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     346.562   TIME= 12:51:50
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     347.328   TIME= 12:51:52
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     348.422   TIME= 12:51:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     349.516   TIME= 12:51:55
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     350.750   TIME= 12:51:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     351.953   TIME= 12:51:59
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     353.203   TIME= 12:52:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     353.344   TIME= 12:52:01
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     354.312   TIME= 12:52:03
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     355.609   TIME= 12:52:04
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     355.750   TIME= 12:52:04
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     356.609   TIME= 12:52:06
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     357.703   TIME= 12:52:08
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     358.859   TIME= 12:52:09
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     360.281   TIME= 12:52:11
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     361.578   TIME= 12:52:13
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     362.938   TIME= 12:52:15
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     364.062   TIME= 12:52:16
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     365.047   TIME= 12:52:18
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     365.172   TIME= 12:52:18
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     365.938   TIME= 12:52:20
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     366.859   TIME= 12:52:21
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     367.922   TIME= 12:52:23
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     368.828   TIME= 12:52:24
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     369.781   TIME= 12:52:26
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     370.797   TIME= 12:52:27
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     371.984   TIME= 12:52:29
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     372.859   TIME= 12:52:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     374.031   TIME= 12:52:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     374.188   TIME= 12:52:33
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     375.719   TIME= 12:52:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     377.000   TIME= 12:52:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     377.984   TIME= 12:52:38
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     378.969   TIME= 12:52:40
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     380.094   TIME= 12:52:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     381.391   TIME= 12:52:44
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     382.594   TIME= 12:52:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     383.516   TIME= 12:52:48
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     384.594   TIME= 12:52:49
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     385.531   TIME= 12:52:51
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     386.375   TIME= 12:52:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     387.359   TIME= 12:52:55
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     388.594   TIME= 12:52:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     389.516   TIME= 12:52:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     390.500   TIME= 12:53:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     390.672   TIME= 12:53:00
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     392.047   TIME= 12:53:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     393.203   TIME= 12:53:04
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     393.328   TIME= 12:53:04
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     394.172   TIME= 12:53:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     394.359   TIME= 12:53:06
+ Shape testing revealed that 2 of the 227 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     394.375   TIME= 12:53:06
+ Previous testing revealed that 2 of the 227 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     395.344   TIME= 12:53:07
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     396.219   TIME= 12:53:10
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     397.312   TIME= 12:53:12
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     398.438   TIME= 12:53:14
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     399.391   TIME= 12:53:16
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     400.312   TIME= 12:53:18
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     400.422   TIME= 12:53:18
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     401.297   TIME= 12:53:19
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     402.438   TIME= 12:53:21
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     403.422   TIME= 12:53:23
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     403.562   TIME= 12:53:23
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     404.625   TIME= 12:53:24
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     405.672   TIME= 12:53:26
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     406.766   TIME= 12:53:28
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     408.016   TIME= 12:53:30
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     408.906   TIME= 12:53:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     410.047   TIME= 12:53:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     411.000   TIME= 12:53:35
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     411.125   TIME= 12:53:35
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     411.906   TIME= 12:53:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     413.125   TIME= 12:53:39
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     414.094   TIME= 12:53:40
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     415.406   TIME= 12:53:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     416.266   TIME= 12:53:43
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     417.125   TIME= 12:53:45
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     418.203   TIME= 12:53:47
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     418.328   TIME= 12:53:47
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     419.359   TIME= 12:53:49
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     420.438   TIME= 12:53:50
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     421.719   TIME= 12:53:52
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     422.766   TIME= 12:53:54
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     424.062   TIME= 12:53:55
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     425.203   TIME= 12:53:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     426.531   TIME= 12:53:59
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     427.484   TIME= 12:54:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     428.562   TIME= 12:54:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     429.578   TIME= 12:54:03
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     430.500   TIME= 12:54:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     431.438   TIME= 12:54:07
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     432.609   TIME= 12:54:08
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     433.469   TIME= 12:54:10
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     434.625   TIME= 12:54:12
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     435.578   TIME= 12:54:13
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     436.578   TIME= 12:54:15
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     442.875   TIME= 12:59:30
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     442.922   TIME= 12:59:30
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     444.000   TIME= 12:59:32
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     444.000   TIME= 12:59:32
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     444.922   TIME= 12:59:34
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     444.922   TIME= 12:59:34
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     445.875   TIME= 12:59:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     445.875   TIME= 12:59:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     447.094   TIME= 12:59:37
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     447.094   TIME= 12:59:37
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     447.266   TIME= 12:59:37
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     448.141   TIME= 12:59:38
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     448.141   TIME= 12:59:38
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     448.984   TIME= 12:59:40
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     448.984   TIME= 12:59:40
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     449.953   TIME= 12:59:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     449.953   TIME= 12:59:42
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     450.828   TIME= 12:59:44
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     450.828   TIME= 12:59:44
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     451.797   TIME= 12:59:45
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     451.797   TIME= 12:59:45
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     452.891   TIME= 12:59:47
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     452.891   TIME= 12:59:47
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     453.047   TIME= 12:59:48
+ Shape testing revealed that 1 of the 243 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     453.078   TIME= 12:59:48
+ Previous testing revealed that 1 of the 243 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     453.938   TIME= 12:59:49
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     453.938   TIME= 12:59:49
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     454.953   TIME= 12:59:51
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     454.953   TIME= 12:59:51
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     456.016   TIME= 12:59:52
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     456.016   TIME= 12:59:52
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     457.031   TIME= 12:59:54
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     457.031   TIME= 12:59:54
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     457.812   TIME= 12:59:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     457.812   TIME= 12:59:56
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     458.750   TIME= 12:59:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     458.750   TIME= 12:59:58
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     459.969   TIME= 13:00:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     459.969   TIME= 13:00:00
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     461.188   TIME= 13:00:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     461.188   TIME= 13:00:01
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     462.328   TIME= 13:00:03
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     462.328   TIME= 13:00:03
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     463.297   TIME= 13:00:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     463.297   TIME= 13:00:05
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     464.125   TIME= 13:00:07
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     464.125   TIME= 13:00:07
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     465.297   TIME= 13:00:09
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     465.297   TIME= 13:00:09
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     465.438   TIME= 13:00:09
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     466.328   TIME= 13:00:10
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     466.328   TIME= 13:00:10
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     466.500   TIME= 13:00:11
+ Shape testing revealed that 1 of the 243 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     466.547   TIME= 13:00:11
+ Previous testing revealed that 1 of the 243 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     467.422   TIME= 13:00:12
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     467.422   TIME= 13:00:12
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     468.375   TIME= 13:00:14
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     468.375   TIME= 13:00:14
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     469.609   TIME= 13:00:16
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     469.609   TIME= 13:00:16
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     470.516   TIME= 13:00:18
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     470.516   TIME= 13:00:18
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     471.469   TIME= 13:00:19
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     471.469   TIME= 13:00:19
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     472.531   TIME= 13:00:21
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     472.531   TIME= 13:00:21
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     473.500   TIME= 13:00:24
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     473.500   TIME= 13:00:24
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     474.562   TIME= 13:00:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     474.562   TIME= 13:00:25
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     475.594   TIME= 13:00:27
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     475.594   TIME= 13:00:27
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     476.625   TIME= 13:00:29
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     476.625   TIME= 13:00:29
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     477.953   TIME= 13:00:31
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     477.953   TIME= 13:00:31
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     478.891   TIME= 13:00:32
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     478.891   TIME= 13:00:32
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     479.031   TIME= 13:00:33
+ Shape testing revealed that 1 of the 243 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     479.047   TIME= 13:00:33
+ Previous testing revealed that 1 of the 243 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     479.812   TIME= 13:00:34
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     479.812   TIME= 13:00:34
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     480.875   TIME= 13:00:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     480.875   TIME= 13:00:36
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     481.969   TIME= 13:00:38
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     481.969   TIME= 13:00:38
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     483.234   TIME= 13:00:40
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     483.234   TIME= 13:00:40
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     484.328   TIME= 13:00:41
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     484.328   TIME= 13:00:41
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     484.484   TIME= 13:00:42
+ Shape testing revealed that 1 of the 249 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     484.500   TIME= 13:00:42
+ Previous testing revealed that 1 of the 249 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     485.547   TIME= 13:00:44
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     485.547   TIME= 13:00:44
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     486.656   TIME= 13:00:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     486.656   TIME= 13:00:46
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     487.812   TIME= 13:00:47
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     487.812   TIME= 13:00:47
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     488.828   TIME= 13:00:49
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     488.828   TIME= 13:00:49
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     489.828   TIME= 13:00:51
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     489.828   TIME= 13:00:51
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     490.703   TIME= 13:00:53
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     490.703   TIME= 13:00:53
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     490.875   TIME= 13:00:54
+ Shape testing revealed that 1 of the 243 new or modified elements       
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     490.891   TIME= 13:00:54
+ Previous testing revealed that 1 of the 243 selected elements violate   
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     491.656   TIME= 13:00:55
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     491.656   TIME= 13:00:55
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     492.641   TIME= 13:00:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     492.641   TIME= 13:00:57
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     494.000   TIME= 13:00:59
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, u, NODE, NDNEXT, u, y                                      
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     494.000   TIME= 13:00:59
+ Unknown parameter name= U.  A value of 7.888609052E-31 will be used.    

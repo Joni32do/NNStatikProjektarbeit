@@ -35,14 +35,17 @@ data = 0
 meshsize = 0.5
 verfein = 1
 steps = 6
-maxWStep = 11
+maxWStep = 13
 n = 0
 
 !*ask,startVal,Anfangswert,0
-startVal = 3
+startVal = 0
 
 ! S
-*dim, c,, steps*maxWStep*maxWStep,9, 1 ! Example Matrix
+size = steps * (maxWStep+1)*maxWStep /2
+nParam = 9
+
+*dim, c,, 1000,nParam, 1 ! Example Matrix
 enow = 0
 *do, ct, 1, steps        
     *do, ct2, 1, 8
@@ -57,7 +60,7 @@ enow = 0
 
 *do,door,1,steps,doorStep
 	*do, w1, 0, maxWStep,1
-	*do, w2, w1,maxWStep,1
+	*do, w2, w1+1,maxWStep,1
 	n = n + 1
 	!-----------------
 	!Initialize Iter
@@ -78,6 +81,15 @@ enow = 0
 	colW2 = MOD(w2,4)
 	rowW2 = (w2 - colW2)/4
 	
+	!Case where window and door are at one line
+	*IF, door,LE,3,AND, w1, GE, 12, THEN
+	colW1 = colW1 + 2
+	*ENDIF
+	*IF, door,LE,3,AND, w2, GE, 12, THEN
+	colW1 = colW2 + 2
+	*ENDIF
+	
+
 	wind1X = margin + colW1*(2* windMargin + windW) + windMargin
 	wind1Y = height - margin - (rowW1+1)*(2*windMargin + windW) + windMargin
 	wind2X = margin + colW2*(2* windMargin + windW) + windMargin
