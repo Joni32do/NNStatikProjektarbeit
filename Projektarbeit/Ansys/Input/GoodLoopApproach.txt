@@ -53,23 +53,22 @@ windMargin = 0.125
 doorStep = 6
 data = 0
 
-meshsize = 0.5
-verfein = 1
+meshsize = 0.1
 steps = (width-2*margin)/doorStep
 maxWStep = 13
 n = 0
 
 !*ask,startVal,Anfangswert,0
-startVal = 0
+startVal = 1
 
 ! S
-size = steps * (maxWStep+1)*maxWStep /2
-nParam = 9
+size = 92 !steps * (maxWStep+1)*maxWStep /2
+nParam = 10
 
-*dim, c,, 1000,nParam, 1 ! Example Matrix
+*dim, c,, size,nParam, 1 ! Example Matrix
 enow = 0
-*do, ct, 1, steps        
-    *do, ct2, 1, 8
+*do, ct, 1, size
+    *do, ct2, 1, nParam
         c(ct,ct2) = startVal
     *enddo    
 *enddo    
@@ -138,7 +137,8 @@ enow = 0
 	BLC4,door,yStart, doorX, doorY !Door
 	BLC4,wind1X,wind1Y,windW,windH !Window
 	BLC4,wind2X,wind2Y,windW,windH !2nd Window
-	
+
+
 	!Selecting and deleting the area of Door and the two windows
 	FLST,3,3,5,ORDE,2   
 	FITEM,3,2   
@@ -162,7 +162,7 @@ enow = 0
 	
 	dl,17,,all
 	dl,18,,all
-	sfl,3,pres,250000000
+	sfl,3,pres,25000000
 	
 	!-----------------
 	! Mesh
@@ -186,10 +186,18 @@ enow = 0
 !Checken ob wir wirklich die Lösung bekommen die wir wollen
 ! maximale Verschiebung bei 4,4
 	allsel
-	nsel,s,loc,x,4 !select 
-	nsel,r,loc,y,4 !reselect
-	*get,u,NODE,NDNEXT(0),u,y
-	c(n,6) = u
+	nsel,s,loc,x,4 !select nodes with x coordinate
+	nsel,r,loc,y,4 !reselect with y coordinate
+	*get,UY44,NODE,NDNEXT(0),U,Y
+	*get,UX44,NODE,NDNEXT(0),U,X
+	*get,SX44,NODE,NDNEXT(0),S,X
+	*get,SY44,NODE,NDNEXT(0),S,Y
+	*get,SXY44,NODE,NDNEXT(0),S,XY
+	c(n,6) = UX44
+	c(n,7) = UY44
+	c(n,8) = SX44
+	c(n,9) = SY44
+	c(n,10) = SXY44
 	
 	
 	

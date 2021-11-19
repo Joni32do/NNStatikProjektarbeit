@@ -885,3 +885,201 @@
  *** ERROR ***     SUPPRESSED MESSAGE    CP =     136.984   TIME= 12:33:31
  The above error occurred processing field= _Z(2)                        
   Line= *IF,_z1,EQ,1,THEN.                                               
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       13:29:42
+
+ *** WARNING ***                         CP =       1.891   TIME= 13:47:40
+ BLC4 is not a recognized BEGIN command, abbreviation, or macro.  This   
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       1.953   TIME= 13:47:40
+ BLC4 is not a recognized BEGIN command, abbreviation, or macro.  This   
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       1.969   TIME= 13:47:40
+ BLC4 is not a recognized BEGIN command, abbreviation, or macro.  This   
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       2.000   TIME= 13:47:40
+ BLC4 is not a recognized BEGIN command, abbreviation, or macro.  This   
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       2.031   TIME= 13:47:40
+ ASBA is not a recognized BEGIN command, abbreviation, or macro.  This   
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       2.062   TIME= 13:47:40
+ ET is not a recognized BEGIN command, abbreviation, or macro.  This     
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       2.094   TIME= 13:47:41
+ KEYOPT is not a recognized BEGIN command, abbreviation, or macro.       
+ This command will be ignored.                                           
+
+ *** WARNING ***                         CP =       2.109   TIME= 13:47:41
+ KEYOPT is not a recognized BEGIN command, abbreviation, or macro.       
+ This command will be ignored.                                           
+
+ *** WARNING ***                         CP =       2.125   TIME= 13:47:41
+ KEYOPT is not a recognized BEGIN command, abbreviation, or macro.       
+ This command will be ignored.                                           
+
+ *** WARNING ***                         CP =       2.141   TIME= 13:47:41
+ R is not a recognized BEGIN command, abbreviation, or macro.  This      
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       2.188   TIME= 13:47:41
+ MP is not a recognized BEGIN command, abbreviation, or macro.  This     
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       2.219   TIME= 13:47:41
+ MP is not a recognized BEGIN command, abbreviation, or macro.  This     
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       2.281   TIME= 13:47:41
+ DL is not a recognized BEGIN command, abbreviation, or macro.  This     
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       2.312   TIME= 13:47:42
+ DL is not a recognized BEGIN command, abbreviation, or macro.  This     
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       2.359   TIME= 13:47:42
+ SFL is not a recognized BEGIN command, abbreviation, or macro.  This    
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       2.391   TIME= 13:47:42
+ ESIZE is not a recognized BEGIN command, abbreviation, or macro.  This  
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       2.438   TIME= 13:47:42
+ AMESH is not a recognized BEGIN command, abbreviation, or macro.  This  
+ command will be ignored.                                                
+
+ *** WARNING ***                         CP =       2.453   TIME= 13:47:42
+ CPINTF is not a recognized BEGIN command, abbreviation, or macro.       
+ This command will be ignored.                                           
+
+ *** WARNING ***                         CP =       2.500   TIME= 13:47:56
+ ^/PRE is not a recognized BEGIN command, abbreviation, or macro.  This  
+ command will be ignored.                                                
+
+ *** ERROR ***                           CP =       3.812   TIME= 13:49:21
+ Incorrect number of arguments on function NODE.                         
+
+ *** ERROR ***                           CP =       3.859   TIME= 13:49:23
+ No dimensions set for parameter= NODE.                                  
+
+ *** WARNING ***                         CP =       3.906   TIME= 13:49:51
+ \COMA is not a recognized PREP7 command, abbreviation, or macro.        
+  This command will be ignored.                                          
+
+ *** WARNING ***                         CP =       3.938   TIME= 13:50:08
+ PRINTA is not a recognized PREP7 command, abbreviation, or macro.       
+  This command will be ignored.                                          
+
+ *** WARNING ***                         CP =       3.953   TIME= 13:50:11
+ PRINT is not a recognized PREP7 command, abbreviation, or macro.        
+  This command will be ignored.                                          
+
+ *** WARNING ***                         CP =       3.984   TIME= 13:50:15
+ PRINT is not a recognized PREP7 command, abbreviation, or macro.        
+  This command will be ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       4.766   TIME= 14:02:19
+ * no longer valid as comment character - please use !                   
+  *SET,size, steps * (maxWStep+1)*maxWStep /2                            
+  This warning only issued once.                                         
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.781   TIME= 14:02:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.797   TIME= 14:02:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.812   TIME= 14:02:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.828   TIME= 14:02:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.844   TIME= 14:02:25
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.859   TIME= 14:02:25
+ Unknown parameter name= UX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.875   TIME= 14:02:25
+ Unknown parameter name= UY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.891   TIME= 14:02:25
+ Unknown parameter name= SX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.906   TIME= 14:02:25
+ Unknown parameter name= SY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.922   TIME= 14:02:25
+ Unknown parameter name= SXY44.  A value of 7.888609052E-31 will be      
+ used.                                                                   
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       8.031   TIME= 14:02:27
+ Subscript 1 is out of range for parameter C                             
+  Specified value is 2 Maximum value is 1.                               
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       8.453   TIME= 14:03:07
+ No *DO active, *ENDDO ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.547   TIME= 14:03:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      13.922   TIME= 14:03:59
+ Subscript 1 is out of range for parameter C                             
+  Specified value is 2 Maximum value is 1.                               
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.141   TIME= 14:04:03
+ No *DO active, *ENDDO ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      21.109   TIME= 14:10:30
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      22.672   TIME= 14:10:33
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      23.672   TIME= 14:10:36
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      24.625   TIME= 14:10:39
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      25.797   TIME= 14:10:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      25.953   TIME= 14:10:43
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      26.953   TIME= 14:10:45
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
