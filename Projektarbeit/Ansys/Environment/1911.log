@@ -1,0 +1,877 @@
+/BATCH  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       11:14:47
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/PREP7  
+FLST,3,1,8  
+FITEM,3,4,4,0   
+K, ,P51X
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+BLC4,0,0,8,8
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+KPLOT   
+K,2,5,5 
+K,12,5,5
+FLST,2,3,8  
+FITEM,2,8,0.5E-01,0 
+FITEM,2,4,4,0   
+FITEM,2,8,0.5E-01,0 
+PRI2,P51X,0.0,0.0   
+FLST,2,8,8  
+FITEM,2,8,-0.5E-01,0
+FITEM,2,7.95,8,0
+FITEM,2,4,4,0   
+FITEM,2,5,5.05,0
+FITEM,2,0,8,0   
+FITEM,2,0.5E-01,0.5E-01,0   
+FITEM,2,7.95,0,0
+FITEM,2,8,-0.5E-01,0
+PRI2,P51X,0.0,0.0   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+!************************************************** 
+!         ANSYS Introduction
+!      Simon Bieber: 24.10.2020 
+!************************************************** 
+! Note: All (!) units are in [ kN, m, s ]   
+! clear data base   
+finish  
+/clear  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       11:35:34
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!=========================================================  
+! 1) Preprocessing  
+!=========================================================  
+! open preprocessors
+/PREP7  
+! INPUT 
+! beam geometry 
+*SET,Lx,10.0
+*SET,h,1.0  
+*SET,t,1.0  
+! element divisions 
+*SET,nele_x , 20
+*SET,nele_y , 2 
+! material  
+*SET,E,10000   ! E-Modulus (Young's)
+*SET,nu,0.3    ! Poisso-ratio   
+! see e.g. https://en.wikipedia.org/wiki/Lame_parameters
+*SET,G,E/(2*(1+nu))    ! Shear Modulus  
+*SET,K,E/(3*(1-2*nu))  ! Bulk Modulus   
+*SET,rho,250   ! density
+! define keypoints ("corners" of rectangle) 
+K,1,0,0         !=> command, #keypoint, X-Y-coordinates 
+K,2,Lx,0
+K,3,Lx,h
+K,4,0,h 
+! create surface with a set of keypoints
+A,1,2,3,4       !=> command, set of keypoints   
+! element type (4-noded plane element with 2 dofs for X and Y disp) 
+ET,1,plane182      !=>  command, #element, element name 
+KEYOPT,1,1,2         !1=#element, 1=#keyopt, 2= enhanced assumed strain 
+KEYOPT,1,3,2         !1=#element, 3=#keyopt, 2= plane strain
+! material  
+TB,HYPE,1,1,2,NEO   ! Neo-Hookean hyperelastic material 
+TBDATA,,G,2/K   
+!MP,EX,1,E        ! E modulus   
+!MP,PRXY,1,nu     ! Poisson-ratio   
+! meshing size / element divsions   
+LESIZE,1,,,nele_x                         ! line ,,, element divisions  
+LESIZE,3,,,nele_x   
+LESIZE,2,,,nele_y   
+LESIZE,4,,,nele_y   
+! mesh  
+AMAP,1,1,2,3,4                      ! mesh based on area corners (def. by keypoints)
+! end preprocesser  
+FINI
+!=========================================================  
+! 2) Solution: linear analysis  
+!=========================================================  
+! Enter the solution processor  
+/SOLU   
+! Analysis type 
+ANTYPE,0  !0=performs a static analysis (0=default) 
+NLGEOM,ON          ! geometrical nonlinear computation  
+NSUBST,5,30,1    ! number of increments (n-steps, n-steps_max, n-steps_min) 
+OUTRES,ALL,ALL     ! save all results for each step 
+! ARCLEN,1,2,0.00001   ! arclength control  
+! disp boundary conditions (Dirichtlet) 
+DL,4,,all,0     ! fix als displacements on Line 4   
+! force boundary conditions (Neumann)   
+F,2,FY,-5  ! force at node 2 in y-direction, value=-5*h^3   
+SOLVE   
+!=========================================================  
+! 3) Postprocessing 
+!=========================================================  
+! open postrocessors
+FINISH  
+/POST1  
+! plot deformed shape   
+/DSCALE,1,1        ! scale the deformation plot 
+PLDISP,2           ! plot deformed configuration
+! plot stress   
+!PLESOL, S,X
+!************************************************** 
+!         ANSYS Introduction
+!      Simon Bieber: 24.10.2020 
+!************************************************** 
+! Note: All (!) units are in [ kN, m, s ]   
+! clear data base   
+finish  
+/clear  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       11:35:50
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!=========================================================  
+! 1) Preprocessing  
+!=========================================================  
+! open preprocessors
+/PREP7  
+! INPUT 
+! beam geometry 
+*SET,Lx,10.0
+*SET,h,1.0  
+*SET,t,1.0  
+! element divisions 
+*SET,nele_x , 20
+*SET,nele_y , 2 
+! material  
+*SET,E,10000   ! E-Modulus (Young's)
+*SET,nu,0.3    ! Poisso-ratio   
+*SET,rho,250   ! density
+! define keypoints ("corners" of rectangle) 
+K,1,0,0         !=> command, #keypoint, X-Y-coordinates 
+K,2,Lx,0
+K,3,Lx,h
+K,4,0,h 
+! create surface with a set of keypoints
+A,1,2,3,4       !=> command, set of keypoints   
+! element type (4-noded plane element with 2 dofs for X and Y disp) 
+ET,1,plane182      !=>  command, #element, element name 
+KEYOPT,1,1,2         !1=#element, 1=#keyopt, 2= enhanced assumed strain 
+KEYOPT,1,3,2         !1=#element, 3=#keyopt, 2= plane strain
+! material  
+MP,EX,1,E        ! E modulus
+MP,PRXY,1,nu     ! Poisson-ratio
+! meshing size / ele dvisions   
+LESIZE,1,,,nele_x                  ! line ,,, ele divisions 
+LESIZE,3,,,nele_x   
+LESIZE,2,,,nele_y   
+LESIZE,4,,,nele_y   
+! mesh  
+AMAP,1,1,2,3,4                      ! mesh based on area corners (def. by keypoints)
+! end preprocesser  
+FINI
+!=========================================================  
+! 2) Solution: linear analysis  
+!=========================================================  
+! 2.1) Solution: linear analysis
+! recall: for the buckling analysis we need the geometric stiffness for a unit load 
+!=========================================================  
+/SOLU   
+DL,4,,all,0     ! fix all displacements on Line 4   
+! force boundary conditions (Neumann), here: unit load 1 for the buckling analysis !
+! please note that the horizontal force P_unit=1 hast to be distributed correctly between node 2,23,22  
+*SET,P_unit,1   
+F,2,FX,-P_unit*0.25 
+F,23,FX,-P_unit*0.5 
+F,22,FX,-P_unit*0.25
+ANTYPE,0    ! 0=performs a static analysis  
+PSTRES,ON   ! pre-stress effects, necessary for the buckling analysis ! 
+SOLVE   
+FINISH  
+! 2.2) Solution: buckling analysis  
+!=========================================================  
+/SOLU   
+! Analysis type 
+ANTYPE,1    ! 1=performs a buckling analysis
+BUCOPT,SUBSP,8  ! BUCkling OPTions, SUBSP=SUBSPace iteration (numerical method), #modes=8 (which are extracted) 
+SOLVE   
+FINISH  
+!=========================================================  
+! 3) Postprocessing 
+!=========================================================  
+! open postrocessors
+/POST1  
+! creates a list of all eigenvalues 
+SET,LIST
+! plot the first eigenmode  
+SET,FIRST   
+PLDISP,1
+! plot the XXX eigenmode
+SET,NEXT
+!SET,PREVIOUS   
+!SET,LAST   
+PLDISP,1
+!************************************************** 
+!         ANSYS Introduction
+!      Simon Bieber: 24.10.2020 
+!************************************************** 
+! Note: All (!) units are in [ kN, m, s ]   
+! clear data base   
+finish  
+/clear  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       11:39:25
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!=========================================================  
+! 1) Preprocessing  
+!=========================================================  
+! open preprocessors
+/PREP7  
+! INPUT 
+! beam geometry 
+*SET,Lx,10.0
+*SET,h,1.0  
+*SET,t,1.0  
+! element divisions 
+*SET,nele_x , 20
+*SET,nele_y , 2 
+! material  
+*SET,E,10000   ! E-Modulus (Young's)
+*SET,nu,0.3    ! Poisso-ratio   
+*SET,G,E/(2*(1+nu))    ! Shear Modulus  
+*SET,K,E/(3*(1-2*nu))  ! Bulk Modulus   
+*SET,rho,250   ! density
+! define keypoints ("corners" of rectangle) 
+K,1,0,0         !=> command, #keypoint, X-Y-coordinates 
+K,2,Lx,0
+K,3,Lx,h
+K,4,0,h 
+! create surface with a set of keypoints
+A,1,2,3,4       !=> command, set of keypoints   
+! element type (4-noded plane element with 2 dofs for X and Y disp) 
+ET,1,plane182      !=>  command, #element, element name 
+KEYOPT,1,1,2         !1=#element, 1=#keyopt, 2= enhanced assumed strain 
+KEYOPT,1,3,2         !1=#element, 3=#keyopt, 2= plane strain
+! ALTERNATIV: ET, ITYPE, Ename, KOP1, KOP2, KOP3, KOP4, KOP5, KOP6  
+! E.g.: ET,1,plane182,2,,2  
+! material  
+TB,HYPE,1,1,2,NEO   ! Neo-Hookean hyperelastic material 
+TBDATA,,G,2/K   
+! meshing size / ele dvisions   
+LESIZE,1,,,nele_x                         ! line ,,, element divisions  
+LESIZE,3,,,nele_x   
+LESIZE,2,,,nele_y   
+LESIZE,4,,,nele_y   
+! mesh  
+AMAP,1,1,2,3,4                      ! mesh based on area corners (def. by keypoints)
+! end preprocesser  
+FINI
+!=========================================================  
+! 2) Solution: linear analysis  
+!=========================================================  
+! Enter the solution processor  
+/SOLU   
+! disp boundary conditions (Dirichtlet) 
+DL,4,,all,0     ! fix als displacements on Line 4   
+! force boundary conditions (Neumann)   
+*SET,P,80   
+F,2,FX,-P*0.25  
+F,23,FX,-P*0.5  
+F,22,FX,-P*0.25 
+! imperfection  
+F,2,FY,-P*0.01  
+! Analysis type 
+ANTYPE,0  !0=performs a static analysis (0=default) 
+NLGEOM,ON          ! geometrical nonlinear computation  
+NSUBST,20,30,1    ! number of increments (n-steps, n-steps_max, n-steps_min)
+OUTRES,ALL,ALL     ! save all results for each step (e.g. for load-disp curve)  
+ARCLEN,1,30,0.001   ! arclength control, max-arclength, min-arclength, default (25,1/1000)  
+! ARCTRM,U,2,2,UY ! Controls termination of the solution, Load must be big enough ! :)  
+! => =value where ARCLEN should stop, 2=NODE,UX=DOF 
+! Abbruchkriterium der Bogenlängenkontrolle (hier: Verschiebung Knoten 2 in x-Richtung maximal 5)  
+SOLVE   
+FINISH  
+!=========================================================  
+! 3) Postprocessing 
+!=========================================================  
+! 3.1) General Postprocessing   
+!=========================================================  
+/POST1    ! "general" postprocessor 
+! plot deformed shape   
+/DSCALE,1,1        ! scale the deformation plot 
+PLDISP,2           ! plot deformed configuration
+! plot stress   
+PLESOL, S,X 
+! 3.2) Time History Postprocessing  
+!=========================================================  
+FINISH  
+/POST26 
+NUMVAR,200    ! # of possible history variables 
+! save/extract data of a certain variable (e.g. special displacement DOF)   
+NSOL,2,2,U,Y,U_NODE2           ! variable 2: select disp.-vector at node 2, Y-component 
+ABS,2,2,,,U_NODE2              ! take the absolute value of it  
+! plot load-disp curve  
+XVAR,2    ! X-axis = displacement (defined above)   
+PLVAR,1    ! Y-axis = load factor   
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       12:08:02
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+/prep7  
+BLC4,0,0,8,8
+BLC4,3,0,1,2
+BLC4,2,2,1.25,1.25  
+BLC4,5,5,1.25,1.25  
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,250000000
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+/OUTPUT,test,txt
+FINISH  
+/SOL
+solve   
+FINISH  
+/POST1  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+*do,j,1,10,1
+/com,   
+*enddo  
+/COM *** 5.2.2 ANSYS APDL ***   
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       12:15:30
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,doorX , 1  
+*SET,doorY , 2  
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,margin , 1 
+*SET,windMargin , 0.125 
+*SET,doorStep , 6   
+*SET,data , 0   
+*SET,meshsize , 0.5 
+*SET,verfein , 1
+*SET,steps , (width-2*margin)/doorStep  
+*SET,maxWStep , 13  
+*SET,n , 0  
+!*ask,startVal,Anfangswert,0
+*SET,startVal , 0   
+! S 
+*SET,size , steps * (maxWStep+1)*maxWStep /2
+*SET,nParam , 9 
+*dim, c,, 1000,nParam, 1 ! Example Matrix   
+*SET,enow , 0   
+*do, ct, 1, steps   
+*do, ct2, 1, 8  
+*SET,c(ct,ct2) , startVal   
+*enddo  
+*enddo  
+! ---------------------------------------   
+! *** loop to restart the calculation ***   
+!----------------------------------------   
+*do,door,1,steps,doorStep   
+*do, w1, 0, maxWStep,1  
+*do, w2, w1+1,maxWStep,1
+*SET,n , n + 1  
+!-----------------  
+!Initialize Iter
+!-----------------  
+parsav,all  
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       12:15:33
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+parres  
+*SET,colW1 , MOD(w1,4)  
+*SET,rowW1 , (w1 - colW1)/4 
+*SET,colW2 , MOD(w2,4)  
+*SET,rowW2 , (w2 - colW2)/4 
+!Case where window and door are at one line 
+*IF, door,LE,3,THEN 
+*IF, w1, GE, 12, THEN   
+*SET,colW1 , colW1 + 2  
+*ENDIF  
+*ENDIF  
+*IF, door,LE,3,THEN 
+*IF, w2, GE, 12, THEN   
+*SET,colW2 , colW2 + 2  
+*ENDIF  
+*SET,wind1X , margin + colW1*(2* windMargin + windW) + windMargin   
+*SET,wind1Y , height - margin - (rowW1+1)*(2*windMargin + windW) + windMargin   
+*SET,wind2X , margin + colW2*(2* windMargin + windW) + windMargin   
+*SET,wind2Y , height - margin - (rowW2+1)*(2*windMargin + windW) + windMargin   
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , door  
+*SET,c(n,2) , wind1X
+*SET,c(n,3) , wind1Y
+*SET,c(n,4) , wind2X
+*SET,c(n,5) , wind2Y
+!-----------------  
+!Create House   
+!-----------------  
+BLC4,xStart, yStart, width, height !House   
+BLC4,door,yStart, doorX, doorY !Door
+BLC4,wind1X,wind1Y,windW,windH !Window  
+BLC4,wind2X,wind2Y,windW,windH !2nd Window  
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,250000000
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+/OUTPUT,data,txt,APPEND 
+FINISH  
+/SOL
+solve   
+FINISH  
+/POST1  
+!-----------------  
+! Value at point 4,4
+!-----------------  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4 
+allsel  
+nsel,s,loc,x,4 !select  
+nsel,r,loc,y,4 !reselect
+*get,u,NODE,NDNEXT(0),u,y   
+*SET,c(n,6) , u 
+*enddo  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       12:16:10
+*enddo  
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
+! *** exit the programm *** 
+!------------------------------------------------   
+finish  
+!/exit  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+*do,j,1,10,1
+/com,   
+*enddo  
+/COM *** 5.2.2 ANSYS APDL ***   
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       12:17:29
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,doorX , 1  
+*SET,doorY , 2  
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,margin , 1 
+*SET,windMargin , 0.125 
+*SET,doorStep , 6   
+*SET,data , 0   
+*SET,meshsize , 0.5 
+*SET,verfein , 1
+*SET,steps , (width-2*margin)/doorStep  
+*SET,maxWStep , 13  
+*SET,n , 0  
+!*ask,startVal,Anfangswert,0
+*SET,startVal , 0   
+! S 
+*SET,size , steps * (maxWStep+1)*maxWStep /2
+*SET,nParam , 9 
+*dim, c,, 1000,nParam, 1 ! Example Matrix   
+*SET,enow , 0   
+*do, ct, 1, steps   
+*do, ct2, 1, 8  
+*SET,c(ct,ct2) , startVal   
+*enddo  
+*enddo  
+! ---------------------------------------   
+! *** loop to restart the calculation ***   
+!----------------------------------------   
+*do,door,1,steps,doorStep   
+*do, w1, 0, maxWStep,1  
+*do, w2, w1+1,maxWStep,1
+*SET,n , n + 1  
+!-----------------  
+!Initialize Iter
+!-----------------  
+parsav,all  
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       12:17:32
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+parres  
+*SET,colW1 , MOD(w1,4)  
+*SET,rowW1 , (w1 - colW1)/4 
+*SET,colW2 , MOD(w2,4)  
+*SET,rowW2 , (w2 - colW2)/4 
+!Case where window and door are at one line 
+*IF, door,LE,3,THEN 
+*IF, w1, GE, 12, THEN   
+*SET,colW1 , colW1 + 2  
+*ENDIF  
+*ENDIF  
+*IF, door,LE,3,THEN 
+*IF, w2, GE, 12, THEN   
+*SET,colW2 , colW2 + 2  
+*ENDIF  
+*SET,wind1X , margin + colW1*(2* windMargin + windW) + windMargin   
+*SET,wind1Y , height - margin - (rowW1+1)*(2*windMargin + windW) + windMargin   
+*SET,wind2X , margin + colW2*(2* windMargin + windW) + windMargin   
+*SET,wind2Y , height - margin - (rowW2+1)*(2*windMargin + windW) + windMargin   
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , door  
+*SET,c(n,2) , wind1X
+*SET,c(n,3) , wind1Y
+*SET,c(n,4) , wind2X
+*SET,c(n,5) , wind2Y
+!-----------------  
+!Create House   
+!-----------------  
+BLC4,xStart, yStart, width, height !House   
+BLC4,door,yStart, doorX, doorY !Door
+BLC4,wind1X,wind1Y,windW,windH !Window  
+BLC4,wind2X,wind2Y,windW,windH !2nd Window  
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,250000000
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/OUTPUT,data,txt,APPEND
+FINISH  
+/SOL
+solve   
+FINISH  
+/POST1  
+!-----------------  
+! Value at point 4,4
+!-----------------  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4 
+allsel  
+nsel,s,loc,x,4 !select  
+nsel,r,loc,y,4 !reselect
+*get,u,NODE,NDNEXT(0),u,y   
+*SET,c(n,6) , u 
+*enddo  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       12:18:07
+*enddo  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       12:21:35
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
+! *** exit the programm *** 
+!------------------------------------------------   
+finish  
+!/exit  
+*VGET, ,NODE, ,U,X, , ,2
+!************************************************** 
+!         ANSYS Introduction
+!      Simon Bieber: 24.10.2020 
+!************************************************** 
+! Note: All (!) units are in [ kN, m, s ]   
+! clear data base   
+finish  
+/clear  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       12:32:41
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!=========================================================  
+! 1) Preprocessing  
+!=========================================================  
+! open preprocessors
+/PREP7  
+! INPUT 
+! beam geometry 
+*SET,Lx,10.0
+*SET,h,1.0  
+*SET,t,1.0  
+! element divisions 
+*SET,nele_x , 20
+*SET,nele_y , 2 
+! material  
+*SET,E,10000   ! E-Modulus (Young's)
+*SET,nu,0.3    ! Poisso-ratio   
+*SET,rho,0.250   ! density (kNs^2/m)
+! define keypoints ("corners" of rectangle) 
+K,1,0,0         !=> command, #keypoint, X-Y-coordinates 
+K,2,Lx,0
+K,3,Lx,h
+K,4,0,h 
+! create surface with a set of keypoints
+A,1,2,3,4       !=> command, set of keypoints   
+! element type (4-noded plane element with 2 dofs for X and Y disp) 
+ET,1,plane182      !=>  command, #element, element name 
+KEYOPT,1,1,2         !1=#element, 1=#keyopt, 2= enhanced assumed strain 
+KEYOPT,1,3,2         !1=#element, 3=#keyopt, 2= plane strain
+! ALTERNATIV: ET, ITYPE, Ename, KOP1, KOP2, KOP3, KOP4, KOP5, KOP6  
+! E.g.: ET,1,plane182,2,,2  
+! material  
+MP,EX,1,E        ! E modulus
+MP,PRXY,1,nu     ! Poisson-ratio
+! meshing size / ele dvisions   
+LESIZE,1,,,nele_x                         ! line ,,, element divisions  
+LESIZE,3,,,nele_x   
+LESIZE,2,,,nele_y   
+LESIZE,4,,,nele_y   
+! mesh  
+AMAP,1,1,2,3,4                      ! mesh based on area corners (def. by keypoints)
+! end preprocesser  
+FINI
+!=========================================================  
+! 2) Solution: linear analysis  
+!=========================================================  
+! Enter the solution processor  
+/SOLU   
+! Analysis type 
+ANTYPE,0  !0=performs a static analysis (0=default) 
+! disp boundary conditions (Dirichtlet) 
+DL,4,,all,0     ! fix als displacements on Line 4   
+! force boundary conditions (Neumann)   
+F,2,FY,-5  ! force at node 2 in y-direction, value=-5*h^3   
+SOLVE   
+!=========================================================  
+! 3) Postprocessing 
+!=========================================================  
+! open postrocessors
+FINISH  
+/POST1  
+! plot deformed shape   
+/DSCALE,1,1        ! scale the deformation plot 
+PLDISP,2           ! plot deformed configuration
+! plot stress   
+!PLESOL, S,X
+! path  
+! vertical (from point x1/y1=0/0 to x2/y2=0/h)  
+path,Path_vertical,2,,1000  
+ppath,1,,0,0
+ppath,2,,0,h
+! interpolate and plot stress onto path 
+! (NOAV=do not average element results) 
+! normal stress 
+!pdef,SigmaX,S,X,NOAV   
+!plpagm,SigmaX,15,node  
+! shear stress  
+!pdef,SigmaXY,S,XY,NOAV 
+!plpagm,SigmaXY,15,node 
+/PNUM,KP,0  
+/PNUM,LINE,0
+/PNUM,AREA,0
+/PNUM,VOLU,0
+/PNUM,NODE,1
+/PNUM,TABN,0
+/PNUM,SVAL,0
+/NUMBER,0   
+!*  
+/PNUM,0,0   
+0   
+!*  

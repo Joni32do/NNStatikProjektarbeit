@@ -4,6 +4,27 @@
 !################################################
 
 
+
+!##############
+!## T O  D O ##
+!##############
+!
+! - Generalisierung vervollständigen
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen
+!
+!
+!
+! - Auswertungspunkte Verbessern
+!
+!
+!
+!##############
+
+
+!################################################
+!##            Start des Programms             ##
+!################################################
+
 /nerr,0
 
 *do,j,1,10,1
@@ -149,7 +170,8 @@ enow = 0
 	esize,meshsize
 	amesh,all
 	cpintf,all
-	
+		
+	!/OUTPUT,data,txt,APPEND
 	/solu
 	solve
 	
