@@ -1750,3 +1750,89 @@
  Node 0 of *GET command is undefined.                                    
   Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
   The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     148.031   TIME= 18:43:39
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     151.391   TIME= 18:43:41
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     151.453   TIME= 18:43:41
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     151.516   TIME= 18:43:41
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     151.578   TIME= 18:43:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     151.641   TIME= 18:43:42
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     153.703   TIME= 18:43:43
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =     156.422   TIME= 18:43:46
+ An unexpected error ( SIG$BREAK ) has occurred...  ANSYS internal data  
+ has been corrupted.  ANSYS is unable to recover and will terminate.     
+ Previously saved files are unaffected.  Please send the data leading    
+ to this operation to your technical support provider, as this will      
+ allow ANSYS, Inc to improve the program.                                
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     156.438   TIME= 18:43:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     156.438   TIME= 18:43:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     156.438   TIME= 18:43:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     156.438   TIME= 18:43:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     156.438   TIME= 18:43:46
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     158.328   TIME= 18:43:48
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     158.969   TIME= 18:43:48
+ Shape testing revealed that 1 of the 5169 new or modified elements      
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =     159.234   TIME= 18:43:48
+ Previous testing revealed that 1 of the 5169 selected elements violate  
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** ERROR ***                           CP =     160.625   TIME= 18:43:49
+ An unexpected error ( SIG$SEGV ) has occurred...  ANSYS internal data   
+ has been corrupted.  ANSYS is unable to recover and will terminate.     
+ Previously saved files are unaffected.  Please send the data leading    
+ to this operation to your technical support provider, as this will      
+ allow ANSYS, Inc to improve the program.                                

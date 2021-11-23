@@ -50,12 +50,12 @@ windW = 1.25
 windH = 1.25
 margin = 1
 windMargin = 0.125
-doorStep = 8
+doorStep = 1
 data = 0
 
 meshsize = 0.1
-steps = 6    !(width-2*margin)/doorStep
-maxWStep = 13
+steps = 1    !(width-2*margin)/doorStep
+maxWStep = 12
 n = 0
 
 !*ask,startVal,Anfangswert,0
@@ -78,7 +78,7 @@ enow = 0
 ! *** loop to restart the calculation ***
 !----------------------------------------
 
-*do,door,4,steps,doorStep
+*do,door,1,steps,doorStep
 	*do, w1, 0, maxWStep,1
 	*do, w2, w1+1,maxWStep,1
 	n = n + 1
@@ -99,17 +99,20 @@ enow = 0
 	
 	!Case where window and door are at one line
 	
-	*IF, door,LE,3,THEN
-	*IF, w1, GE, 12, THEN
-	colW1 = colW1 + 2
-	*ELSE
-	*ENDIF
-	!Same for w2
-	*IF, w2, GE, 12, THEN
-	colW2 = colW2 + 2
-	*ELSE
-	*ELSE
-	*ENDIF
+	!*IF, door,LE,3,THEN
+	!*IF, w1, GE, 12, THEN
+	!colW1 = colW1 + 2
+	!*ELSE
+	!colW1 = colW1
+	!*ENDIF
+	!!Same for w2
+	!*IF, w2, GE, 12, THEN
+	!colW2 = colW2 + 2
+	!*ELSE
+	!colW2 = colW2
+	!*ELSE
+	!w1 = w1
+	!*ENDIF
 	
 
 	wind1X = margin + colW1*(2* windMargin + windW) + windMargin

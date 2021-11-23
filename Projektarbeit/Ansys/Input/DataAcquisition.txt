@@ -64,16 +64,18 @@ windMargin = 0.125
 	rh = height - margin
 
 
+n = 0
 meshsize = 0.1
+
 
 doorStep = 1
 windowStep = 0.5
-n = 0
+
 
 
 maxDStep = 5    !(rw - doorW)/doorStep
 maxWindowStepWidth = (rw - ww)//windowStep
-maxWindowStepHeight = (rh - door - wh)//windowStep
+maxWindowStepHeight = (rh - doorH - wh)//windowStep
 maxWStep = maxWindowStepWidth * maxWindowStepHeight !+ maxWindowStepWidth//2
 
 nextPos = ww//windowStep + 1
