@@ -50,19 +50,19 @@ windW = 1.25
 windH = 1.25
 margin = 1
 windMargin = 0.125
-doorStep = 6
+doorStep = 8
 data = 0
 
 meshsize = 0.1
-steps = 5    !(width-2*margin)/doorStep
-maxWStep = 2
+steps = 6    !(width-2*margin)/doorStep
+maxWStep = 13
 n = 0
 
 !*ask,startVal,Anfangswert,0
 startVal = 1
 
 ! S
-size = 92 !steps * (maxWStep+1)*maxWStep /2
+size = 600 !steps * (maxWStep+1)*maxWStep /2
 nParam = 10
 
 *dim, c,, size,nParam, 1 ! Example Matrix
@@ -78,7 +78,7 @@ enow = 0
 ! *** loop to restart the calculation ***
 !----------------------------------------
 
-*do,door,1,steps,doorStep
+*do,door,4,steps,doorStep
 	*do, w1, 0, maxWStep,1
 	*do, w2, w1+1,maxWStep,1
 	n = n + 1
@@ -98,14 +98,17 @@ enow = 0
 	rowW2 = (w2 - colW2)/4
 	
 	!Case where window and door are at one line
+	
 	*IF, door,LE,3,THEN
 	*IF, w1, GE, 12, THEN
 	colW1 = colW1 + 2
+	*ELSE
 	*ENDIF
-	*ENDIF
-	*IF, door,LE,3,THEN
+	!Same for w2
 	*IF, w2, GE, 12, THEN
 	colW2 = colW2 + 2
+	*ELSE
+	*ELSE
 	*ENDIF
 	
 
@@ -162,7 +165,7 @@ enow = 0
 	
 	dl,17,,all
 	dl,18,,all
-	sfl,3,pres,25000000
+	sfl,3,pres,25000000 !2.5E7
 	
 	!-----------------
 	! Mesh

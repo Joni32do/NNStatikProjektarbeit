@@ -1,0 +1,90 @@
+
+
+ *** NOTE ***                            CP =      25.875   TIME= 17:41:32
+ A total of 42 warnings and errors written to M:\Eigene
+ Dateien\GitHub\NNStatikProjektarbeit\Projektarbeit\Ansys\Environment\23
+ 311new2.err.
+
+          ***** ANSYS RESULTS INTERPRETATION (POST1) *****
+
+ ENTER  /SHOW,DEVICE-NAME  TO ENABLE GRAPHIC DISPLAY
+ ENTER  FINISH             TO LEAVE POST1
+
+ SELECT ALL ENTITIES OF TYPE= ALL  AND BELOW
+
+ SELECT       FOR ITEM=LOC  COMPONENT=X     BETWEEN  4.0000     AND   4.0000
+   KABS=  0.  TOLERANCE= 0.200000E-01
+
+         29  NODES (OF       5478  DEFINED) SELECTED BY  NSEL  COMMAND.
+
+ RESELECT     FOR ITEM=LOC  COMPONENT=Y     BETWEEN  4.0000     AND   4.0000
+   KABS=  0.  TOLERANCE= 0.200000E-01
+
+          0  NODES (OF       5478  DEFINED) SELECTED BY  NSEL  COMMAND.
+
+ PARAMETER C(N,6) =    0.7888609052E-30
+
+ PARAMETER C(N,7) =    0.7888609052E-30
+
+ PARAMETER C(N,8) =    0.7888609052E-30
+
+ PARAMETER C(N,9) =    0.7888609052E-30
+
+ PARAMETER C(N,10) =    0.7888609052E-30
+
+ *ENDDO  INDEX= W2
+
+ EXIT THE ANSYS POST1 DATABASE PROCESSOR
+
+
+ ***** ROUTINE COMPLETED *****  CP =        27.188
+
+
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ RUN SETUP PROCEDURE FROM FILE= C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\start.ans
+
+ ANSYS Mechanical Enterprise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
