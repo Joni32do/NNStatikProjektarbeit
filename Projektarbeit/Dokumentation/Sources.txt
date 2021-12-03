@@ -1,3 +1,8 @@
+NN:
+
+https://www.analyticsvidhya.com/blog/2015/11/free-resources-beginners-deep-learning-neural-network/
+
+
 
 
 APDL Befehle:
@@ -7,5 +12,9 @@ https://www.padtinc.com/blog/20-apdl-commands-every-ansys-mechanical-user-should
 
 
 https://www.mm.bme.hu/~gyebro/files/vem/ansys_13_command_reference.pdf
+
+
+
+
 
 https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v202/en/aim_all/AIM/user_manual/aim_environment/expressions/topics/r_expr_math_func_opr.html?q=math%20operations
