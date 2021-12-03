@@ -1,0 +1,424 @@
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       11:36:22
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       2.984   TIME= 11:39:22
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       11:40:51
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       3.984   TIME= 11:42:54
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       3.984   TIME= 11:42:54
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       4.016   TIME= 11:42:54
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       4.047   TIME= 11:42:54
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       4.047   TIME= 11:42:54
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       4.078   TIME= 11:42:54
+ Unknown parameter name= UX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       4.078   TIME= 11:42:54
+ Unknown parameter name= UY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       4.109   TIME= 11:42:54
+ Unknown parameter name= SX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       4.141   TIME= 11:42:54
+ Unknown parameter name= SY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       4.141   TIME= 11:42:54
+ Unknown parameter name= SXY44.  A value of 7.888609052E-31 will be      
+ used.                                                                   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.953   TIME= 11:42:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.953   TIME= 11:42:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.953   TIME= 11:42:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.953   TIME= 11:42:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.953   TIME= 11:42:56
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.953   TIME= 11:42:56
+ Unknown parameter name= UX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.953   TIME= 11:42:56
+ Unknown parameter name= UY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.953   TIME= 11:42:56
+ Unknown parameter name= SX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.953   TIME= 11:42:56
+ Unknown parameter name= SY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       5.953   TIME= 11:42:56
+ Unknown parameter name= SXY44.  A value of 7.888609052E-31 will be      
+ used.                                                                   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.062   TIME= 11:42:57
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.656   TIME= 11:42:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.656   TIME= 11:42:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.656   TIME= 11:42:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.656   TIME= 11:42:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.656   TIME= 11:42:57
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.656   TIME= 11:42:57
+ Unknown parameter name= UX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.656   TIME= 11:42:57
+ Unknown parameter name= UY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.656   TIME= 11:42:57
+ Unknown parameter name= SX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.656   TIME= 11:42:57
+ Unknown parameter name= SY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       7.656   TIME= 11:42:57
+ Unknown parameter name= SXY44.  A value of 7.888609052E-31 will be      
+ used.                                                                   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.328   TIME= 11:42:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.328   TIME= 11:42:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.328   TIME= 11:42:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.328   TIME= 11:42:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.328   TIME= 11:42:58
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.328   TIME= 11:42:58
+ Unknown parameter name= UX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.328   TIME= 11:42:58
+ Unknown parameter name= UY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.328   TIME= 11:42:58
+ Unknown parameter name= SX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.328   TIME= 11:42:58
+ Unknown parameter name= SY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       9.328   TIME= 11:42:58
+ Unknown parameter name= SXY44.  A value of 7.888609052E-31 will be      
+ used.                                                                   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      10.672   TIME= 11:42:59
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.344   TIME= 11:43:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.344   TIME= 11:43:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.344   TIME= 11:43:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.344   TIME= 11:43:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.344   TIME= 11:43:00
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.344   TIME= 11:43:00
+ Unknown parameter name= UX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.344   TIME= 11:43:00
+ Unknown parameter name= UY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.344   TIME= 11:43:00
+ Unknown parameter name= SX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.344   TIME= 11:43:00
+ Unknown parameter name= SY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.344   TIME= 11:43:00
+ Unknown parameter name= SXY44.  A value of 7.888609052E-31 will be      
+ used.                                                                   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.047   TIME= 11:43:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.047   TIME= 11:43:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.047   TIME= 11:43:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.047   TIME= 11:43:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.047   TIME= 11:43:01
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.047   TIME= 11:43:01
+ Unknown parameter name= UX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.047   TIME= 11:43:01
+ Unknown parameter name= UY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.047   TIME= 11:43:01
+ Unknown parameter name= SX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.047   TIME= 11:43:01
+ Unknown parameter name= SY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.047   TIME= 11:43:01
+ Unknown parameter name= SXY44.  A value of 7.888609052E-31 will be      
+ used.                                                                   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.141   TIME= 11:43:02
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.719   TIME= 11:43:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.719   TIME= 11:43:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.719   TIME= 11:43:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.719   TIME= 11:43:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.719   TIME= 11:43:02
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.719   TIME= 11:43:02
+ Unknown parameter name= UX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.719   TIME= 11:43:02
+ Unknown parameter name= UY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.719   TIME= 11:43:02
+ Unknown parameter name= SX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.719   TIME= 11:43:02
+ Unknown parameter name= SY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.719   TIME= 11:43:02
+ Unknown parameter name= SXY44.  A value of 7.888609052E-31 will be      
+ used.                                                                   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.406   TIME= 11:43:04
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.406   TIME= 11:43:04
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.406   TIME= 11:43:04
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.406   TIME= 11:43:04
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.406   TIME= 11:43:04
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.406   TIME= 11:43:04
+ Unknown parameter name= UX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.406   TIME= 11:43:04
+ Unknown parameter name= UY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.406   TIME= 11:43:04
+ Unknown parameter name= SX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.406   TIME= 11:43:04
+ Unknown parameter name= SY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      16.406   TIME= 11:43:04
+ Unknown parameter name= SXY44.  A value of 7.888609052E-31 will be      
+ used.                                                                   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      18.141   TIME= 11:43:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      18.141   TIME= 11:43:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      18.141   TIME= 11:43:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      18.141   TIME= 11:43:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      18.141   TIME= 11:43:05
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      18.141   TIME= 11:43:05
+ Unknown parameter name= UX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      18.141   TIME= 11:43:05
+ Unknown parameter name= UY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      18.141   TIME= 11:43:05
+ Unknown parameter name= SX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      18.141   TIME= 11:43:05
+ Unknown parameter name= SY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      18.141   TIME= 11:43:05
+ Unknown parameter name= SXY44.  A value of 7.888609052E-31 will be      
+ used.                                                                   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.766   TIME= 11:43:06
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UY44, NODE, NDNEXT, U, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.766   TIME= 11:43:06
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, UX44, NODE, NDNEXT, U, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.766   TIME= 11:43:06
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SX44, NODE, NDNEXT, S, X                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.766   TIME= 11:43:06
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SY44, NODE, NDNEXT, S, Y                                   
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.766   TIME= 11:43:06
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, SXY44, NODE, NDNEXT, S, XY                                 
+  The *GET command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.766   TIME= 11:43:06
+ Unknown parameter name= UX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.766   TIME= 11:43:06
+ Unknown parameter name= UY44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.766   TIME= 11:43:06
+ Unknown parameter name= SX44.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      19.766   TIME= 11:43:06
+ Unknown parameter name= SY44.  A value of 7.888609052E-31 will be used. 

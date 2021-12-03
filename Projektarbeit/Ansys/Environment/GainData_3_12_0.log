@@ -9,3 +9,562 @@
 /REPLOT,RESIZE  
 WPSTYLE,,,,,,,,0
 /REPLOT,RESIZE  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       11:39:21
+/input,start,ans,'C:\Program Files\ANSYS Inc\v201\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,doorX , 1  
+*SET,doorY , 2  
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,margin , 1 
+*SET,windMargin , 0.125 
+*SET,meshsize , 0.2 
+*SET,door , 2   
+*SET,wind1X , 2 
+*SET,wind1Y , 3 
+*SET,wind2X , 6 
+*SET,wind2Y , 3 
+/prep7  
+!-----------------  
+!Create House   
+!-----------------  
+BLC4,xStart, yStart, width, height !House   
+BLC4,door,yStart, doorX, doorY !Door
+BLC4,wind1X,wind1Y,windW,windH !Window  
+BLC4,wind2X,wind2Y,windW,windH !2nd Window  
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 !2.5E7  
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/solu  
+!solve  
+!/post1 
+!finish 
+FINISH  
+/SOL
+/STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+/SHOW,WIN32C
+SET,FIRST   
+/PLOPTS,INFO,3  
+/CONTOUR,ALL,18 
+/PNUM,MAT,1 
+/NUMBER,1   
+/REPLOT,RESIZE  
+PLNSOL,U,X  
+/UI,COPY,SAVE,PNG,GRAPH,COLOR,NORM,LANDSCAPE,YES
+! /UIS,ABORT,1  
+/SHOW,WIN32 
+/REPLOT,RESIZE  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       11:39:54
+/input,start,ans,'C:\Program Files\ANSYS Inc\v201\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,doorX , 1  
+*SET,doorY , 2  
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,margin , 1 
+*SET,windMargin , 0.125 
+*SET,meshsize , 0.2 
+*SET,door , 2   
+*SET,wind1X , 2 
+*SET,wind1Y , 3 
+*SET,wind2X , 6 
+*SET,wind2Y , 3 
+/prep7  
+!-----------------  
+!Create House   
+!-----------------  
+BLC4,xStart, yStart, width, height !House   
+BLC4,door,yStart, doorX, doorY !Door
+BLC4,wind1X,wind1Y,windW,windH !Window  
+BLC4,wind2X,wind2Y,windW,windH !2nd Window  
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 !2.5E7  
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/solu  
+!solve  
+!/post1 
+!finish 
+FINISH  
+/SOL
+SOLVE   
+FINISH  
+/POST1  
+/SHOW,WIN32C
+SET,FIRST   
+/PLOPTS,INFO,3  
+/CONTOUR,ALL,18 
+/PNUM,MAT,1 
+/NUMBER,1   
+/REPLOT,RESIZE  
+PLNSOL,U,X  
+/UI,COPY,SAVE,PNG,GRAPH,COLOR,NORM,LANDSCAPE,YES
+! /UIS,ABORT,1  
+/SHOW,WIN32 
+/REPLOT,RESIZE  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+*do,j,1,10,1
+/com,   
+*enddo  
+/COM *** 5.2.2 ANSYS APDL ***   
+finish  
+/clear,start
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       11:40:32
+/input,start,ans,'C:\Program Files\ANSYS Inc\v201\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,doorX , 1  
+*SET,doorY , 2  
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,margin , 1 
+*SET,windMargin , 0.125 
+*SET,doorStep , 1   
+*SET,data , 0   
+*SET,meshsize , 0.2 
+*SET,steps , 1    !(width-2*margin)/doorStep
+*SET,maxWStep , 4   
+*SET,n , 0  
+!*ask,startVal,Anfangswert,0
+*SET,startVal , 1   
+! S 
+*SET,size , 600 !steps * (maxWStep+1)*maxWStep /2   
+*SET,nParam , 10
+*dim, c,, size,nParam, 1 ! Example Matrix   
+*SET,enow , 0   
+*do, ct, 1, size
+*do, ct2, 1, nParam 
+*SET,c(ct,ct2) , startVal   
+*enddo  
+*enddo  
+! ---------------------------------------   
+! *** loop to restart the calculation ***   
+!----------------------------------------   
+*do,door,1,steps,doorStep   
+*do, w1, 0, maxWStep,1  
+*do, w2, w1+1,maxWStep,1
+*SET,n , n + 1  
+!-----------------  
+!Initialize Iter
+!-----------------  
+parsav,all  
+finish  
+/clear,start
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       11:40:34
+/input,start,ans,'C:\Program Files\ANSYS Inc\v201\ANSYS\apdl\'  
+parres  
+*SET,colW1 , MOD(w1,4)  
+*SET,rowW1 , (w1 - colW1)/4 
+*SET,colW2 , MOD(w2,4)  
+*SET,rowW2 , (w2 - colW2)/4 
+!Case where window and door are at one line 
+!*IF, door,LE,3,THEN
+!*IF, w1, GE, 12, THEN  
+!colW1 = colW1 + 2  
+!*ELSE  
+!colW1 = colW1  
+!*ENDIF 
+!!Same for w2   
+!*IF, w2, GE, 12, THEN  
+!colW2 = colW2 + 2  
+!*ELSE  
+!colW2 = colW2  
+!*ELSE  
+!w1 = w1
+!*ENDIF 
+*SET,wind1X , margin + colW1*(2* windMargin + windW) + windMargin   
+*SET,wind1Y , height - margin - (rowW1+1)*(2*windMargin + windW) + windMargin   
+*SET,wind2X , margin + colW2*(2* windMargin + windW) + windMargin   
+*SET,wind2Y , height - margin - (rowW2+1)*(2*windMargin + windW) + windMargin   
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , door  
+*SET,c(n,2) , wind1X
+*SET,c(n,3) , wind1Y
+*SET,c(n,4) , wind2X
+*SET,c(n,5) , wind2Y
+!-----------------  
+!Create House   
+!-----------------  
+BLC4,xStart, yStart, width, height !House   
+BLC4,door,yStart, doorX, doorY !Door
+BLC4,wind1X,wind1Y,windW,windH !Window  
+BLC4,wind2X,wind2Y,windW,windH !2nd Window  
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 !2.5E7  
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/OUTPUT,data,txt,APPEND
+FINISH  
+/SOL
+/STATUS,SOLU
+SOLVE   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       11:40:52
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+*do,j,1,10,1
+/com,   
+*enddo  
+/COM *** 5.2.2 ANSYS APDL ***   
+finish  
+/clear,start
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       11:42:51
+/input,start,ans,'C:\Program Files\ANSYS Inc\v201\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,doorX , 1  
+*SET,doorY , 2  
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,margin , 1 
+*SET,windMargin , 0.125 
+*SET,doorStep , 1   
+*SET,data , 0   
+*SET,meshsize , 0.2 
+*SET,steps , 1    !(width-2*margin)/doorStep
+*SET,maxWStep , 4   
+*SET,n , 0  
+!*ask,startVal,Anfangswert,0
+*SET,startVal , 1   
+! S 
+*SET,size , 600 !steps * (maxWStep+1)*maxWStep /2   
+*SET,nParam , 10
+*dim, c,, size,nParam, 1 ! Example Matrix   
+*SET,enow , 0   
+*do, ct, 1, size
+*do, ct2, 1, nParam 
+*SET,c(ct,ct2) , startVal   
+*enddo  
+*enddo  
+! ---------------------------------------   
+! *** loop to restart the calculation ***   
+!----------------------------------------   
+*do,door,1,steps,doorStep   
+*do, w1, 0, maxWStep,1  
+*do, w2, w1+1,maxWStep,1
+*SET,n , n + 1  
+!-----------------  
+!Initialize Iter
+!-----------------  
+parsav,all  
+finish  
+/clear,start
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       11:42:53
+/input,start,ans,'C:\Program Files\ANSYS Inc\v201\ANSYS\apdl\'  
+parres  
+*SET,colW1 , MOD(w1,4)  
+*SET,rowW1 , (w1 - colW1)/4 
+*SET,colW2 , MOD(w2,4)  
+*SET,rowW2 , (w2 - colW2)/4 
+!Case where window and door are at one line 
+!*IF, door,LE,3,THEN
+!*IF, w1, GE, 12, THEN  
+!colW1 = colW1 + 2  
+!*ELSE  
+!colW1 = colW1  
+!*ENDIF 
+!!Same for w2   
+!*IF, w2, GE, 12, THEN  
+!colW2 = colW2 + 2  
+!*ELSE  
+!colW2 = colW2  
+!*ELSE  
+!w1 = w1
+!*ENDIF 
+*SET,wind1X , margin + colW1*(2* windMargin + windW) + windMargin   
+*SET,wind1Y , height - margin - (rowW1+1)*(2*windMargin + windW) + windMargin   
+*SET,wind2X , margin + colW2*(2* windMargin + windW) + windMargin   
+*SET,wind2Y , height - margin - (rowW2+1)*(2*windMargin + windW) + windMargin   
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , door  
+*SET,c(n,2) , wind1X
+*SET,c(n,3) , wind1Y
+*SET,c(n,4) , wind2X
+*SET,c(n,5) , wind2Y
+!-----------------  
+!Create House   
+!-----------------  
+BLC4,xStart, yStart, width, height !House   
+BLC4,door,yStart, doorX, doorY !Door
+BLC4,wind1X,wind1Y,windW,windH !Window  
+BLC4,wind2X,wind2Y,windW,windH !2nd Window  
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 !2.5E7  
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/OUTPUT,data,txt,APPEND
+FINISH  
+/SOL
+SOLVE   
+FINISH  
+/POST1  
+!-----------------  
+! Value at point 4,4
+!-----------------  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4 
+allsel  
+nsel,s,loc,x,4 !select nodes with x coordinate  
+nsel,r,loc,y,4 !reselect with y coordinate  
+*get,UY44,NODE,NDNEXT(0),U,Y
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY  
+*SET,c(n,6) , UX44  
+*SET,c(n,7) , UY44  
+*SET,c(n,8) , SX44  
+*SET,c(n,9) , SY44  
+*SET,c(n,10) , SXY44
+!!!!!!!!!!!!!!!!!   
+! I M A G E S   
+!!!!!!!!!!!!!!!!
+/SHOW,WIN32C
+SET,FIRST   
+/PLOPTS,INFO,3  
+/CONTOUR,ALL,18 
+/PNUM,MAT,1 
+/NUMBER,1   
+/REPLOT,RESIZE  
+PLNSOL,U,X  
+/UI,COPY,SAVE,PNG,GRAPH,COLOR,NORM,LANDSCAPE,YES
+! /UIS,ABORT,1  
+/SHOW,WIN32 
+/REPLOT,RESIZE  
+*enddo  
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       11:42:59
+*enddo  
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       11:43:07
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
+/REPLOT,RESIZE  
+/BATCH  
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       12:51:05
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
