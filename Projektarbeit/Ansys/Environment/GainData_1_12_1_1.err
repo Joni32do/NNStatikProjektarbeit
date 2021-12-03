@@ -1,0 +1,52 @@
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       10:02:24
+
+ *** ERROR ***                           CP =       6.266   TIME= 10:06:34
+ An unexpected error has occurred on MPI rank 1 in the MPI software used 
+ by Distributed ANSYS.  Distributed ANSYS is unable to recover and will  
+ terminate.  Please send the data leading to this operation to your      
+ technical support provider, as this will allow ANSYS, Inc to improve    
+ the program.                                                            
+
+ *** FATAL ***                           CP =       6.266   TIME= 10:06:34
+ MPI error code = 272188175 which translates to:                         
+ Other MPI error, error stack:                                           
+ PMPI_Bcast(2667).........: MPI_Bcast(buf=000000832DFFA040, count=10,    
+ MPI_INT, root=0, MPI_COMM_WORLD) failed                                 
+ MPIR_Bcast_impl(1804)....: fail failed                                  
+ MPIR_Bcast(1832).........: fail failed                                  
+ I_MPIR_Bcast_intra(2056).: Failure during collective                    
+ I_MPIR_Bcast_intra(2043).: fail failed                                  
+ MPIR_Bcast_advanced(2135): fail failed                                  
+ MPIR_Bcast_intra(1599)...: fail failed                                  
+
+ ************************************************************************
+ The above error is non-recoverable by ANSYS                             
+  ANSYS run terminated by the indicated error                            
+  Current data base saved if possible.                                   
+ ************************************************************************
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       10:06:55
+
+ *** ERROR ***                           CP =       4.922   TIME= 10:07:05
+ An unexpected error has occurred on MPI rank 1 in the MPI software used 
+ by Distributed ANSYS.  Distributed ANSYS is unable to recover and will  
+ terminate.  Please send the data leading to this operation to your      
+ technical support provider, as this will allow ANSYS, Inc to improve    
+ the program.                                                            
+
+ *** FATAL ***                           CP =       4.922   TIME= 10:07:05
+ MPI error code = 943276815 which translates to:                         
+ Other MPI error, error stack:                                           
+ PMPI_Bcast(2667).........: MPI_Bcast(buf=000000B1037FA260, count=10,    
+ MPI_INT, root=0, MPI_COMM_WORLD) failed                                 
+ MPIR_Bcast_impl(1804)....: fail failed                                  
+ MPIR_Bcast(1832).........: fail failed                                  
+ I_MPIR_Bcast_intra(2056).: Failure during collective                    
+ I_MPIR_Bcast_intra(2043).: fail failed                                  
+ MPIR_Bcast_advanced(2135): fail failed                                  
+ MPIR_Bcast_intra(1599)...: fail failed                                  
+
+ ************************************************************************
+ The above error is non-recoverable by ANSYS                             
+  ANSYS run terminated by the indicated error                            
+  Current data base saved if possible.                                   
+ ************************************************************************

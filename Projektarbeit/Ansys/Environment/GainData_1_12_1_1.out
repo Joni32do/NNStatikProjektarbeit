@@ -1,0 +1,190 @@
+
+ ANSYS Mechanical Enterprise                       
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS 2020 R1          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2020 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2020 R1 
+     
+ Point Releases and Patches installed:   
+     
+ ANSYS, Inc. Products 2020 R1
+ SpaceClaim 2020 R1  
+ Customization Files for User Programmable Features 2020 R1  
+ Mechanical Products 2020 R1 
+ Additive 2020 R1
+ Remote Solve Manager Standalone Services 2020 R1
+ Viewer 2020 R1  
+ ACIS Geometry Interface 2020 R1 
+ AutoCAD Geometry Interface 2020 R1  
+ Catia, Version 4 Geometry Interface 2020 R1 
+ Catia, Version 5 Geometry Interface 2020 R1 
+ Catia, Version 6 Geometry Interface 2020 R1 
+ Creo Elements/Direct Modeling Geometry Interface 2020 R1
+ Creo Parametric Geometry Interface 2020 R1  
+ Inventor Geometry Interface 2020 R1 
+ JTOpen Geometry Interface 2020 R1   
+ NX Geometry Interface 2020 R1   
+ Parasolid Geometry Interface  2020 R1   
+ Solid Edge Geometry Interface 2020 R1   
+ SOLIDWORKS Geometry Interface 2020 R1   
+ ANSYS, Inc. License Manager 2020 R1 
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  INITIAL JOBNAME              = GainData_1_12_1                                                                                                                                                                                                                                         
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       2 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     2 CORES REQUESTED
+  MPI OPTION                   = INTELMPI
+  START-UP FILE MODE           = READ  
+  STOP FILE MODE               = READ  
+  GRAPHICS DEVICE REQUESTED    = win32   
+  GRAPHICAL ENTRY              = YES   
+  LANGUAGE                     = en-us               
+  INITIAL DIRECTORY = \\stud.uni-stuttgart.de\users\st\st166934\Eigene Dateien\GitHub\NNStatikProjektarbeit\Projektarbeit\Ansys\Environment
+
+ RELEASE= 2020 R1              BUILD= 20.1      UP20191203   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=GainData_1_12_1_1  10:06:56  DEC 01, 2021 CP=      3.938
+
+
+
+ NUMBER OF DISPLAYED ERRORS ALLOWED PER COMMAND=                  0
+ NUMBER OF ERRORS ALLOWED PER COMMAND BEFORE ANSYS ABORT=     10000
+ ALL ERRORS WRITTEN TO \\stud.uni-stuttgart.de\users\st\st166934\Eigene Dateien\GitHub\NNStatikProjektarbeit\Projektarbeit\Ansys\Environment\GainData_1_12_1_1.err                                                                                                                         
+ DO NOT TERMINATE /INPUT UPON FIRST ERROR
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ ANSYS Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =         4.922
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ *** ERROR ***                           CP =       4.922   TIME= 10:07:05
+ An unexpected error has occurred on MPI rank 1 in the MPI software used 
+ by Distributed ANSYS.  Distributed ANSYS is unable to recover and will  
+ terminate.  Please send the data leading to this operation to your      
+ technical support provider, as this will allow ANSYS, Inc to improve    
+ the program.                                                            
+
+ Current ANSYS Traceback:
+     handleDANSYSsolution            
+     solvcl                          
+     ANSYS
+
+
+ *** WARNING ***
+ *MSG ERROR. Incoming message is longer than 10 lines.
+ Trying to process message:
+ MPI error code = 943276815 which translates to:                         
+ Other MPI error, error stack:                                           
+ PMPI_Bcast(2667).........: MPI_Bcast(buf=000000B1037FA260, count=10,    
+ MPI_INT, root=0, MPI_COMM_WORLD) failed                                 
+ MPIR_Bcast_impl(1804)....: fail failed                                  
+ MPIR_Bcast(1832).........: fail failed                                  
+ I_MPIR_Bcast_intra(2056).: Failure during collective                    
+ I_MPIR_Bcast_intra(2043).: fail failed                                  
+ MPIR_Bcast_advanced(2135): fail failed                                  
+ MPIR_Bcast_intra(1599)...: fail failed                                  
+
+ *** FATAL ***                           CP =       4.922   TIME= 10:07:05
+ MPI error code = 943276815 which translates to:                         
+ Other MPI error, error stack:                                           
+ PMPI_Bcast(2667).........: MPI_Bcast(buf=000000B1037FA260, count=10,    
+ MPI_INT, root=0, MPI_COMM_WORLD) failed                                 
+ MPIR_Bcast_impl(1804)....: fail failed                                  
+ MPIR_Bcast(1832).........: fail failed                                  
+ I_MPIR_Bcast_intra(2056).: Failure during collective                    
+ I_MPIR_Bcast_intra(2043).: fail failed                                  
+ MPIR_Bcast_advanced(2135): fail failed                                  
+ MPIR_Bcast_intra(1599)...: fail failed                                  
+
+ ************************************************************************
+ The above error is non-recoverable by ANSYS                             
+  ANSYS run terminated by the indicated error                            
+  Current data base saved if possible.                                   
+ ************************************************************************
+
+
+ *---------------------------------------------------------------------------*
+ |                                                                           |
+ |                       DISTRIBUTED ANSYS RUN COMPLETED                     |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Ansys 2020 R1               Build 20.1         UP20191203     WINDOWS x64 |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Database Requested(-db)     1 MB    Scratch Memory Requested      1024 MB |
+ | Maximum Database Used       1 MB    Maximum Scratch Memory Used      4 MB |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ |        CP Time      (sec) =          4.922       Time  =  10:07:05        |
+ |        Elapsed Time (sec) =         15.000       Date  =  12/01/2021      |
+ |                                                                           |
+ *---------------------------------------------------------------------------*
