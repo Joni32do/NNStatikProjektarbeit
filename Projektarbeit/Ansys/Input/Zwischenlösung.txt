@@ -189,11 +189,12 @@ FINISH
 !Checken ob wir wirklich die Lösung bekommen die wir wollen
 ! maximale Verschiebung bei 4,4
 allsel
-seltol,0.2
+seltol,0.1
 nsel,s,loc,x,4 !select nodes with x coordinate
 nsel,r,loc,y,4 !reselect with y coordinate
 *get,UY44,NODE,NDNEXT(0),U,Y
 *get,UX44,NODE,NDNEXT(0),U,X
+!Stress muss über ELEMENTE SELECTION gemacht werden
 *get,SX44,NODE,NDNEXT(0),S,X
 *get,SY44,NODE,NDNEXT(0),S,Y
 *get,SXY44,NODE,NDNEXT(0),S,XY
