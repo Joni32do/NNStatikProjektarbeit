@@ -53,9 +53,9 @@ windMargin = 0.125
 doorStep = 1
 data = 0
 
-meshsize = 0.2
-steps = 1    !(width-2*margin)/doorStep
-maxWStep = 4
+meshsize = 0.1
+steps = 3    !(width-2*margin)/doorStep
+maxWStep = 13
 n = 0
 
 !*ask,startVal,Anfangswert,0
@@ -79,107 +79,103 @@ enow = 0
 !----------------------------------------
 
 *do,door,1,steps,doorStep
-	*do, w1, 0, maxWStep,1
-	*do, w2, w1+1,maxWStep,1
-	n = n + 1
-	!-----------------
-	!Initialize Iter
-	!-----------------
-	parsav,all
-	finish
-	/clear,start
-	parres
-	
-	
-	
-	colW1 = MOD(w1,4)
-	rowW1 = (w1 - colW1)/4
-	colW2 = MOD(w2,4)
-	rowW2 = (w2 - colW2)/4
-	
-	!Case where window and door are at one line
-	
-	!*IF, door,LE,3,THEN
-	!*IF, w1, GE, 12, THEN
-	!colW1 = colW1 + 2
-	!*ELSE
-	!colW1 = colW1
-	!*ENDIF
-	!!Same for w2
-	!*IF, w2, GE, 12, THEN
-	!colW2 = colW2 + 2
-	!*ELSE
-	!colW2 = colW2
-	!*ELSE
-	!w1 = w1
-	!*ENDIF
-	
-
-	wind1X = margin + colW1*(2* windMargin + windW) + windMargin
-	wind1Y = height - margin - (rowW1+1)*(2*windMargin + windW) + windMargin
-	wind2X = margin + colW2*(2* windMargin + windW) + windMargin
-	wind2Y = height - margin - (rowW2+1)*(2*windMargin + windW) + windMargin
-	
-	
-	
-	
-	/prep7
-	
-	!-----------------
-	! Saving initial Param
-	!-----------------
-	c(n,1) = door
-	c(n,2) = wind1X
-	c(n,3) = wind1Y
-	c(n,4) = wind2X
-	c(n,5) = wind2Y
-	
-	
-	
-	!-----------------
-	!Create House
-	!-----------------
-	BLC4,xStart, yStart, width, height !House
-	BLC4,door,yStart, doorX, doorY !Door
-	BLC4,wind1X,wind1Y,windW,windH !Window
-	BLC4,wind2X,wind2Y,windW,windH !2nd Window
+*do, w1, 0, maxWStep,1
+*do, w2, w1+1,maxWStep,1
+n = n + 1
+!-----------------
+!Initialize Iter
+!-----------------
+parsav,all
+finish
+/clear,start
+parres
 
 
-	!Selecting and deleting the area of Door and the two windows
-	FLST,3,3,5,ORDE,2   
-	FITEM,3,2   
-	FITEM,3,-4  
-	ASBA,       1,P51X
+
+colW1 = MOD(w1,4)
+rowW1 = (w1 - colW1)/4
+colW2 = MOD(w2,4)
+rowW2 = (w2 - colW2)/4
+
+!Case where window and door are at one line
+
+!*IF, door,LE,3,THEN
+!*IF, w1, GE, 12, THEN
+!colW1 = colW1 + 2
+!*ELSE
+!colW1 = colW1
+!*ENDIF
+!!Same for w2
+!*IF, w2, GE, 12, THEN
+!colW2 = colW2 + 2
+!*ELSE
+!colW2 = colW2
+!*ELSE
+!w1 = w1
+!*ENDIF
+
+wind1X = margin + colW1*(2* windMargin + windW) + windMargin
+wind1Y = height - margin - (rowW1+1)*(2*windMargin + windW) + windMargin
+wind2X = margin + colW2*(2* windMargin + windW) + windMargin
+wind2Y = height - margin - (rowW2+1)*(2*windMargin + windW) + windMargin
+
+
+
+
+/prep7
+
+!-----------------
+! Saving initial Param
+!-----------------
+c(n,1) = door
+c(n,2) = wind1X
+c(n,3) = wind1Y
+c(n,4) = wind2X
+c(n,5) = wind2Y
+
+
+
+!-----------------
+!Create House
+!-----------------
+BLC4,xStart, yStart, width, height !House
+BLC4,door,yStart, doorX, doorY !Door
+BLC4,wind1X,wind1Y,windW,windH !Window
+BLC4,wind2X,wind2Y,windW,windH !2nd Window
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X
+
+
+
+!-----------------
+! Material
+!-----------------
+ET,1,PLANE182
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+
+r,1,0.2
 	
+mp,ex,1,30000000
+mp,prxy,1,0.2
+
+dl,17,,all
+dl,18,,all
+sfl,3,pres,25000000 !2.5E7
+
+!-----------------
+! Mesh
+!-----------------
+esize,meshsize
+amesh,all
+cpintf,all
 	
-	
-	!-----------------
-	! Material
-	!-----------------
-	ET,1,PLANE182
-	KEYOPT,1,1,0
-	KEYOPT,1,3,3
-	KEYOPT,1,6,0
-	
-	r,1,0.2
-	
-	mp,ex,1,30000000
-	mp,prxy,1,0.2
-	
-	dl,17,,all
-	dl,18,,all
-	sfl,3,pres,25000000 !2.5E7
-	
-	!-----------------
-	! Mesh
-	!-----------------
-	esize,meshsize
-	amesh,all
-	cpintf,all
-		
-	!/OUTPUT,data,txt,APPEND
+!/OUTPUT,data,txt,APPEND
 /SOL
-/STATUS,SOLU
 SOLVE   
 FINISH  
 /POST1 
@@ -192,19 +188,20 @@ FINISH
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !Checken ob wir wirklich die Lösung bekommen die wir wollen
 ! maximale Verschiebung bei 4,4
-	allsel
-	nsel,s,loc,x,4 !select nodes with x coordinate
-	nsel,r,loc,y,4 !reselect with y coordinate
-	*get,UY44,NODE,NDNEXT(0),U,Y
-	*get,UX44,NODE,NDNEXT(0),U,X
-	*get,SX44,NODE,NDNEXT(0),S,X
-	*get,SY44,NODE,NDNEXT(0),S,Y
-	*get,SXY44,NODE,NDNEXT(0),S,XY
-	c(n,6) = UX44
-	c(n,7) = UY44
-	c(n,8) = SX44
-	c(n,9) = SY44
-	c(n,10) = SXY44
+allsel
+seltol,0.2
+nsel,s,loc,x,4 !select nodes with x coordinate
+nsel,r,loc,y,4 !reselect with y coordinate
+*get,UY44,NODE,NDNEXT(0),U,Y
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY
+c(n,6) = UX44
+c(n,7) = UY44
+c(n,8) = SX44
+c(n,9) = SY44
+c(n,10) = SXY44
 	
 
 !!!!!!!!!!!!!!!!!
@@ -228,7 +225,7 @@ PLNSOL,U,X
 
 	
 	
-	*enddo
+*enddo
 *enddo
 *enddo
 

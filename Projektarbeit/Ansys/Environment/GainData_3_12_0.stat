@@ -1,2 +1,2 @@
-DSP solver         :  curEqn=   1464 totEqn=   1464 Job CP sec=    19.516
-          Factor done= 100% Factor Wall sec=      0.0 rate=     2247.4 Mflops
+DSP solver         :  curEqn=   5610 totEqn=   5610 Job CP sec=  1049.047
+          Factor done= 100% Factor Wall sec=      0.0 rate=     2970.6 Mflops
