@@ -3,7 +3,7 @@
 %Dimensions of the House
 
 
-xStart = 0%Ignored Base is ALWAYS (0|0) for Symmetry Reasons
+xStart = 0   %Ignored Base is ALWAYS (0|0) for Symmetry Reasons
 yStart = 0
 height = 8
 width = 8
