@@ -1,0 +1,17 @@
+function bool = critIsInWindow(window,critPoint)
+%Function to determine if a critical point is within a rectangle with given
+%dimensions. Only works for scalar values
+x = window(1) = x;
+window(2) = y;
+window(3) = w;
+window(4) = h;
+critPoint(1) = xC;
+critPoint(2) = yC;
+if (x < xC && xC < x + w) && (y < yC && yC < y + h)
+    bool = true;
+else
+    bool = false;
+end
+
+
+end

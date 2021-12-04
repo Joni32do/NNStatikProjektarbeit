@@ -1,0 +1,19 @@
+............................................
+..... G R A F I K E N ......................
+............................................
+
+- Definitionsbereich der Fenster und Türen skizzieren mit InkScape
+
+- Verschiedene Algorithmen zur Datengenerierung
+
+- Neuronales Netzwerk skizzieren
+
+
+............................................
+....... V I D E O S   ......................
+............................................
+
+- Lösungen der FEM
+
+- 
+
