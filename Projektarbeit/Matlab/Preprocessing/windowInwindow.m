@@ -14,6 +14,13 @@ if h1 ~= h2 || w1 ~= w2
 end
 %Check if any corner of one window is in the other window - this is enogh
 %because both windows have same dimension
-if (x1 < x2 && x2 < x1 + w1)
+if critIsInWindow(window2, [x1 y1]) || ...
+        critIsInWindow(window2, [x1+w1 y1]) || ...
+        critIsInWindow(window2, [x1 y1+h1]) || ...
+        critIsInWindow(window2, [x1+w1 y1+h1])
+    bool = true;
+else
+    bool = false;
+end
 
 end
