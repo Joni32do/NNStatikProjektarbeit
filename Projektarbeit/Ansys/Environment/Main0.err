@@ -1,0 +1,5 @@
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       14:54:07
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       3.094   TIME= 15:11:33
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   

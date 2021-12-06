@@ -1,0 +1,214 @@
+!################################################
+!### Projektarbeit Jonathan Schnitzler     ######
+!### Datengenerierung für Neuronales Netz  ######
+!################################################
+
+
+
+!##############
+!## T O  D O ##
+!##############
+!
+! - Generalisierung vervollständigen
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen
+!
+!
+!
+! - Auswertungspunkte Verbessern
+!
+!
+!
+!##############
+
+
+!################################################
+!##            Start des Programms             ##
+!################################################
+
+/nerr,0
+
+*do,j,1,10,1
+/com,
+*enddo
+/COM *** 5.2.2 ANSYS APDL ***
+
+finish
+/clear,start
+
+
+!-----------------
+!Parameter
+!-----------------
+
+xStart = 0
+yStart = 0
+height = 8
+width = 8
+margin = 1
+
+!Critical Point
+xC = 4
+xY = 4
+
+!Door
+doorW = 1
+doorH = 2
+
+!Window
+windW = 1.25
+windH = 1.25
+windMargin = 0.125
+
+	!Helping Variables
+	ww = windW + 2 * windMargin
+	wh = windH + 2 * windMargin
+	!For House
+	rw = width - 2 * margin
+	rh = height - margin
+
+
+n = 0
+meshsize = 0.1
+
+tries = 100
+
+
+
+! Creating Matrix
+size = 100 !steps * (maxWStep+1)*maxWStep /2
+nParam = 10
+
+*dim, c,, size,nParam, 1 
+
+!############################################
+!## Loop over random positions ##
+!############################################
+
+*do,data,1,tries,1
+
+
+
+!!!!CHANGE FROM MATLAB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wind1X = margin + colW1*(2* windMargin + windW) + windMargin
+wind1Y = height - margin - (rowW1+1)*(2*windMargin + windW) + windMargin
+wind2X = margin + colW2*(2* windMargin + windW) + windMargin
+wind2Y = height - margin - (rowW2+1)*(2*windMargin + windW) + windMargin
+
+
+!-------------------------------------
+!-- Guarantee that its not at (4,4) --
+!-------------------------------------
+
+*IF wind1X or wind2X is between 4-windW and 4
+ or wind1Y or wind2Y is between 4-windH and 4
+	continue
+
+
+/prep7
+
+!-----------------
+! Saving initial Param
+!-----------------
+c(n,1) = door
+c(n,2) = wind1X
+c(n,3) = wind1Y
+c(n,4) = wind2X
+c(n,5) = wind2Y
+
+
+
+!-----------------
+!Create House
+!-----------------
+BLC4,xStart, yStart, width, height !House
+BLC4,door,yStart, doorW, doorH !Door
+BLC4,wind1X,wind1Y,windW,windH !Window
+BLC4,wind2X,wind2Y,windW,windH !2nd Window
+
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X
+
+
+
+!-----------------
+! Material
+!-----------------
+ET,1,PLANE182
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+
+r,1,0.2
+
+mp,ex,1,30000000
+mp,prxy,1,0.2
+
+dl,17,,all
+dl,18,,all
+sfl,3,pres,25000000
+
+!-----------------
+! Mesh
+!-----------------
+esize,meshsize
+amesh,all
+cpintf,all
+	
+!/OUTPUT,data,txt,APPEND
+/solu
+solve
+
+/post1
+
+!-----------------
+! Value at point 4,4
+!-----------------
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4
+allsel
+nsel,s,loc,x,4 !select nodes with x coordinate
+nsel,r,loc,y,4 !reselect with y coordinate
+
+
+*get,UY44,NODE,NDNEXT(0),U,Y
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY
+c(n,6) = UX44
+c(n,7) = UY44
+c(n,8) = SX44
+c(n,9) = SY44
+c(n,10) = SXY44
+
+
+
+*enddo
+
+
+!!! Writes out Matrix to matlab
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file
+*export, exportmatrix, mmf, mytemp.mtx
+
+
