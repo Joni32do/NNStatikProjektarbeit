@@ -26,7 +26,7 @@ xStart = 0
 yStart = 0
 height = 8
 width = 8
-margin = 1
+margin = 0.5
 
 !Critical Point
 xC = 4
@@ -37,9 +37,9 @@ doorW = 1
 doorH = 2
 
 !Window
-windW = 1.25
-windH = 1.25
-windMargin = 0.125
+windW = 1.5
+windH = 1.5
+windMargin = 0.25
 
 	!Helping Variables
 	ww = windW + windMargin + windMargin
@@ -68,6 +68,13 @@ nParam = 10
 
 *do,data,1,tries,1
 
+!#### I N I T   I T E R
+
+parsav,all
+finish
+/clear,start
+parres
+
 !#### R A N D O M
 
 doorX = rand(margin, rw-doorW)
@@ -75,7 +82,6 @@ windX1 = rand(margin,rw-ww)
 windY1 = rand(0,rh-wh)
 windX2 = rand(margin,rw-ww)
 windY2 = rand(0,rh-wh)
-*enddo
 
 !#### V A L I D A T E
 !--------------------------------------------------------
@@ -86,62 +92,62 @@ windY2 = rand(0,rh-wh)
 !crit in window 2x
 !--------------------------------------------------------
 bool = 0
-*IF,windX1,le,xC,and,xC, le, windX1 + windW
+*IF,windX1,le,xC,and,xC, le, windX1 + ww,THEN
 	bool = bool + 1
 *ENDIF
-*IF, windY1,le,yC,and,xC,le,windY1 + windH
+*IF, windY1,le,yC,and,yC,le,windY1 + wh,THEN
 	bool = bool + 1
 *ENDIF
-*IF,bool,gt,2,cycle
+*IF,bool,ge,2,cycle
 !!!!!!!
 bool = 0
-*IF,windX2,le,xC,and,xC, le, windX2 + windW
+*IF,windX2,le,xC,and,xC, le, windX2 + ww,THEN
 	bool = bool + 1
 *ENDIF
-*IF, windY2,le,yC,and,xC,le,windY2 + windH
+*IF, windY2,le,yC,and,yC,le,windY2 + wh,THEN
 	bool = bool + 1
 *ENDIF
-*IF,bool,gt,2,cycle
+*IF,bool,ge,2,cycle
 !--------------------------------------------------------
 !window in window
 !--------------------------------------------------------
 bool = 0
 boolF = 0
 !!!! Corner x2,y2
-*IF,windX1,le,windX2,and,windX2, le, windX1 + windW
+*IF,windX1,le,windX2,and,windX2, le, windX1 + ww,THEN
 	bool = bool + 1
 *ENDIF
-*IF, windY1,le,windY2,and,windY2,le,windY1 + windH
+*IF, windY1,le,windY2,and,windY2,le,windY1 + wh,THEN
 	bool = bool + 1
 *ENDIF
 *IF,bool,ge,2,cycle
 !!!!
 !!!! Corner x2+w, y2
 bool = 0
-*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW
+*IF,windX1,le,windX2+ww,and,windX2+ww, le, windX1 + ww,THEN
 	bool = bool + 1
 *ENDIF
-*IF, windY1,le,windY2,and,windY2,le,windY1 + windH
+*IF, windY1,le,windY2,and,windY2,le,windY1 + wh,THEN
 	bool = bool + 1
 *ENDIF
 *IF,bool,ge,2,cycle
 !!!!
 !!!! Corner x2, y2 + h
 bool = 0
-*IF,windX1,le,windX2,and,windX2, le, windX1 + windW
+*IF,windX1,le,windX2,and,windX2, le, windX1 + ww,THEN
 	bool = bool + 1
 *ENDIF
-*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH
+*IF, windY1,le,windY2+wh,and,windY2+wh,le,windY1 + wh,THEN
 	bool = bool + 1
 *ENDIF
 *IF,bool,ge,2,cycle
 !!!!
 !!!! Corner x2 + w, y2 + h
 bool = 0
-*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW
+*IF,windX1,le,windX2+ww,and,windX2 + ww, le, windX1 + ww,THEN
 	bool = bool + 1
 *ENDIF
-*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH
+*IF, windY1,le,windY2+wh,and,windY2+wh,le,windY1 + wh,THEN
 	bool = bool + 1
 *ENDIF
 *IF,bool,ge,2,cycle
@@ -154,7 +160,7 @@ n = n + 1
 !-----------------
 ! Saving initial Param
 !-----------------
-c(n,1) = door
+c(n,1) = doorX
 c(n,2) = windX1
 c(n,3) = windY1
 c(n,4) = windX2
@@ -167,10 +173,13 @@ c(n,5) = windY2
 !-----------------
 !House
 BLC4,xStart, yStart, width, height 
+
 !Door
-BLC4,door,yStart, doorW, doorH 
+BLC4,doorX,yStart, doorW, doorH 
+
 !Window
 BLC4,windX1+windMargin,windY1+windMargin,windW,windH
+
 !2nd Window 
 BLC4,windX2+windMargin,windY2+windMargin,windW,windH
 
@@ -215,15 +224,13 @@ solve
 !-----------------
 ! Value at point 4,4
 !-----------------
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! T O   D O !!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 !Checken ob wir wirklich die Lösung bekommen die wir wollen
 ! maximale Verschiebung bei 4,4
 allsel
-seltol,meshsize
-nsel,s,loc,x,4 !select nodes with x coordinate
-nsel,r,loc,y,4 !reselect with y coordinate
+!seltol, meshsize
+nsel,s,loc,x,xC-meshsize, xC + meshsize !select nodes with x coordinate
+nsel,r,loc,y,yC-meshsize, yC + meshsize !reselect with y coordinate
 
 
 *get,UY44,NODE,NDNEXT(0),U,Y !NDNEXT is ugly
@@ -236,6 +243,23 @@ c(n,7) = UY44
 c(n,8) = SX44
 c(n,9) = SY44
 c(n,10) = SXY44
+
+
+
+!######  P I C T U R E S
+
+
+/SHOW,WIN32C
+SET,FIRST   
+/PLOPTS,INFO,3  
+/CONTOUR,ALL,18 
+/PNUM,MAT,1 
+/NUMBER,1   
+/REPLOT,RESIZE  
+PLNSOL,U,X  
+/UI,COPY,SAVE,PNG,GRAPH,COLOR,NORM,LANDSCAPE,YES
+/SHOW,WIN32 
+/REPLOT,RESIZE 
 
 
 

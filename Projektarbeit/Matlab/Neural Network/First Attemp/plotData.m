@@ -6,8 +6,8 @@ height = 8;
 width = 8;
 doorX = 1;
 doorY = 2;
-windW = 1.25;
-windH = 1.25;
+windW = 1.5;
+windH = 1.5;
 
 door = data(1);
 windX = data(2);
