@@ -1,0 +1,550 @@
+
+ *** ERROR ***                           CP =       2.391   TIME= 19:02:44
+ Missing separator between two fields.                                   
+
+ *** ERROR ***                           CP =       2.406   TIME= 19:02:46
+ The above error occurred processing field= TESTVAR%2                    
+  Line= *SET,testvar, (testvar%2).                                       
+
+ *** ERROR ***                           CP =       2.453   TIME= 19:03:09
+ Missing separator between two fields.                                   
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       08:26:20
+
+ *** ERROR ***                           CP =       2.203   TIME= 08:35:16
+ No dimensions set for parameter= CEIL.                                  
+
+ *** ERROR ***                           CP =       2.281   TIME= 08:35:17
+ The above error occurred processing field= CEIL(A)                      
+  Line= *SET,A, (ceil(A)).                                               
+
+ *** ERROR ***                           CP =       2.328   TIME= 08:37:34
+ No dimensions set for parameter= CEIL.                                  
+
+ *** ERROR ***                           CP =       2.344   TIME= 08:37:36
+ No dimensions set for parameter= CEIL.                                  
+
+ *** WARNING ***                         CP =       2.359   TIME= 08:37:37
+ CEIL(A) is not a recognized BEGIN command, abbreviation, or macro.      
+ This command will be ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =       3.516   TIME= 08:39:54
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       9.094   TIME= 08:44:29
+ Element number 0 is out of range.                                       
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      11.266   TIME= 08:50:45
+ ESP is not a recognized POST1 command, abbreviation, or macro.          
+  This command will be ignored.                                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      13.953   TIME= 08:53:52
+ The program is unable to open file file\geo.txt.  If the suggestions in 
+ the associated error messages immediately preceding and/or following    
+ this error message do not help resolve the file issue, please send the  
+ data leading to this operation to your technical support provider,      
+ along with the I/O error code of 29 and the system error code of 0,     
+ for help in determining the possible reasons as to why this file could  
+ not be opened.                                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      13.953   TIME= 08:53:52
+ Unable to open file file\geo.txt                                        
+  The CDWRITE command is ignored.                                        
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      21.812   TIME= 09:03:10
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      26.891   TIME= 09:04:21
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 3.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 4.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 5.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 6.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 7.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 8.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 9.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 10.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 11.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from Line 17 not transferred to undefined or unselected node 
+ 1.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from Line 17 not transferred to undefined or unselected node 
+ 2.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 3.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 4.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 5.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 6.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 7.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 8.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 9.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 10.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 17 not transferred to undefined or unselected node 
+ 11.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from Line 17 not transferred to undefined or unselected node 
+ 1.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from Line 17 not transferred to undefined or unselected node 
+ 2.                                                                      
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 38.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 39.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 40.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 41.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 42.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 43.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 44.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 45.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 46.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 47.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 48.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 49.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 50.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 51.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 52.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 53.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 54.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 55.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 59.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 60.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 61.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from Line 18 not transferred to undefined or unselected node 
+ 37.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from Line 18 not transferred to undefined or unselected node 
+ 27.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 38.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 39.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 40.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 41.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 42.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 43.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 44.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 45.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 46.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 47.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 48.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 49.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 50.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 51.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 52.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 53.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 54.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 55.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 59.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 60.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from line 18 not transferred to undefined or unselected node 
+ 61.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from Line 18 not transferred to undefined or unselected node 
+ 37.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      30.344   TIME= 09:05:36
+ Constraint from Line 18 not transferred to undefined or unselected node 
+ 27.                                                                     
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      37.203   TIME= 09:07:13
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      44.312   TIME= 09:08:19
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      48.250   TIME= 09:10:54
+ The EPLOT command cannot be executed.  The selected elements cannot be  
+ displayed by PowerGraphics.  To correct this situation, select          
+ different elements or turn off PowerGraphics.                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      48.562   TIME= 09:10:58
+ The EPLOT command cannot be executed.  The selected elements cannot be  
+ displayed by PowerGraphics.  To correct this situation, select          
+ different elements or turn off PowerGraphics.                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      49.109   TIME= 09:12:24
+ The EPLOT command cannot be executed.  The selected elements cannot be  
+ displayed by PowerGraphics.  To correct this situation, select          
+ different elements or turn off PowerGraphics.                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      50.594   TIME= 09:12:51
+ The EPLOT command cannot be executed.  The selected elements cannot be  
+ displayed by PowerGraphics.  To correct this situation, select          
+ different elements or turn off PowerGraphics.                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      50.906   TIME= 09:12:55
+ The EPLOT command cannot be executed.  The selected elements cannot be  
+ displayed by PowerGraphics.  To correct this situation, select          
+ different elements or turn off PowerGraphics.                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.062   TIME= 09:13:13
+ The EPLOT command cannot be executed.  The selected elements cannot be  
+ displayed by PowerGraphics.  To correct this situation, select          
+ different elements or turn off PowerGraphics.                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.094   TIME= 09:13:15
+ The EPLOT command cannot be executed.  The selected elements cannot be  
+ displayed by PowerGraphics.  To correct this situation, select          
+ different elements or turn off PowerGraphics.                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      51.703   TIME= 09:13:43
+ The EPLOT command cannot be executed.  The selected elements cannot be  
+ displayed by PowerGraphics.  To correct this situation, select          
+ different elements or turn off PowerGraphics.                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      52.141   TIME= 09:14:00
+ The EPLOT command cannot be executed.  The selected elements cannot be  
+ displayed by PowerGraphics.  To correct this situation, select          
+ different elements or turn off PowerGraphics.                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      65.375   TIME= 09:15:13
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      80.375   TIME= 09:22:35
+ Use of a blank label as a parameter name is not allowed.  The setting   
+ of the parameter is ignored.                                            
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       13:48:21
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      10.141   TIME= 13:48:44
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      31.688   TIME= 14:07:56
+ Missing separator between two fields.                                   
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      31.688   TIME= 14:07:56
+ The above error occurred processing field= ACOS(-1)#EVALUATESTO180      
+  Line= *SET,A, (acos (-1) # Evaluates to 180).                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      31.828   TIME= 14:08:13
+ Missing separator between two fields.                                   
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      31.828   TIME= 14:08:13
+ The above error occurred processing field= ACOS(-1)#EVALUATESTO180      
+  Line= *SET,A, (acos (-1) # Evaluates to 180).                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.016   TIME= 14:08:58
+ No dimensions set for parameter= FLOOR.                                 
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.016   TIME= 14:08:58
+ The above error occurred processing field= FLOOR(A)                     
+  Line= *SET,sa, (floor(a)).                                             
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.016   TIME= 14:09:09
+ Unbalanced parentheses.                                                 
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.016   TIME= 14:09:09
+ The above error occurred processing field= (FLOOR(4.2)                  
+  Line= *SET,g, (floor(4.2).                                             
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.016   TIME= 14:09:13
+ No dimensions set for parameter= FLOOR.                                 
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.016   TIME= 14:09:13
+ The above error occurred processing field= FLOOR(4.2)                   
+  Line= *SET,g, (floor(4.2)).                                            
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.109   TIME= 14:09:29
+ No dimensions set for parameter= FLOOR.                                 
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.109   TIME= 14:09:29
+ The above error occurred processing field= FLOOR(5.323)                 
+  Line= *SET,g, (floor(5.323)).                                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.281   TIME= 14:09:53
+ No dimensions set for parameter= CEIL.                                  
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.281   TIME= 14:09:53
+ The above error occurred processing field= CEIL(3.1)                    
+  Line= *SET,x, (ceil(3.1)).                                             
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.422   TIME= 14:10:47
+ No dimensions set for parameter= LN.                                    
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.422   TIME= 14:10:47
+ The above error occurred processing field= LN(2)                        
+  Line= *SET,x, (ln(2)).                                                 
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.500   TIME= 14:11:25
+ Unknown expression in input line.                                       
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.500   TIME= 14:11:25
+ The above error occurred processing field=                              
+ (ASIN(SQRT(2)/2))#EVALUATESTO45)                                        
+  Line= *SET,C, (asin (sqrt (2) / 2)) # Evaluates to 45).                
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.609   TIME= 14:11:45
+ No dimensions set for parameter= LN.                                    
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.609   TIME= 14:11:45
+ The above error occurred processing field= LN(2)                        
+  Line= *SET,D, (exp(ln(2)) # Evaluates to x).                           
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.922   TIME= 14:32:48
+ Two consecutive operations.  Add parentheses as needed.                 
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.922   TIME= 14:32:48
+ The above error occurred processing field= 3.5//2                       
+  Line= *SET,k, (3.5//2).                                                
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.922   TIME= 14:32:59
+ Two consecutive operations.  Add parentheses as needed.                 
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.922   TIME= 14:32:59
+ The above error occurred processing field= 2//1                         
+  Line= *SET,k, (2//1).                                                  
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.938   TIME= 14:33:10
+ Subscripts not allowed on scalar parameter FLOOR.                       
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      32.938   TIME= 14:33:10
+ The above error occurred processing field= FLOOR(3.6)                   
+  Line= *SET,k, (floor(3.6)).                                            
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      32.984   TIME= 14:38:19
+ Unknown parameter name= RAND.  A value of 7.888609052E-31 will be used. 
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      33.016   TIME= 14:38:29
+ Unknown parameter name= RAND.  A value of 7.888609052E-31 will be used. 
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      33.031   TIME= 14:38:34
+ Incorrect number of arguments on function RAND.                         
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      33.031   TIME= 14:38:34
+ No dimensions set for parameter= RAND.                                  
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      33.031   TIME= 14:38:34
+ The above error occurred processing field= RAND(1)                      
+  Line= *SET,x, (rand(1)).                                               
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      33.203   TIME= 14:54:44
+ Invalid branch label ( AND ) on *IF command.                            
+  The *IF command is ignored.                                            
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      33.219   TIME= 14:54:44
+ A blank parameter name is not permitted on the *ASK command.            
+  The *ASK command is ignored.                                           
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      33.219   TIME= 14:54:44
+ No *IF active, *ENDIF ignored.                                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      33.266   TIME= 14:55:04
+ Invalid branch label ( AND ) on *IF command.                            
+  The *IF command is ignored.                                            
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      33.297   TIME= 14:55:04
+ No *IF active, *ENDIF ignored.                                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      33.438   TIME= 14:55:41
+ Invalid branch label ( AND ) on *IF command.                            
+  The *IF command is ignored.                                            
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      33.469   TIME= 14:55:41
+ No *IF active, *ENDIF ignored.                                          
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      34.078   TIME= 14:57:54
+ Invalid branch label ( AND ) on *IF command.                            
+  The *IF command is ignored.                                            
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      34.109   TIME= 14:57:54
+ *ELSE not preceded by a *IF.                                            
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      34.125   TIME= 14:57:54
+ No *IF active, *ENDIF ignored.                                          
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      36.047   TIME= 15:44:38
+ * no longer valid as comment character - please use !                   
+  *SET,ww, windW + 2 * windMargin                                        
+  This warning only issued once.                                         
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      39.562   TIME= 15:44:41
+ Invalid branch label ( AND ) on *IF command.                            
+  The *IF command is ignored.                                            

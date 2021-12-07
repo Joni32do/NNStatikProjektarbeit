@@ -48,7 +48,7 @@ margin = 1
 
 !Critical Point
 xC = 4
-xY = 4
+yC = 4
 
 !Door
 doorW = 1
@@ -86,38 +86,85 @@ nParam = 10
 
 *do,data,1,tries,1
 
+!#### R A N D O M
 
+doorX = rand(margin, rw-doorW)
+windX1 = rand(margin,rw-ww)
+windY1 = rand(0,rh-wh)
+windX2 = rand(margin,rw-ww)
+windY2 = rand(0,rh-wh)
 
-!!!!CHANGE FROM MATLAB
+!#### V A L I D A T E
+!--------------------------------------------------------
+!window in door 2x
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle
+!--------------------------------------------------------
+!crit in window 2x
+!--------------------------------------------------------
+bool = 0
+*IF,windX1,le,xC,and,xC, le, windX1 + windW
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,yC,and,xC,le,windY1 + windH
+	bool = bool + 1
+*ENDIF
+*IF,bool,gt,2,cycle
+!!!!!!!
+bool = 0
+*IF,windX2,le,xC,and,xC, le, windX2 + windW
+	bool = bool + 1
+*ENDIF
+*IF, windY2,le,yC,and,xC,le,windY2 + windH
+	bool = bool + 1
+*ENDIF
+*IF,bool,gt,2,cycle
+!--------------------------------------------------------
+!window in window
+!--------------------------------------------------------
+bool = 0
+boolF = 0
+!!!! Corner x2,y2
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!!!!
+!!!! Corner x2+w, y2
+bool = 0
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!!!!
+!!!! Corner x2, y2 + h
+bool = 0
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!!!!
+!!!! Corner x2 + w, y2 + h
+bool = 0
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!--------------------------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-wind1X = margin + colW1*(2* windMargin + windW) + windMargin
-wind1Y = height - margin - (rowW1+1)*(2*windMargin + windW) + windMargin
-wind2X = margin + colW2*(2* windMargin + windW) + windMargin
-wind2Y = height - margin - (rowW2+1)*(2*windMargin + windW) + windMargin
-
-
-!-------------------------------------
-!-- Guarantee that its not at (4,4) --
-!-------------------------------------
-
-*IF wind1X or wind2X is between 4-windW and 4
- or wind1Y or wind2Y is between 4-windH and 4
-	continue
-
+n = n + 1
 
 /prep7
 
@@ -125,20 +172,24 @@ wind2Y = height - margin - (rowW2+1)*(2*windMargin + windW) + windMargin
 ! Saving initial Param
 !-----------------
 c(n,1) = door
-c(n,2) = wind1X
-c(n,3) = wind1Y
-c(n,4) = wind2X
-c(n,5) = wind2Y
+c(n,2) = windX1
+c(n,3) = windY1
+c(n,4) = windX2
+c(n,5) = windY2
 
 
 
 !-----------------
 !Create House
 !-----------------
-BLC4,xStart, yStart, width, height !House
-BLC4,door,yStart, doorW, doorH !Door
-BLC4,wind1X,wind1Y,windW,windH !Window
-BLC4,wind2X,wind2Y,windW,windH !2nd Window
+!House
+BLC4,xStart, yStart, width, height 
+!Door
+BLC4,door,yStart, doorW, doorH 
+!Window
+BLC4,windX1+windMargin,windY1+windMargin,windW,windH
+!2nd Window 
+BLC4,windX2+windMargin,windY2+windMargin,windW,windH
 
 !Selecting and deleting the area of Door and the two windows
 FLST,3,3,5,ORDE,2   
@@ -187,11 +238,12 @@ solve
 !Checken ob wir wirklich die Lösung bekommen die wir wollen
 ! maximale Verschiebung bei 4,4
 allsel
+seltol,meshsize
 nsel,s,loc,x,4 !select nodes with x coordinate
 nsel,r,loc,y,4 !reselect with y coordinate
 
 
-*get,UY44,NODE,NDNEXT(0),U,Y
+*get,UY44,NODE,NDNEXT(0),U,Y !NDNEXT is ugly
 *get,UX44,NODE,NDNEXT(0),U,X
 *get,SX44,NODE,NDNEXT(0),S,X
 *get,SY44,NODE,NDNEXT(0),S,Y
@@ -210,5 +262,6 @@ c(n,10) = SXY44
 !!! Writes out Matrix to matlab
 *dmat, exportmatrix, D, import, APDL, c ! export to matrix file
 *export, exportmatrix, mmf, mytemp.mtx
+
 
 

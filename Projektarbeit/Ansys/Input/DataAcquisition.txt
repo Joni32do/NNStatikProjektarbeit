@@ -64,26 +64,40 @@ windMargin = 0.125
 	rh = height - margin
 
 
+
+
+
+doorStep = 8
+windowStep = 1.5
+
+
+
+floor = mod(rw - doorW, doorStep)
+maxDStep = (rw - doorW - floor)/doorStep
+
+floor = mod((rw - ww),windowStep)
+maxWindowStepWidth = (rw - ww - floor)/windowStep
+
+floor = mod((rh - doorH - wh),windowStep)
+maxWindowStepHeight = (rh - doorH - wh)/windowStep
+
+maxWStep = (maxWindowStepWidth+1) * (maxWindowStepHeight+1) - 1
+ !+ maxWindowStepWidth//2
+
+
+nextPosH = ww//windowStep + 1
+
+
+
 n = 0
 meshsize = 0.1
 
 
-doorStep = 1
-windowStep = 0.5
-
-
-
-maxDStep = 5    !(rw - doorW)/doorStep
-maxWindowStepWidth = (rw - ww)//windowStep
-maxWindowStepHeight = (rh - doorH - wh)//windowStep
-maxWStep = maxWindowStepWidth * maxWindowStepHeight !+ maxWindowStepWidth//2
-
-nextPos = ww//windowStep + 1
 
 
 
 ! Creating Matrix
-size = 92 !steps * (maxWStep+1)*maxWStep /2
+size = 1000 !steps * (maxWStep+1)*maxWStep /2
 nParam = 10
 
 *dim, c,, size,nParam, 1 
@@ -92,10 +106,26 @@ nParam = 10
 !  Loop over door-window-window positions
 !--------------------------------------------
 
-*do,door,1,maxDStep,doorStep
+*do,d,0,maxDStep,1
 *do, w1, 0, maxWStep,1
 *do, w2, w1+nextPos,maxWStep,1
+
+doorX = margin + d*doorStep
+
+
+
+colW1 = MOD(w1,maxWindowStepWidth+1)
+rowW1 = (w1 - colW1)/(maxWindowStepWidth + 1)
+
+
+colW2 = MOD(w2,maxWindowStepWidth+1)
+rowW2 = (w2 - colW2)/(maxWindowStepWidth+1)
+
+
 n = n + 1
+
+*If, rowW1, eq, rowW2, or, rowW2 - rowW1, ge, nextPosH, THEN
+
 
 !-----------------
 !Initialize Iter
@@ -125,6 +155,10 @@ colW1 = colW1 + 2
 *IF, w2, GE, 12, THEN
 colW2 = colW2 + 2
 *ENDIF
+
+
+
+
 
 wind1X = margin + colW1*(2* windMargin + windW) + windMargin
 wind1Y = height - margin - (rowW1+1)*(2*windMargin + windW) + windMargin
@@ -234,5 +268,112 @@ c(n,10) = SXY44
 !!! Writes out Matrix to matlab
 *dmat, exportmatrix, D, import, APDL, c ! export to matrix file
 *export, exportmatrix, mmf, mytemp.mtx
+
+
+
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!! U S E D   M E T H O D S !!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!crit is in window
+bool1 = 0
+*IF,windX1,le,xC,and,xC, le, windX1 + windW
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,yC,and,xC,le,windY1 + windH
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,then
+	boolF = 1
+*ELSE
+	bool = 0
+*ENDIF
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!window in door
+*IF,windX1+windW,le,doorX,or,windX1,ge,doorX+doorW,then
+	bool = 1
+*ENDIF
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!window is in window (same dimensions of window)
+bool = 0
+boolF = 0
+!!!! Corner x2,y2
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,then
+	boolF = 1
+*ELSE
+	bool = 0
+*ENDIF
+!!!!
+!!!! Corner x2+w, y2
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,then
+	boolF = 1
+*ELSE
+	bool = 0
+*ENDIF
+!!!!
+!!!! Corner x2, y2 + h
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,then
+	boolF = 1
+*ELSE
+	bool = 0
+*ENDIF
+!!!!
+!!!! Corner x2 + w, y2 + h
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,then
+	boolF = 1
+*ELSE
+	bool = 0
+*ENDIF
+!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

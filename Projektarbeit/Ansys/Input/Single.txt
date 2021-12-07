@@ -50,7 +50,7 @@ windMargin = 0.125
 
 
 
-meshsize = 0.2
+meshsize = 0.05
   
 
 	door = 2
@@ -116,21 +116,25 @@ meshsize = 0.2
 	
 
 /SOL
-/STATUS,SOLU
 SOLVE   
 FINISH  
 /POST1  
-/SHOW,WIN32C
-SET,FIRST   
-/PLOPTS,INFO,3  
-/CONTOUR,ALL,18 
-/PNUM,MAT,1 
-/NUMBER,1   
-/REPLOT,RESIZE  
-PLNSOL,U,X  
-/UI,COPY,SAVE,PNG,GRAPH,COLOR,NORM,LANDSCAPE,YES
+allsel
+seltol,meshsize
+nsel,s,loc,x,4,4!select nodes with x coordinate
+nsel,r,loc,y,4,4 !reselect with y coordinate
+*vget,NodesInElem,NODE,ALL,NLIST
+!/SHOW,WIN32C
+!SET,FIRST   
+!/PLOPTS,INFO,3  
+!/CONTOUR,ALL,18 
+!/PNUM,MAT,1 
+!/NUMBER,1   
+!/REPLOT,RESIZE  
+!PLNSOL,U,X  
+!/UI,COPY,SAVE,PNG,GRAPH,COLOR,NORM,LANDSCAPE,YES
 ! /UIS,ABORT,1  
-/SHOW,WIN32 
-/REPLOT,RESIZE  
+!/SHOW,WIN32 
+!/REPLOT,RESIZE  
 )/GOP    ! Resume printing after UNDO process   
 )! We suggest a save at this point  

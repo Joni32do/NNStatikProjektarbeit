@@ -189,7 +189,7 @@ FINISH
 !Checken ob wir wirklich die Lösung bekommen die wir wollen
 ! maximale Verschiebung bei 4,4
 allsel
-seltol,0.1
+seltol,meshsize
 nsel,s,loc,x,4 !select nodes with x coordinate
 nsel,r,loc,y,4 !reselect with y coordinate
 *get,UY44,NODE,NDNEXT(0),U,Y
