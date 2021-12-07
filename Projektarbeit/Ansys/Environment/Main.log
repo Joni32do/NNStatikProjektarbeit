@@ -2230,3 +2230,3434 @@ nsel,r,loc,y,4 !reselect with y coordinate
 !!! Writes out Matrix to matlab 
 *dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
 *export, exportmatrix, mmf, mytemp.mtx  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+*do,j,1,10,1
+/com,   
+*enddo  
+/COM *** 5.2.2 ANSYS APDL ***   
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       15:47:11
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + 2 * windMargin
+*SET,wh , windH + 2 * windMargin
+!For House  
+*SET,rw , width - 2 * margin
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , 100 !steps * (maxWStep+1)*maxWStep /2   
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+/BATCH  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       15:49:11
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+*do,j,1,10,1
+/com,   
+*enddo  
+/COM *** 5.2.2 ANSYS APDL ***   
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       15:49:42
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + 2 * windMargin
+*SET,wh , windH + 2 * windMargin
+!For House  
+*SET,rw , width - 2 * margin
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 1  
+! Creating Matrix   
+*SET,size , 100 !steps * (maxWStep+1)*maxWStep /2   
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+/BATCH  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       15:50:37
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+*do,j,1,10,1
+/com,   
+*enddo  
+/COM *** 5.2.2 ANSYS APDL ***   
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       15:50:45
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + 2 * windMargin
+*SET,wh , windH + 2 * windMargin
+!For House  
+*SET,rw , width - 2 * margin
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 1  
+! Creating Matrix   
+*SET,size , 100 !steps * (maxWStep+1)*maxWStep /2   
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+*do,j,1,10,1
+/com,   
+*enddo  
+/COM *** 5.2.2 ANSYS APDL ***   
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       15:51:49
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + 2 * windMargin
+*SET,wh , windH + 2 * windMargin
+!For House  
+*SET,rw , width - 2 * margin
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 1  
+! Creating Matrix   
+*SET,size , 100 !steps * (maxWStep+1)*maxWStep /2   
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+/BATCH  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       15:57:43
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+*do,j,1,10,1
+/com,   
+*enddo  
+/COM *** 5.2.2 ANSYS APDL ***   
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       15:58:23
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+*SET,TEST , 2 * windMargin  
+!Helping Variables  
+*SET,ww , windW + 2 * windMargin
+*SET,wh , windH + 2 * windMargin
+!For House  
+*SET,rw , width - 2 * margin
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 1  
+! Creating Matrix   
+*SET,size , 100 !steps * (maxWStep+1)*maxWStep /2   
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+*do,j,1,10,1
+/com,   
+*enddo  
+/COM *** 5.2.2 ANSYS APDL ***   
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       15:59:31
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+*SET,TEST , 2.0 * windMargin
+!Helping Variables  
+*SET,ww , windW + 2 * windMargin
+*SET,wh , windH + 2 * windMargin
+!For House  
+*SET,rw , width - 2 * margin
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 1  
+! Creating Matrix   
+*SET,size , 100 !steps * (maxWStep+1)*maxWStep /2   
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!############## 
+!## T O  D O ## 
+!############## 
+!   
+! - Generalisierung vervollständigen   
+!    o Länge und Breite des Grids zur Fensterabzählung ergänzen  
+!   
+!   
+!   
+! - Auswertungspunkte Verbessern
+!   
+!   
+!   
+!############## 
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+*do,j,1,10,1
+/com,   
+*enddo  
+/COM *** 5.2.2 ANSYS APDL ***   
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:00:25
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+*SET,TEST , 2.0 * windMargin
+!Helping Variables  
+*SET,ww , windW + 2 * windMargin
+*SET,wh , windH + 2 * windMargin
+!For House  
+*SET,rw , width - 2 * margin
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 1  
+! Creating Matrix   
+*SET,size , 100 !steps * (maxWStep+1)*maxWStep /2   
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:00:36
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+*SET,TEST , 2.0 * windMargin
+!Helping Variables  
+*SET,ww , windW + 2 * windMargin
+*SET,wh , windH + 2 * windMargin
+!For House  
+*SET,rw , width - 2 * margin
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 1  
+! Creating Matrix   
+*SET,size , 100 !steps * (maxWStep+1)*maxWStep /2   
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:01:14
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+*SET,TEST , 2.0 * windMargin
+*SET,two , 1.4  
+*SET,test , two * windMargin
+!Helping Variables  
+*SET,ww , windW + 2 * windMargin
+*SET,wh , windH + 2 * windMargin
+!For House  
+*SET,rw , width - 2 * margin
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 1  
+! Creating Matrix   
+*SET,size , 100 !steps * (maxWStep+1)*maxWStep /2   
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+*SET,windW , 1.25   
+/BATCH  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:08:30
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+! n,1000,4,4,0  
+! N,NODE,4,4,0  
+! 1000,Node,4,4,0   
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:16:47
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:17:17
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:17:35
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+*SET,suc , 0
+*SET,windX1 , 2 
+*SET,windY1 , 2 
+*SET,windH , 1  
+*SET,windW , 1  
+*SET,yC , 2 
+*do,xC,0,5,1
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW 
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,xC,le,windY1 + windH  
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,gt,2,cycle 
+*SET,suc , suc + 1  
+*enddo  
+*SET,suc , 0
+*SET,windX1 , 2 
+*SET,windY1 , 2 
+*SET,windH , 1  
+*SET,windW , 1  
+*SET,yC , 2 
+*do,xC,0,1,1
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW 
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,xC,le,windY1 + windH  
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,gt,2,cycle 
+*SET,suc , suc + 1  
+*enddo  
+*SET,suc , 0
+*SET,windX1 , 2 
+*SET,windY1 , 2 
+*SET,windH , 1  
+*SET,windW , 1  
+*SET,yC , 2 
+*do,xC,0,1,1
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW 
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,xC,le,windY1 + windH  
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,gt,2,cycle 
+*SET,suc , suc + 1  
+*enddo  
+*SET,suc , suc  
+*SET,suc , 0
+*SET,windX1 , 2 
+*SET,windY1 , 2 
+*SET,windH , 1  
+*SET,windW , 1  
+*SET,yC , 2 
+*do,xC,0,1,1
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,xC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,gt,2,cycle 
+*SET,suc , suc + 1  
+*enddo  
+*SET,suc , suc  
+*SET,suc , 0
+*SET,windX1 , 2 
+*SET,windY1 , 2 
+*SET,windH , 1  
+*SET,windW , 1  
+*SET,yC , 1.5   
+*do,xC,0.5,1.5,1
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,xC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,gt,2,cycle 
+*SET,suc , suc + 1  
+*enddo  
+*SET,suc , suc  
+*SET,suc , 0
+*SET,windX1 , 2 
+*SET,windY1 , 2 
+*SET,windH , 1  
+*SET,windW , 1  
+*SET,yC , 2.5   
+*do,xC,0.5,1.5,1
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,xC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,gt,2,cycle 
+*SET,suc , suc + 1  
+*enddo  
+*SET,suc , suc  
+*SET,suc , 0
+*SET,windX1 , 2 
+*SET,windY1 , 2 
+*SET,windH , 1  
+*SET,windW , 1  
+*SET,yC , 2.5   
+*do,xC,0.5,1.5,1
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,gt,2,cycle 
+*SET,suc , suc + 1  
+*enddo  
+*SET,suc , suc  
+*SET,suc , 0
+*SET,windX1 , 2 
+*SET,windY1 , 2 
+*SET,windH , 1  
+*SET,windW , 1  
+*SET,yC , 2.5   
+*do,xC,0.5,2.5,1
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,gt,2,cycle 
+*SET,suc , suc + 1  
+*enddo  
+*SET,suc , suc  
+*SET,suc , 0
+/BATCH  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:32:56
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+*SET,suc , 0
+*SET,windX1 , 2 
+*SET,windY1 , 2 
+*SET,windH , 1  
+*SET,windW , 1  
+*SET,yC , 2.5   
+*do,xC,1,2,1
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+*SET,suc , suc + 1  
+*enddo  
+*SET,suc , suc  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:40:01
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+!#### V A L I D A T E   
+!--------------------------------------------------------   
+!window in door 2x  
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle   
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle   
+!--------------------------------------------------------   
+!crit in window 2x  
+!--------------------------------------------------------   
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!!!! 
+*SET,bool , 0   
+*IF,windX2,le,xC,and,xC, le, windX2 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY2,le,yC,and,yC,le,windY2 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+!window in window   
+!--------------------------------------------------------   
+*SET,bool , 0   
+*SET,boolF , 0  
+!!!! Corner x2,y2   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2+w, y2
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2 + w, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW,THEN  
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+*SET,n , n + 1  
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , door  
+*SET,c(n,2) , windX1
+*SET,c(n,3) , windY1
+*SET,c(n,4) , windX2
+*SET,c(n,5) , windY2
+!-----------------  
+!Create House   
+!-----------------  
+!House  
+BLC4,xStart, yStart, width, height  
+!Door   
+BLC4,door,yStart, doorW, doorH  
+!Window 
+BLC4,windX1+windMargin,windY1+windMargin,windW,windH
+!2nd Window 
+BLC4,windX2+windMargin,windY2+windMargin,windW,windH
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/OUTPUT,data,txt,APPEND
+FINISH  
+/SOL
+solve   
+FINISH  
+/POST1  
+!-----------------  
+! Value at point 4,4
+!-----------------  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4 
+allsel  
+seltol,meshsize 
+nsel,s,loc,x,4 !select nodes with x coordinate  
+nsel,r,loc,y,4 !reselect with y coordinate  
+*get,UY44,NODE,NDNEXT(0),U,Y !NDNEXT is ugly
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY  
+*SET,c(n,6) , UX44  
+*SET,c(n,7) , UY44  
+*SET,c(n,8) , SX44  
+*SET,c(n,9) , SY44  
+*SET,c(n,10) , SXY44
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:40:56
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+!#### V A L I D A T E   
+!--------------------------------------------------------   
+!window in door 2x  
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle   
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle   
+!--------------------------------------------------------   
+!crit in window 2x  
+!--------------------------------------------------------   
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!!!! 
+*SET,bool , 0   
+*IF,windX2,le,xC,and,xC, le, windX2 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY2,le,yC,and,yC,le,windY2 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+!window in window   
+!--------------------------------------------------------   
+*SET,bool , 0   
+*SET,boolF , 0  
+!!!! Corner x2,y2   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2+w, y2
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2 + w, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW,THEN  
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+*SET,n , n + 1  
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , door  
+*SET,c(n,2) , windX1
+*SET,c(n,3) , windY1
+*SET,c(n,4) , windX2
+*SET,c(n,5) , windY2
+!-----------------  
+!Create House   
+!-----------------  
+!House  
+BLC4,xStart, yStart, width, height  
+!Door   
+BLC4,doorX,yStart, doorW, doorH 
+!Window 
+BLC4,windX1+windMargin,windY1+windMargin,windW,windH
+!2nd Window 
+BLC4,windX2+windMargin,windY2+windMargin,windW,windH
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/OUTPUT,data,txt,APPEND
+FINISH  
+/SOL
+solve   
+FINISH  
+/POST1  
+!-----------------  
+! Value at point 4,4
+!-----------------  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4 
+allsel  
+seltol,meshsize 
+nsel,s,loc,x,4 !select nodes with x coordinate  
+nsel,r,loc,y,4 !reselect with y coordinate  
+*get,UY44,NODE,NDNEXT(0),U,Y !NDNEXT is ugly
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY  
+*SET,c(n,6) , UX44  
+*SET,c(n,7) , UY44  
+*SET,c(n,8) , SX44  
+*SET,c(n,9) , SY44  
+*SET,c(n,10) , SXY44
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
+allsel  
+seltol,meshsize 
+nsel,s,loc,x,4 !select nodes with x coordinate  
+nsel,r,loc,y,4 !reselect with y coordinate  
+/REPLOT 
+NPLOT   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+ALLSEL,ALL  
+/REPLOT 
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:45:31
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+*enddo  
+!#### V A L I D A T E   
+!--------------------------------------------------------   
+!window in door 2x  
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle   
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle   
+!--------------------------------------------------------   
+!crit in window 2x  
+!--------------------------------------------------------   
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!!!! 
+*SET,bool , 0   
+*IF,windX2,le,xC,and,xC, le, windX2 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY2,le,yC,and,yC,le,windY2 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+!window in window   
+!--------------------------------------------------------   
+*SET,bool , 0   
+*SET,boolF , 0  
+!!!! Corner x2,y2   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2+w, y2
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2 + w, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW,THEN  
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+*SET,n , n + 1  
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , doorX 
+*SET,c(n,2) , windX1
+*SET,c(n,3) , windY1
+*SET,c(n,4) , windX2
+*SET,c(n,5) , windY2
+!-----------------  
+!Create House   
+!-----------------  
+!House  
+BLC4,xStart, yStart, width, height  
+!Door   
+BLC4,doorX,yStart, doorW, doorH 
+!Window 
+BLC4,windX1+windMargin,windY1+windMargin,windW,windH
+!2nd Window 
+BLC4,windX2+windMargin,windY2+windMargin,windW,windH
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/OUTPUT,data,txt,APPEND
+FINISH  
+/SOL
+solve   
+FINISH  
+/POST1  
+!-----------------  
+! Value at point 4,4
+!-----------------  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4 
+allsel  
+seltol,meshsize 
+nsel,s,loc,x,4 !select nodes with x coordinate  
+nsel,r,loc,y,4 !reselect with y coordinate  
+*get,UY44,NODE,NDNEXT(0),U,Y !NDNEXT is ugly
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY  
+*SET,c(n,6) , UX44  
+*SET,c(n,7) , UY44  
+*SET,c(n,8) , SX44  
+*SET,c(n,9) , SY44  
+*SET,c(n,10) , SXY44
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
+*SET,num , 0
+/BATCH  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:50:17
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+*SET,num , 0
+*do,k,1,1000,1  
+*if,mod(k,7),eq,0,cycle 
+*SET,num , num + 1  
+*enddo  
+*SET,result , num   
+*SET,num , 0
+*do,k,1,1000000,1   
+*if,mod(k,7),eq,0,cycle 
+*SET,num , num + 1  
+*enddo  
+*SET,result , num   
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:53:05
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+!#### V A L I D A T E   
+!--------------------------------------------------------   
+!window in door 2x  
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle   
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle   
+!--------------------------------------------------------   
+!crit in window 2x  
+!--------------------------------------------------------   
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!!!! 
+*SET,bool , 0   
+*IF,windX2,le,xC,and,xC, le, windX2 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY2,le,yC,and,yC,le,windY2 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+!window in window   
+!--------------------------------------------------------   
+*SET,bool , 0   
+*SET,boolF , 0  
+!!!! Corner x2,y2   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2+w, y2
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2 + w, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW,THEN  
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+*SET,n , n + 1  
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , doorX 
+*SET,c(n,2) , windX1
+*SET,c(n,3) , windY1
+*SET,c(n,4) , windX2
+*SET,c(n,5) , windY2
+!-----------------  
+!Create House   
+!-----------------  
+!House  
+BLC4,xStart, yStart, width, height  
+!Door   
+BLC4,doorX,yStart, doorW, doorH 
+!Window 
+BLC4,windX1+windMargin,windY1+windMargin,windW,windH
+!2nd Window 
+BLC4,windX2+windMargin,windY2+windMargin,windW,windH
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/OUTPUT,data,txt,APPEND
+/solu   
+solve   
+/post1  
+!-----------------  
+! Value at point 4,4
+!-----------------  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4 
+allsel  
+seltol,meshsize 
+nsel,s,loc,x,4 !select nodes with x coordinate  
+nsel,r,loc,y,4 !reselect with y coordinate  
+*get,UY44,NODE,NDNEXT(0),U,Y !NDNEXT is ugly
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY  
+*SET,c(n,6) , UX44  
+*SET,c(n,7) , UY44  
+*SET,c(n,8) , SX44  
+*SET,c(n,9) , SY44  
+*SET,c(n,10) , SXY44
+*enddo  
+/BATCH  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:53:21
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       16:54:57
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+!#### V A L I D A T E   
+!--------------------------------------------------------   
+!window in door 2x  
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle   
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle   
+!--------------------------------------------------------   
+!crit in window 2x  
+!--------------------------------------------------------   
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!!!! 
+*SET,bool , 0   
+*IF,windX2,le,xC,and,xC, le, windX2 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY2,le,yC,and,yC,le,windY2 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+!window in window   
+!--------------------------------------------------------   
+*SET,bool , 0   
+*SET,boolF , 0  
+!!!! Corner x2,y2   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2+w, y2
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2 + w, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW,THEN  
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+*SET,n , n + 1  
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , doorX 
+*SET,c(n,2) , windX1
+*SET,c(n,3) , windY1
+*SET,c(n,4) , windX2
+*SET,c(n,5) , windY2
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       17:01:02
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+!#### V A L I D A T E   
+!--------------------------------------------------------   
+!window in door 2x  
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle   
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle   
+!--------------------------------------------------------   
+!crit in window 2x  
+!--------------------------------------------------------   
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!!!! 
+*SET,bool , 0   
+*IF,windX2,le,xC,and,xC, le, windX2 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY2,le,yC,and,yC,le,windY2 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+!window in window   
+!--------------------------------------------------------   
+*SET,bool , 0   
+*SET,boolF , 0  
+!!!! Corner x2,y2   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2+w, y2
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2 + w, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW,THEN  
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+*SET,n , n + 1  
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , doorX 
+*SET,c(n,2) , windX1
+*SET,c(n,3) , windY1
+*SET,c(n,4) , windX2
+*SET,c(n,5) , windY2
+!-----------------  
+!Create House   
+!-----------------  
+!House  
+BLC4,xStart, yStart, width, height  
+!Door   
+BLC4,doorX,yStart, doorW, doorH 
+!Window 
+BLC4,windX1+windMargin,windY1+windMargin,windW,windH
+!2nd Window 
+BLC4,windX2+windMargin,windY2+windMargin,windW,windH
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/OUTPUT,data,txt,APPEND
+FINISH  
+/SOL
+solve   
+FINISH  
+/POST1  
+!-----------------  
+! Value at point 4,4
+!-----------------  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4 
+allsel  
+seltol,meshsize 
+nsel,s,loc,x,4 !select nodes with x coordinate  
+nsel,r,loc,y,4 !reselect with y coordinate  
+*get,UY44,NODE,NDNEXT(0),U,Y !NDNEXT is ugly
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY  
+*SET,c(n,6) , UX44  
+*SET,c(n,7) , UY44  
+*SET,c(n,8) , SX44  
+*SET,c(n,9) , SY44  
+*SET,c(n,10) , SXY44
+*enddo  
+/BATCH  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       17:01:53
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       17:01:59
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+!#### V A L I D A T E   
+!--------------------------------------------------------   
+!window in door 2x  
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle   
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle   
+!--------------------------------------------------------   
+!crit in window 2x  
+!--------------------------------------------------------   
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!!!! 
+*SET,bool , 0   
+*IF,windX2,le,xC,and,xC, le, windX2 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY2,le,yC,and,yC,le,windY2 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+!window in window   
+!--------------------------------------------------------   
+*SET,bool , 0   
+*SET,boolF , 0  
+!!!! Corner x2,y2   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2+w, y2
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2 + w, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW,THEN  
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+*SET,n , n + 1  
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , doorX 
+*SET,c(n,2) , windX1
+*SET,c(n,3) , windY1
+*SET,c(n,4) , windX2
+*SET,c(n,5) , windY2
+!-----------------  
+!Create House   
+!-----------------  
+!House  
+BLC4,xStart, yStart, width, height  
+!Door   
+BLC4,doorX,yStart, doorW, doorH 
+!Window 
+BLC4,windX1+windMargin,windY1+windMargin,windW,windH
+!2nd Window 
+BLC4,windX2+windMargin,windY2+windMargin,windW,windH
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/OUTPUT,data,txt,APPEND
+/solu   
+solve   
+/post1  
+!-----------------  
+! Value at point 4,4
+!-----------------  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4 
+allsel  
+seltol,meshsize+meshsize
+nsel,s,loc,x,4 !select nodes with x coordinate  
+nsel,r,loc,y,4 !reselect with y coordinate  
+*get,UY44,NODE,NDNEXT(0),U,Y !NDNEXT is ugly
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY  
+*SET,c(n,6) , UX44  
+*SET,c(n,7) , UY44  
+*SET,c(n,8) , SX44  
+*SET,c(n,9) , SY44  
+*SET,c(n,10) , SXY44
+*enddo  
+/BATCH  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       17:02:14
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       17:02:25
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+!#### V A L I D A T E   
+!--------------------------------------------------------   
+!window in door 2x  
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle   
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle   
+!--------------------------------------------------------   
+!crit in window 2x  
+!--------------------------------------------------------   
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!!!! 
+*SET,bool , 0   
+*IF,windX2,le,xC,and,xC, le, windX2 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY2,le,yC,and,yC,le,windY2 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+!window in window   
+!--------------------------------------------------------   
+*SET,bool , 0   
+*SET,boolF , 0  
+!!!! Corner x2,y2   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2+w, y2
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2 + w, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW,THEN  
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+*SET,n , n + 1  
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , doorX 
+*SET,c(n,2) , windX1
+*SET,c(n,3) , windY1
+*SET,c(n,4) , windX2
+*SET,c(n,5) , windY2
+!-----------------  
+!Create House   
+!-----------------  
+!House  
+BLC4,xStart, yStart, width, height  
+!Door   
+BLC4,doorX,yStart, doorW, doorH 
+!Window 
+BLC4,windX1+windMargin,windY1+windMargin,windW,windH
+!2nd Window 
+BLC4,windX2+windMargin,windY2+windMargin,windW,windH
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/OUTPUT,data,txt,APPEND
+/solu   
+solve   
+/post1  
+!-----------------  
+! Value at point 4,4
+!-----------------  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4 
+allsel  
+seltol,meshsize+meshsize
+nsel,s,loc,x,4 !select nodes with x coordinate  
+nsel,r,loc,y,4 !reselect with y coordinate  
+*get,UY44,NODE,NDNEXT(0),U,Y !NDNEXT is ugly
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY  
+*SET,c(n,6) , UX44  
+*SET,c(n,7) , UY44  
+*SET,c(n,8) , SX44  
+*SET,c(n,9) , SY44  
+*SET,c(n,10) , SXY44
+*enddo  
+/BATCH  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       17:02:40
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/USER,  1   
+/FOC,   1,  0.344405033532    ,  0.226803314765    ,   0.00000000000
+/REPLO  
+/FOC,   1,  0.621609084911    ,  0.423366187561    ,   0.00000000000
+/REPLO  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       17:02:56
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+!#### V A L I D A T E   
+!--------------------------------------------------------   
+!window in door 2x  
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle   
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle   
+!--------------------------------------------------------   
+!crit in window 2x  
+!--------------------------------------------------------   
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!!!! 
+*SET,bool , 0   
+*IF,windX2,le,xC,and,xC, le, windX2 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY2,le,yC,and,yC,le,windY2 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+!window in window   
+!--------------------------------------------------------   
+*SET,bool , 0   
+*SET,boolF , 0  
+!!!! Corner x2,y2   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2+w, y2
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2 + w, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW,THEN  
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+*SET,n , n + 1  
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , doorX 
+*SET,c(n,2) , windX1
+*SET,c(n,3) , windY1
+*SET,c(n,4) , windX2
+*SET,c(n,5) , windY2
+!-----------------  
+!Create House   
+!-----------------  
+!House  
+BLC4,xStart, yStart, width, height  
+!Door   
+BLC4,doorX,yStart, doorW, doorH 
+!Window 
+BLC4,windX1+windMargin,windY1+windMargin,windW,windH
+!2nd Window 
+BLC4,windX2+windMargin,windY2+windMargin,windW,windH
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/OUTPUT,data,txt,APPEND
+/solu   
+solve   
+/post1  
+!-----------------  
+! Value at point 4,4
+!-----------------  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4 
+allsel  
+seltol,meshsize+meshsize
+nsel,s,loc,x,4 !select nodes with x coordinate  
+nsel,r,loc,y,4 !reselect with y coordinate  
+*get,UY44,NODE,NDNEXT(0),U,Y !NDNEXT is ugly
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY  
+*SET,c(n,6) , UX44  
+*SET,c(n,7) , UY44  
+*SET,c(n,8) , SX44  
+*SET,c(n,9) , SY44  
+*SET,c(n,10) , SXY44
+*enddo  
+/BATCH  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       17:04:07
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       17:04:14
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 100
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+!#### V A L I D A T E   
+!--------------------------------------------------------   
+!window in door 2x  
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle   
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle   
+!--------------------------------------------------------   
+!crit in window 2x  
+!--------------------------------------------------------   
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!!!! 
+*SET,bool , 0   
+*IF,windX2,le,xC,and,xC, le, windX2 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY2,le,yC,and,yC,le,windY2 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+!window in window   
+!--------------------------------------------------------   
+*SET,bool , 0   
+*SET,boolF , 0  
+!!!! Corner x2,y2   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2+w, y2
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2 + w, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW,THEN  
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+*SET,n , n + 1  
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , doorX 
+*SET,c(n,2) , windX1
+*SET,c(n,3) , windY1
+*SET,c(n,4) , windX2
+*SET,c(n,5) , windY2
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       17:04:39
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 10000  
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+!#### V A L I D A T E   
+!--------------------------------------------------------   
+!window in door 2x  
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle   
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle   
+!--------------------------------------------------------   
+!crit in window 2x  
+!--------------------------------------------------------   
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!!!! 
+*SET,bool , 0   
+*IF,windX2,le,xC,and,xC, le, windX2 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY2,le,yC,and,yC,le,windY2 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+!window in window   
+!--------------------------------------------------------   
+*SET,bool , 0   
+*SET,boolF , 0  
+!!!! Corner x2,y2   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2+w, y2
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2 + w, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW,THEN  
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+*SET,n , n + 1  
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , doorX 
+*SET,c(n,2) , windX1
+*SET,c(n,3) , windY1
+*SET,c(n,4) , windX2
+*SET,c(n,5) , windY2
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
+!-----------------  
+!Create House   
+!-----------------  
+!House  
+BLC4,xStart, yStart, width, height  
+!Door   
+BLC4,doorX,yStart, doorW, doorH 
+!Window 
+BLC4,windX1+windMargin,windY1+windMargin,windW,windH
+!2nd Window 
+BLC4,windX2+windMargin,windY2+windMargin,windW,windH
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA,       1,P51X  
+!-----------------  
+! Material  
+!-----------------  
+ET,1,PLANE182   
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+r,1,0.2 
+mp,ex,1,30000000
+mp,prxy,1,0.2   
+dl,17,,all  
+dl,18,,all  
+sfl,3,pres,25000000 
+!-----------------  
+! Mesh  
+!-----------------  
+esize,meshsize  
+amesh,all   
+cpintf,all  
+!/OUTPUT,data,txt,APPEND
+FINISH  
+/SOL
+solve   
+FINISH  
+/POST1  
+!-----------------  
+! Value at point 4,4
+!-----------------  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+! T O   D O !!!!!!!!!!!!!!!!!!!!!!  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei 4,4 
+allsel  
+seltol,meshsize+meshsize
+nsel,s,loc,x,4 !select nodes with x coordinate  
+nsel,r,loc,y,4 !reselect with y coordinate  
+*get,UY44,NODE,NDNEXT(0),U,Y !NDNEXT is ugly
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY  
+*SET,c(n,6) , UX44  
+*SET,c(n,7) , UY44  
+*SET,c(n,8) , SX44  
+*SET,c(n,9) , SY44  
+*SET,c(n,10) , SXY44
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+!################################################   
+!### Projektarbeit Jonathan Schnitzler     ######   
+!### Datengenerierung für Neuronales Netz  ######  
+!################################################   
+!################################################   
+!##            Start des Programms             ##   
+!################################################   
+/nerr,0 
+finish  
+/clear,start
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       17:05:58
+/input,start,ans,'C:\Program Files\ANSYS Inc\v180\ANSYS\apdl\'  
+!-----------------  
+!Parameter  
+!-----------------  
+*SET,xStart , 0 
+*SET,yStart , 0 
+*SET,height , 8 
+*SET,width , 8  
+*SET,margin , 1 
+!Critical Point 
+*SET,xC , 4 
+*SET,yC , 4 
+!Door   
+*SET,doorW , 1  
+*SET,doorH , 2  
+!Window 
+*SET,windW , 1.25   
+*SET,windH , 1.25   
+*SET,windMargin , 0.125 
+!Helping Variables  
+*SET,ww , windW + windMargin + windMargin   
+*SET,wh , windH + windMargin + windMargin   
+!For House  
+*SET,rw , width - margin - margin   
+*SET,rh , height - margin   
+*SET,n , 0  
+*SET,meshsize , 0.1 
+*SET,tries , 10000  
+! Creating Matrix   
+*SET,size , tries !steps * (maxWStep+1)*maxWStep /2 
+*SET,nParam , 10
+*dim, c,, size,nParam, 1
+!############################################   
+!## Loop over random positions ##   
+!############################################   
+*do,data,1,tries,1  
+!#### R A N D O M   
+*SET,doorX , rand(margin, rw-doorW) 
+*SET,windX1 , rand(margin,rw-ww)
+*SET,windY1 , rand(0,rh-wh) 
+*SET,windX2 , rand(margin,rw-ww)
+*SET,windY2 , rand(0,rh-wh) 
+!#### V A L I D A T E   
+!--------------------------------------------------------   
+!window in door 2x  
+*IF,windX1+windW,gt,doorX,and,windX1,lt,doorX+doorW,cycle   
+*IF,windX2+windW,gt,doorX,and,windX2,lt,doorX+doorW,cycle   
+!--------------------------------------------------------   
+!crit in window 2x  
+!--------------------------------------------------------   
+*SET,bool , 0   
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,yC,and,yC,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!!!! 
+*SET,bool , 0   
+*IF,windX2,le,xC,and,xC, le, windX2 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY2,le,yC,and,yC,le,windY2 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+!window in window   
+!--------------------------------------------------------   
+*SET,bool , 0   
+*SET,boolF , 0  
+!!!! Corner x2,y2   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2+w, y2
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2+windW, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2,and,windY2,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2,and,windX2, le, windX1 + windW,THEN
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!!!!
+!!!! Corner x2 + w, y2 + h  
+*SET,bool , 0   
+*IF,windX1,le,windX2+windW,and,windX2 + windW, le, windX1 + windW,THEN  
+*SET,bool , bool + 1
+*ENDIF  
+*IF, windY1,le,windY2+windH,and,windY2+windH,le,windY1 + windH,THEN 
+*SET,bool , bool + 1
+*ENDIF  
+*IF,bool,ge,2,cycle 
+!--------------------------------------------------------   
+*SET,n , n + 1  
+/prep7  
+!-----------------  
+! Saving initial Param  
+!-----------------  
+*SET,c(n,1) , doorX 
+*SET,c(n,2) , windX1
+*SET,c(n,3) , windY1
+*SET,c(n,4) , windX2
+*SET,c(n,5) , windY2
+*enddo  
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  

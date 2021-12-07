@@ -5,20 +5,6 @@
 
 
 
-!##############
-!## T O  D O ##
-!##############
-!
-! - Generalisierung vervollständigen
-!    o Länge und Breite des Grids zur Fensterabzählung ergänzen
-!
-!
-!
-! - Auswertungspunkte Verbessern
-!
-!
-!
-!##############
 
 
 !################################################
@@ -27,10 +13,6 @@
 
 /nerr,0
 
-*do,j,1,10,1
-/com,
-*enddo
-/COM *** 5.2.2 ANSYS APDL ***
 
 finish
 /clear,start
@@ -60,10 +42,10 @@ windH = 1.25
 windMargin = 0.125
 
 	!Helping Variables
-	ww = windW + 2 * windMargin
-	wh = windH + 2 * windMargin
+	ww = windW + windMargin + windMargin
+	wh = windH + windMargin + windMargin 
 	!For House
-	rw = width - 2 * margin
+	rw = width - margin - margin
 	rh = height - margin
 
 
@@ -75,7 +57,7 @@ tries = 100
 
 
 ! Creating Matrix
-size = 100 !steps * (maxWStep+1)*maxWStep /2
+size = tries !steps * (maxWStep+1)*maxWStep /2
 nParam = 10
 
 *dim, c,, size,nParam, 1 
@@ -93,6 +75,7 @@ windX1 = rand(margin,rw-ww)
 windY1 = rand(0,rh-wh)
 windX2 = rand(margin,rw-ww)
 windY2 = rand(0,rh-wh)
+*enddo
 
 !#### V A L I D A T E
 !--------------------------------------------------------

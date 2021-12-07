@@ -1,0 +1,20 @@
+suc = 0
+windX1 = 2
+windY1 = 2
+windH = 1
+windW = 1
+yC = 2.5
+
+*do,xC,0.5,1.5,1
+bool = 0
+*IF,windX1,le,xC,and,xC, le, windX1 + windW,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,yC,and,xC,le,windY1 + windH,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,gt,2,cycle
+suc = suc + 1
+*enddo
+
+suc = suc
