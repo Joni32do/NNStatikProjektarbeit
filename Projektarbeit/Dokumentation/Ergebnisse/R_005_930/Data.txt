@@ -1,0 +1,20 @@
+------------------------------
+	ICH SIMULIERE
+------------------------------
+- Mein Herr ist in der SIM-TECH Fachgruppe,
+ er wird aber spätestens um 23:00 Uhr 
+wieder da sein
+
+Der "Herr" des Computers
+(Jonathan Schnitzler Hiwi IBB)
+
+SIM: meshsize 0.05 - tries 7000 - 
+	Details:
+	width = 8m, height = 8m, margin = 0.5
+	door 1x2
+	window 1.5x1.5, window margin = 0.25
+	E-Modul = 3E7, Querdehnzahl = 0.2
+	Festspannung am Boden in x- und y-Richtung
+	F = 2.5E7 N
+FREITAGS 14 - 15 Uhr
+FAIL Sicherheit garantieren
