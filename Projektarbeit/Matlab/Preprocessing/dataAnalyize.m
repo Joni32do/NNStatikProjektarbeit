@@ -21,16 +21,18 @@
 %     comp = [Sim005Y(k,:); Sim01Y(k,:); Sim01FY(k,:)]
 %     plotData(Sim01(k,:),"First 15");
 % end
+addpath '\\stud.uni-stuttgart.de\users\st\st166934\Eigene Dateien\GitHub\NNStatikProjektarbeit\Projektarbeit\Ansys\Environment'
 X = mmread('mytemp.mtx');
 X = X(1:numel(find(X(:,1))),:);
-% X(:,2:5) = X(:,2:5) + 0.25;
-% for i = 1:5
-%     subplot(2,3,i)
-%     histogram(X(:,i))
+windMargin = 0.25;
+X(:,2:5) = X(:,2:5) + windMargin;
+for i = 1:5
+    subplot(2,3,i)
+    histogram(X(:,i))
     
-% end
+end
 
-
+% 
 % for k = 1:50
-%     plotData(X(k,:),"Hallo");
+%     plotData(X(k,:),"Datenanalyse");
 % end
