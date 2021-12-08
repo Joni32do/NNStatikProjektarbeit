@@ -434,3 +434,7 @@ PLNSOL,U,X
 /SHOW,WIN32 
 /REPLOT,RESIZE  
 *enddo  
+/COM,ANSYS RELEASE Release 18.0      BUILD 18.0      UP20161219       21:31:05
+!!! Writes out Matrix to matlab 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
+*export, exportmatrix, mmf, mytemp.mtx  
