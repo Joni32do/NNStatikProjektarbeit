@@ -12,25 +12,30 @@ addpath 'C:\Users\Jonathan\Documents\GitHub\NNStatikProjektarbeit\Projektarbeit\
 doorStep = 0.5;
 windowStep = 0.15;
 
-sampleSize = 100000;
-
-
-
-evalFunc = @(x) simpleNN(x);
-
-solu = randomGeometryFunc(sampleSize,evalFunc,p);
-%solu = orderedGeometryFunc(doorStep,windowStep,evalFunc,p);
-solu = [Config U S];
-
-[minimum index] = min(abs(solu))
+sampleSize = 1e6;
+%For a random sample size of 1e8
+% Elapsed time is 3165.951856 seconds.
+% 
 % minimum =
 % 
-%    5.0000e-01   6.2500e-01   2.1250e+00   6.2500e-01   2.1250e+00  -7.2820e-03  -8.6915e-02  -9.7568e+04  -8.2171e+05  -9.8965e+04
+%     0.5000    0.5000    0.0000    0.5000    0.0000    0.0000    0.0000         0         0         0
 % 
 % 
 % index =
 % 
-%            1           1        3165          10          66        3182        3208         714        2760         532
+%     13182729    24302514    57975618     9142075    67148344    48020680    44399288           1           1           1
+
+
+
+
+evalFunc = @(x) simpleNNBoth(x);
+tic
+solu = randomGeometryFunc(sampleSize,evalFunc,p);
+toc
+%solu = orderedGeometryFunc(doorStep,windowStep,evalFunc,p);
+%solu = [Config U S];
+
+[minimum index] = min(abs(solu));
 MinimalData = zeros(5,10);
 title = "minimale " + ["X Verschiebung" "Y Verschiebung" "X Spannung" "Y Spannung" "XY Spannung"];
 for k = 1:5

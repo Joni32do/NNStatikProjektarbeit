@@ -1,0 +1,241 @@
+\ProvidesPackage{IBB_style}[2013/10/30]
+\typeout{\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space IBB LaTeX-Style fuer pdfLaTeX}
+\typeout{\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space Version 1.0 <30 October 2013>}
+\typeout{\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space (C) Institut fuer Baustatik und Baudynamik}
+\typeout{\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space Universitaet Stuttgart}
+\typeout{\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space Dr.-Ing. Malte von Scheven}
+\typeout{}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Font- und Input-Encoding
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
+
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{babel}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Zeilenabstand definieren
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{setspace}
+\singlespacing
+%\RequirePackage{parskip}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bilder (pdf, png, jpg,...)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{graphicx}
+\RequirePackage{wallpaper}
+\RequirePackage{pdfpages}
+\RequirePackage{rotating}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Inkscape Bilder einbinden und automatisch exportieren
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[inkscapepath=svgsubdir]{svg}
+
+\newcommand{\includesvgeps}[1]{ \includesvg[inkscapeformat=eps]{#1} }
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Gnuplot Bilder (tkiz) einbinden
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\executeiffilenewer}[3]{%
+\ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
+{\pdffilemoddate{#2}}>0%
+{\immediate\write18{#3}}\fi%
+}
+
+\RequirePackage{gnuplot-lua-tikz}
+\newcommand{\includegp}[1]{%
+\executeiffilenewer{#1.gp}{#1.tex}%
+{gnuplot #1.gp}%
+\input{#1.tex}%
+}
+
+\newcommand{\includegpeps}[1]{%
+\executeiffilenewer{#1.gp}{#1.pstex_t}%
+{gnuplot #1.gp}%
+\input{#1.pstex_t}%
+}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Bild Unterschriften
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[format=hang,margin=10pt,font=small,labelfont=bf]{caption}
+\RequirePackage[labelfont=bf,textfont={sl}]{subfig}
+\captionsetup[subfloat]{captionskip=5mm}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Anordnung von Bildern, Tabellen, usw
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{topnumber}{5}
+\setcounter{bottomnumber}{5}
+\setcounter{totalnumber}{5}
+\renewcommand{\topfraction}{1.0}
+\renewcommand{\bottomfraction}{1.0}
+\renewcommand{\textfraction}{0.0}
+\renewcommand{\floatpagefraction}{0.95}
+
+\clubpenalty=10000
+\widowpenalty=10000
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Mathe
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{amsfonts}
+\RequirePackage{amssymb}
+\RequirePackage[intlimits,fleqn]{amsmath}
+
+\setcounter{MaxMatrixCols}{20}
+\RequirePackage{mathtools}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Struktogramme
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[pict2e,final]{struktex}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tabellen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{longtable}
+\RequirePackage{colortbl}
+\RequirePackage{booktabs}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\RequirePackage{siunitx}
+\RequirePackage{array}
+\newcolumntype{x}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{v}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\RequirePackage{arydshln}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Aufzählungen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{enumitem}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Eigene styles
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{IBB_kurz}
+\RequirePackage{IBB_farbe}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Kopfzeilendefinition
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[headsepline]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\setkomafont{pagehead}{\normalfont\sffamily}
+\setkomafont{pagefoot}{\normalfont\rmfamily}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fußnoten
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[bottom,hang]{footmisc}
+\setlength{\footnotemargin}{0pt}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% unterstreichen von Text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[normalem]{ulem}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Durchstreichen von Text und Formeln
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\cancel}[1]{%
+    \tikz[baseline=(tocancel.base)]{%
+        \node[inner sep=0pt,outer sep=0pt] (tocancel) {#1};
+        \draw[red, line width=1.1pt] (tocancel.south west) -- (tocancel.north east);
+    }%
+}%
+\newcommand{\xcancel}[1]{%
+    \tikz[baseline=(tocancel.base)]{%
+        \node[inner sep=0pt,outer sep=0pt] (tocancel) {#1};
+        \draw[red, line width=1.1pt] (tocancel.south west) -- (tocancel.north east);
+        \draw[red, line width=1.1pt] (tocancel.south east) -- (tocancel.north west);
+    }%
+}%
+
+\newcommand{\Dcancel}[1]{%
+    \tikz[baseline=(tocancel.base)]{%
+        \node[inner sep=0pt,outer sep=0pt] (tocancel) {$\D #1$};
+        \draw[red, line width=1.1pt] (tocancel.south west) -- (tocancel.north east);
+    }%
+}%
+\newcommand{\Dxcancel}[1]{%
+    \tikz[baseline=(tocancel.base)]{%
+        \node[inner sep=0pt,outer sep=0pt] (tocancel) {$\D#1$};
+        \draw[red, line width=1.1pt] (tocancel.south west) -- (tocancel.north east);
+        \draw[red, line width=1.1pt] (tocancel.south east) -- (tocancel.north west);
+    }%
+}%
+
+
+%Zeichen im Kreis:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+    \node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
+
+%Zeichen im Rechteck:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand*\rectangled[1]{\tikz[baseline=(char.base)]{
+    \node[shape=rectangle,draw,inner sep=2pt] (char) {#1};}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% literaturverweise mit citet und citep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[sort]{natbib}
+% Verweise in Kapitälchen
+\let\OrigBibitem\bibitem
+\renewcommand{\bibitem}[2][]{\OrigBibitem[{\scshape #1}]{#2}}
+
+
+\endinput
+
+
