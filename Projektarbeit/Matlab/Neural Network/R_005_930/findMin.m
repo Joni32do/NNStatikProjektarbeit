@@ -1,7 +1,8 @@
 clear;
 clc;
 load("R_005_930_complete");
-addpath 'C:\Users\Jonathan\Documents\GitHub\NNStatikProjektarbeit\Projektarbeit\Matlab\Preprocessing'
+%addpath 'C:\Users\Jonathan\Documents\GitHub\NNStatikProjektarbeit\Projektarbeit\Matlab\Preprocessing'
+addpath '\\stud.uni-stuttgart.de\users\st\st166934\Eigene Dateien\GitHub\NNStatikProjektarbeit\Projektarbeit\Matlab\Preprocessing'
 %Evaluate Minimum on finer Grid
 %Dimensions of the House
 
@@ -12,7 +13,7 @@ addpath 'C:\Users\Jonathan\Documents\GitHub\NNStatikProjektarbeit\Projektarbeit\
 doorStep = 0.5;
 windowStep = 0.15;
 
-sampleSize = 1e6;
+sampleSize = 1e4;
 %For a random sample size of 1e8
 % Elapsed time is 3165.951856 seconds.
 % 
@@ -28,7 +29,7 @@ sampleSize = 1e6;
 
 
 
-evalFunc = @(x) simpleNNBoth(x);
+evalFunc = @(x) simpleNN(x);
 tic
 solu = randomGeometryFunc(sampleSize,evalFunc,p);
 toc
