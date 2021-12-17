@@ -438,3 +438,5 @@ PLNSOL,U,X
 !!! Writes out Matrix to matlab 
 *dmat, exportmatrix, D, import, APDL, c ! export to matrix file 
 *export, exportmatrix, mmf, mytemp.mtx  
+FINISH  
+! /EXIT,MODEL   
