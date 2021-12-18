@@ -7,8 +7,8 @@
 %   train_x - input data.
 %   train_y - target data.
 
-x = train_x';
-t = train_y';
+x = Config;
+t = U;
 
 % Choose a Training Function
 % For a list of all training functions type: help nntrain
@@ -18,7 +18,7 @@ t = train_y';
 trainFcn = 'trainlm';  % Levenberg-Marquardt backpropagation.
 
 % Create a Fitting Network
-hiddenLayerSize = 10; %[10 8 5]
+hiddenLayerSize = 10; %[10 8 5 5 5 5 5 5 5 5]
 net = fitnet(hiddenLayerSize,trainFcn);
 
 % Choose Input and Output Pre/Post-Processing Functions
@@ -73,12 +73,12 @@ view(net)
 % Deployment
 % Change the (false) values to (true) to enable the following code blocks.
 % See the help for each generation function for more information.
-if (false)
+if (true)
     % Generate MATLAB function for neural network for application
     % deployment in MATLAB scripts or with MATLAB Compiler and Builder
     % tools, or simply to examine the calculations your trained neural
     % network performs.
-    genFunction(net,'myNeuralNetworkFunction');
+    genFunction(net,'testingMoreHiddenLayers');
     y = myNeuralNetworkFunction(x);
 end
 if (false)

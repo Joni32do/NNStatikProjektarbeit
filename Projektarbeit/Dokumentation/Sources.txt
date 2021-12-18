@@ -17,4 +17,6 @@ https://www.mm.bme.hu/~gyebro/files/vem/ansys_13_command_reference.pdf
 
 
 
+https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=xor&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.97111&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=true&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
+
 https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v202/en/aim_all/AIM/user_manual/aim_environment/expressions/topics/r_expr_math_func_opr.html?q=math%20operations

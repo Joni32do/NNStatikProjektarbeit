@@ -35,6 +35,7 @@ solu = randomGeometryFunc(sampleSize,evalFunc,p);
 toc
 %solu = orderedGeometryFunc(doorStep,windowStep,evalFunc,p);
 %solu = [Config U S];
+toc
 
 [minimum index] = min(abs(solu));
 MinimalData = zeros(5,10);
