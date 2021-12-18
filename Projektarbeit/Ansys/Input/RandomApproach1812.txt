@@ -1,0 +1,290 @@
+!################################################
+!### Projektarbeit Jonathan Schnitzler     ######
+!### Datengenerierung für Neuronales Netz  ######
+!################################################
+
+
+
+
+
+!################################################
+!##            Start des Programms             ##
+!################################################
+
+/nerr,0
+
+
+finish
+/clear,start
+
+
+!-----------------
+!Parameter
+!-----------------
+
+xStart = 0
+yStart = 0
+height = 8
+width = 8
+margin = 0.5
+
+!Critical Point
+xC = 4
+yC = 4
+
+!Door
+doorW = 1
+doorH = 2
+
+!Window
+windW = 1.5
+windH = 1.5
+windMargin = 0.25
+
+!Helping Variables (with Margin respected)
+	ww = windW + windMargin + windMargin
+	wh = windH + windMargin + windMargin 
+	!For House
+	rw = width - margin - margin
+	rh = height - margin
+	!For Door
+	dw = doorW + windMargin + windMargin
+	dh = doorH + windMargin
+
+
+n = 0
+meshsize = 0.05
+
+tries = 12
+
+
+
+! Creating Matrix
+size = tries !steps * (maxWStep+1)*maxWStep /2
+nParam = 10
+
+*dim, c,, size,nParam, 1 
+
+!############################################
+!## Loop over random positions ##
+!############################################
+
+*do,data,1,tries,1
+
+!#### S T O R A G E
+
+
+
+!#### I N I T   I T E R
+
+parsav,all
+finish
+/clear,start
+parres
+
+!#### R A N D O M
+
+doorX =  rand(margin,  width-doorW-margin) 
+windX1 = rand(margin,  width -ww  -margin)
+windY1 = rand(margin,  height-wh  -margin)
+windX2 = rand(margin,  width -ww  -margin)
+windY2 = rand(margin,  height-wh  -margin)
+
+!#### V A L I D A T E
+!--------------------------------------------------------
+!window in door 2x
+*IF,windX1,lt,doorX+dw,and,windX1+ww,gt,doorX,cycle
+*IF,windX2,lt,doorX+dw,and,windX2+ww,gt,doorX,cycle
+!--------------------------------------------------------
+!crit in window 2x
+!--------------------------------------------------------
+bool = 0
+*IF,windX1,le,xC,and,xC, le, windX1 + ww,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,yC,and,yC,le,windY1 + wh,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!!!!!!!
+bool = 0
+*IF,windX2,le,xC,and,xC, le, windX2 + ww,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY2,le,yC,and,yC,le,windY2 + wh,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!--------------------------------------------------------
+!window in window
+!--------------------------------------------------------
+bool = 0
+boolF = 0
+!!!! Corner x2,y2
+*IF,windX1,le,windX2,and,windX2, le, windX1 + ww,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2,and,windY2,le,windY1 + wh,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!!!!
+!!!! Corner x2+w, y2
+bool = 0
+*IF,windX1,le,windX2+ww,and,windX2+ww, le, windX1 + ww,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2,and,windY2,le,windY1 + wh,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!!!!
+!!!! Corner x2, y2 + h
+bool = 0
+*IF,windX1,le,windX2,and,windX2, le, windX1 + ww,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2+wh,and,windY2+wh,le,windY1 + wh,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!!!!
+!!!! Corner x2 + w, y2 + h
+bool = 0
+*IF,windX1,le,windX2+ww,and,windX2 + ww, le, windX1 + ww,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2+wh,and,windY2+wh,le,windY1 + wh,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!--------------------------------------------------------
+
+n = n + 1
+
+/prep7
+
+!-----------------
+! Saving initial Param
+!-----------------
+doorX  =  doorX+windMargin
+windX1 = windX1+windMargin
+windY1 = windY1+windMargin 
+windX2 = windX2+windMargin 
+windY2 = windY2+windMargin
+
+
+
+
+c(n,1) = doorX 
+c(n,2) = windX1
+c(n,3) = windY1
+c(n,4) = windX2
+c(n,5) = windY2
+
+
+
+!-----------------
+!Create House
+!-----------------
+!House
+BLC4,xStart, yStart, width, height 
+
+!Door
+BLC4,doorX,yStart, doorW, doorH 
+
+!Window
+BLC4,windX1,windY1,windW,windH
+
+!2nd Window 
+BLC4,windX2,windY2,windW,windH
+
+!Selecting and deleting the area of Door and the two windows
+FLST,3,3,5,ORDE,2   
+FITEM,3,2   
+FITEM,3,-4  
+ASBA, 1,P51X
+
+
+
+!-----------------
+! Material
+!-----------------
+ET,1,PLANE182
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+
+r,1,0.2
+
+mp,ex,1,30000000
+mp,prxy,1,0.2 !Standardwerte Querdehnzahl [0  0.3]
+
+dl,17,,all
+dl,18,,all
+sfl,3,pres,25000000
+
+!-----------------
+! Mesh
+!-----------------
+esize,meshsize
+amesh,all
+cpintf,all
+	
+!/OUTPUT,data,txt,APPEND
+/solu
+solve
+
+/post1
+
+!-----------------
+! Value at point critical point
+!-----------------
+
+!Checken ob wir wirklich die Lösung bekommen die wir wollen
+! maximale Verschiebung bei xC,yC
+allsel
+!seltol, meshsize
+nsel,s,loc,x,xC-meshsize, xC + meshsize !select nodes with x coordinate
+nsel,r,loc,y,yC-meshsize, yC + meshsize !reselect with y coordinate
+
+
+*get,UY44,NODE,NDNEXT(0),U,Y !NDNEXT is ugly
+*get,UX44,NODE,NDNEXT(0),U,X
+*get,SX44,NODE,NDNEXT(0),S,X
+*get,SY44,NODE,NDNEXT(0),S,Y
+*get,SXY44,NODE,NDNEXT(0),S,XY
+c(n,6) = UX44
+c(n,7) = UY44
+c(n,8) = SX44
+c(n,9) = SY44
+c(n,10) = SXY44
+
+
+
+!######  P I C T U R E S
+
+
+/SHOW,WIN32C
+SET,FIRST   
+/PLOPTS,INFO,3  
+/CONTOUR,ALL,18 
+/PNUM,MAT,1 
+/NUMBER,1   
+/REPLOT,RESIZE  
+PLNSOL,U,X  
+/UI,COPY,SAVE,PNG,GRAPH,COLOR,NORM,LANDSCAPE,YES
+/SHOW,WIN32 
+/REPLOT,RESIZE 
+
+
+
+*enddo
+
+
+!!! Writes out Matrix to matlab
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file
+*export, exportmatrix, mmf, mytemp.mtx
+
+
+

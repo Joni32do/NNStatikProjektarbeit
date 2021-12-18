@@ -1,13 +1,31 @@
-function x = plotData(data, plotName) 
+function x = plotData(data, plotName, p) 
 
+if ~exist('plotName','var')
+     % third parameter does not exist, so default it to something
+      plotName = "Geometrie";
+end
+if ~exist('p','var')
+     % third parameter does not exist, so default it to something
+        xStart = 0;
+        yStart = 0;
+        height = 8;
+        width = 8;
+        doorX = 1;
+        doorY = 2;
+        windW = 1.5;
+        windH = 1.5;
+else
+ 
 xStart = 0;
 yStart = 0;
-height = 8;
-width = 8;
-doorX = 1;
-doorY = 2;
-windW = 1.5;
-windH = 1.5;
+height = p.h;
+width = p.w;
+doorX = p.dW;
+doorY = p.dH;
+windW = p.wW;
+windH = p.wH;
+
+end
 
 door = data(1);
 windX = data(2);
