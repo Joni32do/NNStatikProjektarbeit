@@ -25,7 +25,6 @@ n = numT * numH * repeats;
 bestPerformance = 1; %init to worst possible NN
 bestPerformName = "Shit";
 performance = zeros(n,1); %Maybe make this shit a cell - would be better
-% bestNet = ;
 %###############
 
 
@@ -44,9 +43,8 @@ for trK = 1:numT
  
 for rep = 1:repeats
 
-iter = rep + (trK-1)*repeats + (hiddLay - 1)*numT*repeats
-nameNN = trainFcn + num2str(hiddenLayerSize) + "_" + (date + "") + ...
-    "_" + num2str(rep);
+iter = rep(hiddLay - 1)*numT*repeats
+nameNN = trainFcn + num2str(hiddenLayerSize) + "_" + (date + "");
 nameNN = strrep(nameNN," ","_");
 
 
@@ -82,15 +80,13 @@ net.plotFcns = {'plotperform','plottrainstate','ploterrhist', ...
 % Test the Network
 y = net(x);
 e = gsubtract(t,y);
-performance(iter) = perform(net,t,y);
+performance = perform(net,t,y)
 
 
 
 
-if bestPerformance >= performance(iter)
-    bestPerformance = performance(iter);
-    bestNet = net;
-    bestPerformName = nameNN;
+if bestPerformance >= performance
+    
 end
 
 
@@ -115,7 +111,7 @@ end
 end
 end
 
-view(bestNet)
+
 
 % Plots
 % Uncomment these lines to enable various plots.
