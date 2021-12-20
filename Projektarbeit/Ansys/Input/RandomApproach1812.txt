@@ -26,7 +26,7 @@ xStart = 0
 yStart = 0
 height = 8
 width = 8
-margin = 0.5
+margin = 0.3
 
 !Critical Point
 xC = 4
@@ -39,7 +39,7 @@ doorH = 2
 !Window
 windW = 1.5
 windH = 1.5
-windMargin = 0.25
+windMargin = 0.2
 
 !Helping Variables (with Margin respected)
 	ww = windW + windMargin + windMargin
@@ -53,9 +53,9 @@ windMargin = 0.25
 
 
 n = 0
-meshsize = 0.05
+meshsize = 0.5
 
-tries = 12
+tries = 10000
 
 
 
@@ -73,7 +73,12 @@ nParam = 10
 
 !#### S T O R A G E
 
+*IF, MOD(data,10),le,0,THEN
 
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file
+*export, exportmatrix, mmf, mytemp.mtx
+
+*ENDIF
 
 !#### I N I T   I T E R
 
@@ -222,7 +227,7 @@ mp,prxy,1,0.2 !Standardwerte Querdehnzahl [0  0.3]
 
 dl,17,,all
 dl,18,,all
-sfl,3,pres,25000000
+sfl,3,pres,250000
 
 !-----------------
 ! Mesh
@@ -265,17 +270,17 @@ c(n,10) = SXY44
 !######  P I C T U R E S
 
 
-/SHOW,WIN32C
-SET,FIRST   
-/PLOPTS,INFO,3  
-/CONTOUR,ALL,18 
-/PNUM,MAT,1 
-/NUMBER,1   
-/REPLOT,RESIZE  
-PLNSOL,U,X  
-/UI,COPY,SAVE,PNG,GRAPH,COLOR,NORM,LANDSCAPE,YES
-/SHOW,WIN32 
-/REPLOT,RESIZE 
+!/SHOW,WIN32C
+!SET,FIRST   
+!/PLOPTS,INFO,3  
+!/CONTOUR,ALL,18 
+!/PNUM,MAT,1 
+!/NUMBER,1   
+!/REPLOT,RESIZE  
+!PLNSOL,U,Y  
+!/UI,COPY,SAVE,PNG,GRAPH,COLOR,NORM,LANDSCAPE,YES
+!/SHOW,WIN32 
+!/REPLOT,RESIZE 
 
 
 
@@ -287,4 +292,5 @@ PLNSOL,U,X
 *export, exportmatrix, mmf, mytemp.mtx
 
 
+!*ASK,startVal,Anfangswert,0
 

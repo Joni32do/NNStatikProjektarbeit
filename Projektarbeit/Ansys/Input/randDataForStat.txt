@@ -1,0 +1,186 @@
+!################################################
+!### Projektarbeit Jonathan Schnitzler     ######
+!### Datengenerierung für Neuronales Netz  ######
+!################################################
+
+
+
+
+
+!################################################
+!##            Start des Programms             ##
+!################################################
+
+/nerr,0
+
+
+finish
+/clear,start
+
+
+!-----------------
+!Parameter
+!-----------------
+
+xStart = 0
+yStart = 0
+height = 8
+width = 8
+margin = 0.3
+
+!Critical Point
+xC = 4
+yC = 4
+
+!Door
+doorW = 1
+doorH = 2
+
+!Window
+windW = 1.5
+windH = 1.5
+windMargin = 0.2
+
+!Helping Variables (with Margin respected)
+	ww = windW + windMargin + windMargin
+	wh = windH + windMargin + windMargin 
+	!For House
+	rw = width - margin - margin
+	rh = height - margin
+	!For Door
+	dw = doorW + windMargin + windMargin
+	dh = doorH + windMargin
+
+
+n = 0
+meshsize = 0.5
+
+tries = 1000000
+
+
+
+! Creating Matrix
+size = tries !steps * (maxWStep+1)*maxWStep /2
+nParam = 5
+
+*dim, c,, size,nParam, 1 
+
+!############################################
+!## Loop over random positions ##
+!############################################
+
+*do,data,1,tries,1
+
+
+
+
+!#### R A N D O M
+
+doorX =  rand(margin,  width-doorW-margin) 
+windX1 = rand(margin,  width -ww  -margin)
+windY1 = rand(margin,  height-wh  -margin)
+windX2 = rand(margin,  width -ww  -margin)
+windY2 = rand(margin,  height-wh  -margin)
+
+!#### V A L I D A T E
+!--------------------------------------------------------
+!window in door 2x
+*IF,windX1,lt,doorX+dw,and,windX1+ww,gt,doorX,cycle
+*IF,windX2,lt,doorX+dw,and,windX2+ww,gt,doorX,cycle
+!--------------------------------------------------------
+!crit in window 2x
+!--------------------------------------------------------
+bool = 0
+*IF,windX1,le,xC,and,xC, le, windX1 + ww,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,yC,and,yC,le,windY1 + wh,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!!!!!!!
+bool = 0
+*IF,windX2,le,xC,and,xC, le, windX2 + ww,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY2,le,yC,and,yC,le,windY2 + wh,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!--------------------------------------------------------
+!window in window
+!--------------------------------------------------------
+bool = 0
+boolF = 0
+!!!! Corner x2,y2
+*IF,windX1,le,windX2,and,windX2, le, windX1 + ww,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2,and,windY2,le,windY1 + wh,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!!!!
+!!!! Corner x2+w, y2
+bool = 0
+*IF,windX1,le,windX2+ww,and,windX2+ww, le, windX1 + ww,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2,and,windY2,le,windY1 + wh,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!!!!
+!!!! Corner x2, y2 + h
+bool = 0
+*IF,windX1,le,windX2,and,windX2, le, windX1 + ww,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2+wh,and,windY2+wh,le,windY1 + wh,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!!!!
+!!!! Corner x2 + w, y2 + h
+bool = 0
+*IF,windX1,le,windX2+ww,and,windX2 + ww, le, windX1 + ww,THEN
+	bool = bool + 1
+*ENDIF
+*IF, windY1,le,windY2+wh,and,windY2+wh,le,windY1 + wh,THEN
+	bool = bool + 1
+*ENDIF
+*IF,bool,ge,2,cycle
+!--------------------------------------------------------
+
+n = n + 1
+
+/prep7
+
+!-----------------
+! Saving initial Param
+!-----------------
+doorX  =  doorX+windMargin
+windX1 = windX1+windMargin
+windY1 = windY1+windMargin 
+windX2 = windX2+windMargin 
+windY2 = windY2+windMargin
+
+
+
+
+c(n,1) = doorX 
+c(n,2) = windX1
+c(n,3) = windY1
+c(n,4) = windX2
+c(n,5) = windY2
+
+*enddo
+
+
+!!! Writes out Matrix to matlab
+*dmat, exportmatrix, D, import, APDL, c ! export to matrix file
+*export, exportmatrix, mmf, mytemp.mtx
+
+
+!*ASK,startVal,Anfangswert,0
+
